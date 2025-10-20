@@ -1,0 +1,14 @@
+|Block1
+S <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => and2.IN1
+A => and3.IN1
+B => xor1.IN0
+B => and2.IN0
+B => and1.IN0
+CIN => xor1.IN1
+CIN => and3.IN0
+CIN => and1.IN1
+COUT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+

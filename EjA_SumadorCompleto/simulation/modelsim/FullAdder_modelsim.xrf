@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Facultad/FPGA/TP_Laboratorio/Ej1_SumadorCompleto/FullAdder.vhd
+source_file = 1, C:/Facultad/FPGA/TP_Laboratorio/Ej1_SumadorCompleto/EstimulosFullAdder.vwf
+source_file = 1, C:/Facultad/FPGA/TP_Laboratorio/Ej1_SumadorCompleto/db/FullAdder.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = FullAdder
+instance = comp, \S~output , S~output, FullAdder, 1
+instance = comp, \COUT~output , COUT~output, FullAdder, 1
+instance = comp, \A~input , A~input, FullAdder, 1
+instance = comp, \B~input , B~input, FullAdder, 1
+instance = comp, \CIN~input , CIN~input, FullAdder, 1
+instance = comp, \S~0 , S~0, FullAdder, 1
+instance = comp, \COUT~0 , COUT~0, FullAdder, 1
