@@ -2,22 +2,24 @@
 R3 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
 CLK => inst15.CLK
 CLK => inst19.CLK
-CLK => inst22.CLK
 CLK => inst21.CLK
+CLK => inst22.CLK
 CLK => inst20.CLK
 CLK => inst16.CLK
 CLK => inst17.CLK
 CLK => inst18.CLK
 A1 => inst19.DATAIN
-B1 => inst22.DATAIN
 B0 => inst21.DATAIN
+B1 => inst22.DATAIN
 A0 => inst20.DATAIN
 R2 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
 R1 <= inst17.DB_MAX_OUTPUT_PORT_TYPE
 R0 <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+BANDERA_CEROS <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+BANDERA_SIGNO <= inst15.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mult2bitscs|FullAdder:inst
+|mult2bitscs|FullAdder:inst26
 A => and2.IN0
 A => and3.IN0
 A => S.IN1
@@ -31,7 +33,7 @@ S <= S.DB_MAX_OUTPUT_PORT_TYPE
 COUT <= COUT.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mult2bitscs|FullAdder:inst26
+|mult2bitscs|FullAdder:inst12
 A => and2.IN0
 A => and3.IN0
 A => S.IN1

@@ -1,0 +1,87 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Facultad\FPGA\LaboratorioFPGA\EjC_Multiplicador2BitsCS\simulation\modelsim
+Emult2bitscs
+Z1 w1761320354
+Z2 DPx10 cycloneiii 20 cycloneiii_atom_pack 0 22 n^46VOjinLK5_01fgQc6Z0
+Z3 DPx10 cycloneiii 21 cycloneiii_components 0 22 VeH8af>S`B?U[[D6_Khe@0
+Z4 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z5 DPx6 altera 11 dffeas_pack 0 22 Giz7C_dB_=WZS^1=3P8073
+Z6 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 W]_:GkoiISnEn83KNb:3:2
+Z10 dC:\Facultad\FPGA\LaboratorioFPGA\EjC_Multiplicador2BitsCS\simulation\modelsim
+Z11 8mult2bitscs.vho
+Z12 Fmult2bitscs.vho
+l0
+L36
+VLVjR97VVUn9CCBgblC=UU2
+Z13 OV;C;10.1d;51
+31
+Z14 !s108 1761321258.077000
+Z15 !s90 -reportprogress|300|-93|-work|work|mult2bitscs.vho|
+Z16 !s107 mult2bitscs.vho|
+Z17 o-93 -work work -O0
+Z18 tExplicit 1
+!s100 PUad=4U@nZd2bL5Lk^?__2
+!i10b 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 11 mult2bitscs 0 22 LVjR97VVUn9CCBgblC=UU2
+l118
+L66
+VJNo:b39B5?O^b5`Z9<_jk3
+R13
+31
+R14
+R15
+R16
+R17
+R18
+!s100 T_f0U]I=_40]C>Ve;WzfE0
+!i10b 1
+Emult2bitscs_tb
+Z19 w1761320332
+R7
+R8
+R10
+Z20 8C:/Facultad/FPGA/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd
+Z21 FC:/Facultad/FPGA/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd
+l0
+L4
+V=alDL3i2hoC=9co05dVHD0
+!s100 7^HFfUkn`Ngj<c[C2gS>22
+R13
+31
+!i10b 1
+Z22 !s108 1761321258.159000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Facultad/FPGA/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd|
+Z24 !s107 C:/Facultad/FPGA/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd|
+R17
+R18
+Afnc
+R7
+R8
+DEx4 work 14 mult2bitscs_tb 0 22 =alDL3i2hoC=9co05dVHD0
+l27
+L7
+VnagnQgFMJcY`aFkhBK_H_2
+!s100 BVP2D5W:d^zH2cb=PGJ612
+R13
+31
+!i10b 1
+R22
+R23
+R24
+R17
+R18
