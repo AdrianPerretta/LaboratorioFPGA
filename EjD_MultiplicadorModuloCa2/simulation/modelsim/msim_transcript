@@ -1,0 +1,68 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do multModuloCa2_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {multModuloCa2.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Compiling entity multModuloCa2
+# -- Compiling architecture structure of multModuloCa2
+# 
+# vcom -93 -work work {C:/Facultad/FPGA/LaboratorioFPGA/EjD_MultiplicadorModuloCa2/multModuloCa2_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity multModuloCa2_tb
+# -- Compiling architecture fnc of multModuloCa2_tb
+# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjD_MultiplicadorModuloCa2/multModuloCa2_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjD_MultiplicadorModuloCa2/multModuloCa2_tb.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjD_MultiplicadorModuloCa2/multModuloCa2_tb.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjD_MultiplicadorModuloCa2/multModuloCa2_tb.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjD_MultiplicadorModuloCa2/multModuloCa2_tb.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjD_MultiplicadorModuloCa2/multModuloCa2_tb.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjD_MultiplicadorModuloCa2/multModuloCa2_tb.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera_mf -L altera -L lpm -L sgate -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L gate_work -L work -voptargs="+acc"  multModuloCa2_tb
+# vsim -L altera_mf -L altera -L lpm -L sgate -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L gate_work -L work -voptargs=\"+acc\" -t 1ps multModuloCa2_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multmoduloca2_tb(fnc)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneiv.cycloneiv_atom_pack(body)
+# Loading cycloneiv.cycloneiv_components
+# Loading work.multmoduloca2(structure)
+# ** Failure: (vsim-3807) Types do not match between component and entity for port "RM".
+#    Time: 0 ps  Iteration: 0  Instance: /multmoduloca2_tb/uut File: multModuloCa2.vho Line: 38
+# ** Failure: (vsim-3807) Types do not match between component and entity for port "RC".
+#    Time: 0 ps  Iteration: 0  Instance: /multmoduloca2_tb/uut File: multModuloCa2.vho Line: 39
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiv.cycloneiv_io_obuf(arch)
+# Loading cycloneiv.cycloneiv_io_ibuf(arch)
+# Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
+# Fatal error in file multModuloCa2.vho
+#  while elaborating region: /multmoduloca2_tb/uut
+# Fatal error in file C:/Facultad/FPGA/LaboratorioFPGA/EjD_MultiplicadorModuloCa2/multModuloCa2_tb.vhd
+#  while elaborating region: /multmoduloca2_tb
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./multModuloCa2_run_msim_gate_vhdl.do PAUSED at line 12

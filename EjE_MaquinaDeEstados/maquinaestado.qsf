@@ -52,4 +52,18 @@ set_global_assignment -name VHDL_FILE maquinaestado.vhd
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE EstimulosMaquinaEstado.vwf
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_AF19 -to z0
+set_location_assignment PIN_AG19 -to z1
+set_location_assignment PIN_AC17 -to z2
+set_location_assignment PIN_AE15 -to z3
+set_location_assignment PIN_AC14 -to x
+set_location_assignment PIN_AD18 -to reset
+set_location_assignment PIN_AG14 -to clock
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Facultad/FPGA/LaboratorioFPGA/EjE_MaquinaDeEstados/EstimulosMaquinaEstadoTemplate.vwf"

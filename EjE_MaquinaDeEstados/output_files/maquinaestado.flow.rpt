@@ -1,5 +1,5 @@
 Flow report for maquinaestado
-Fri Oct 24 21:27:40 2025
+Sat Oct 25 21:15:27 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Fri Oct 24 21:27:38 2025           ;
+; Flow Status                        ; Successful - Sat Oct 25 21:15:27 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; maquinaestado                                   ;
 ; Top-level Entity Name              ; maquinaestado                                   ;
@@ -64,26 +64,29 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/24/2025 21:27:17 ;
+; Start date & time ; 10/25/2025 20:52:41 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; maquinaestado       ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                 ;
-+-------------------------------------+---------------------------------+---------------+-------------+------------+
-; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id ;
-+-------------------------------------+---------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 127913730615492.176135203723116 ; --            ; --          ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --          ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --          ; --         ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                            ; --            ; --          ; --         ;
-; PARTITION_COLOR                     ; 16764057                        ; --            ; --          ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; --          ; Top        ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; --          ; Top        ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --          ; --         ;
-+-------------------------------------+---------------------------------+---------------+-------------+------------+
++----------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                     ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 127913730615492.176143636106548 ; --            ; --          ; --             ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                              ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                     ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)       ; <None>        ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                            ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                        ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; --          ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --          ; --             ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -91,11 +94,20 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4635 MB             ; 00:00:00                           ;
-; Fitter                    ; 00:00:14     ; 1.0                     ; 5048 MB             ; 00:00:05                           ;
-; Assembler                 ; 00:00:04     ; 1.0                     ; 4556 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4644 MB             ; 00:00:00                           ;
-; Total                     ; 00:00:21     ; --                      ; --                  ; 00:00:06                           ;
+; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4634 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:12     ; 1.0                     ; 5055 MB             ; 00:00:08                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 4556 MB             ; 00:00:03                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4644 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4508 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4516 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4532 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4516 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4532 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4516 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4532 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4516 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4532 MB             ; 00:00:00                           ;
+; Total                     ; 00:00:23     ; --                      ; --                  ; 00:00:13                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -108,6 +120,15 @@ applicable agreement for further details.
 ; Fitter                    ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
 ; Assembler                 ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
 ; TimeQuest Timing Analyzer ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -118,6 +139,15 @@ quartus_map --read_settings_files=on --write_settings_files=off maquinaestado -c
 quartus_fit --read_settings_files=off --write_settings_files=off maquinaestado -c maquinaestado
 quartus_asm --read_settings_files=off --write_settings_files=off maquinaestado -c maquinaestado
 quartus_sta maquinaestado -c maquinaestado
+quartus_eda --read_settings_files=off --write_settings_files=off maquinaestado -c maquinaestado
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog maquinaestado -c maquinaestado --vector_source=C:/Facultad/FPGA/LaboratorioFPGA/EjE_MaquinaDeEstados/EstimulosMaquinaEstado.vwf --testbench_file=./simulation/qsim/maquinaestado.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog maquinaestado -c maquinaestado
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog maquinaestado -c maquinaestado --vector_source=C:/Facultad/FPGA/LaboratorioFPGA/EjE_MaquinaDeEstados/EstimulosMaquinaEstado.vwf --testbench_file=./simulation/qsim/maquinaestado.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog maquinaestado -c maquinaestado
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog maquinaestado -c maquinaestado --vector_source=C:/Facultad/FPGA/LaboratorioFPGA/EjE_MaquinaDeEstados/EstimulosMaquinaEstado.vwf --testbench_file=./simulation/qsim/maquinaestado.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog maquinaestado -c maquinaestado
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog maquinaestado -c maquinaestado --vector_source=C:/Facultad/FPGA/LaboratorioFPGA/EjE_MaquinaDeEstados/EstimulosMaquinaEstadoTemplate.vwf --testbench_file=./simulation/qsim/maquinaestado.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog maquinaestado -c maquinaestado
 
 
 

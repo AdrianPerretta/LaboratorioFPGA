@@ -1,0 +1,18 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity multModuloCa2 is
+	port(A : in std_logic_vector(1 downto 0);
+		  B : in std_logic_vector(1 downto 0)
+		  B0 : in std_logic;
+		  RM: out std_logic_vector(3 downto 0);
+		  RC: out std_logic_vector(3 downto 0);
+)
+	end multModuloCa2;
+	
+architecture fnc of multModuloCa2
+	begin
+		RM <= unsigned(A)*unsigned(B);
+		RC <= signed(A)*signed(B):
+	end;
+	

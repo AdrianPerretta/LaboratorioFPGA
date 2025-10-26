@@ -1,0 +1,10 @@
+
+State Machine - |MaquinaEstadoTemplate|state
+Name state.state_bit_2 state.state_bit_1 state.state_bit_0 
+state.A 0 0 0 
+state.B 0 0 1 
+state.C 0 1 1 
+state.D 0 1 0 
+state.E 1 1 0 
+state.F 1 1 1 
+state.G 1 0 1 
