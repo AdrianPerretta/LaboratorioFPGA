@@ -4,78 +4,78 @@ K3
 cModel Technology
 Z0 dC:\Facultad\FPGA\TP_Laboratorio\EjB_Multiplicador2Bits\simulation\qsim
 vmult2bits
-Z1 IM16i?cmnA`V<CVcSMGPN^1
-Z2 VBm?_;f7HmRnI45GcEe?RD3
-Z3 dC:\Facultad\FPGA\TP_Laboratorio\EjB_Multiplicador2Bits\simulation\qsim
-Z4 w1760920245
-Z5 8mult2bits.vo
-Z6 Fmult2bits.vo
+Z1 !s100 ?NOb4ma=P>1l7SK^3MZ3B2
+Z2 Ig8II0K7DiF_^9SGRUQK`j2
+Z3 VBm?_;f7HmRnI45GcEe?RD3
+Z4 dC:\Facultad\FPGA\LaboratorioFPGA\EjB_Multiplicador2Bits\simulation\qsim
+Z5 w1761513021
+Z6 8mult2bits.vo
+Z7 Fmult2bits.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
+Z9 !s90 -work|work|mult2bits.vo|
+Z10 o-work work -O0
 !i10b 1
-Z9 !s100 PNM728g41ADH@0o^CH5Ib2
 !s85 0
-Z10 !s108 1760920245.767000
-Z11 !s107 mult2bits.vo|
-Z12 !s90 -work|work|mult2bits.vo|
+Z11 !s108 1761513022.100000
+Z12 !s107 mult2bits.vo|
 !s101 -O0
 vmult2bits_vlg_check_tst
 !i10b 1
-!s100 [Q_mCYnl;UW6HMcO<HVM53
-I[e]<j?HnhhVBAY>bGR@M03
-VlYL68_WEj:a[fjh>e81=U2
-R3
-Z13 w1760920244
-Z14 8mult2bits.vt
-Z15 Fmult2bits.vt
+Z13 !s100 mTECDOa;?dVZf4[^Fb4FP1
+Z14 IJZ`YoM7zU^gGj5cb`dL4O1
+Z15 VlYL68_WEj:a[fjh>e81=U2
+R4
+Z16 w1761513020
+Z17 8mult2bits.vt
+Z18 Fmult2bits.vt
 L0 63
-R7
+R8
 r1
 !s85 0
 31
-Z16 !s108 1760920245.828000
-Z17 !s107 mult2bits.vt|
-Z18 !s90 -work|work|mult2bits.vt|
+Z19 !s108 1761513022.156000
+Z20 !s107 mult2bits.vt|
+Z21 !s90 -work|work|mult2bits.vt|
 !s101 -O0
-R8
+R10
 vmult2bits_vlg_sample_tst
 !i10b 1
-!s100 1`fV3TQ9nZWZ27PbRkiVj2
-IbEm0glSzFgP4_3_Ge@TfJ3
-V7nPazgl50m?l6m[[^;O^U2
-R3
-R13
-R14
-R15
-L0 29
-R7
-r1
-!s85 0
-31
+Z22 !s100 1`fV3TQ9nZWZ27PbRkiVj2
+Z23 IbEm0glSzFgP4_3_Ge@TfJ3
+Z24 V7nPazgl50m?l6m[[^;O^U2
+R4
 R16
 R17
 R18
-!s101 -O0
+L0 29
 R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
 vmult2bits_vlg_vec_tst
 !i10b 1
-!s100 1Jc;OIVgag7_RgoFeU7DT3
-I>3j:aBZJFQa]6^GOTCo6;3
-V:EDickVegNGU>E5z8A_eD2
-R3
-R13
-R14
-R15
-L0 239
-R7
-r1
-!s85 0
-31
+Z25 !s100 8e=NCgei4WlNf?n0=CkUZ2
+Z26 I0kD5o4aAfLYA@nMG^kK_L2
+Z27 V:EDickVegNGU>E5z8A_eD2
+R4
 R16
 R17
 R18
-!s101 -O0
+Z28 L0 239
 R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

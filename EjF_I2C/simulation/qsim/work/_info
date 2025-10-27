@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Facultad\FPGA\LaboratorioFPGA\EjF_I2C\simulation\qsim
+vi2c
+Z1 !s100 O:zkI2^Wgdb`WVfHI0;422
+Z2 IJ6=h6J39aMN5f9Vbdlk]n1
+Z3 V4EYV=bGJ4oe11b<?BKSmR0
+Z4 dC:\Facultad\FPGA\LaboratorioFPGA\EjF_I2C\simulation\qsim
+Z5 w1761535188
+Z6 8i2c.vo
+Z7 Fi2c.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|i2c.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1761535188.578000
+Z12 !s107 i2c.vo|
+!s101 -O0
+vi2c_vlg_check_tst
+!i10b 1
+Z13 !s100 SWlkha@lSL[]h2R90B^Zj0
+Z14 I2821heng5_7Radm;hG[JS0
+Z15 Vd19`mf?`dRZ0nU_bCHP<02
+R4
+Z16 w1761535187
+Z17 8i2c.vt
+Z18 Fi2c.vt
+L0 67
+R8
+r1
+!s85 0
+31
+Z19 !s108 1761535188.641000
+Z20 !s107 i2c.vt|
+Z21 !s90 -work|work|i2c.vt|
+!s101 -O0
+R10
+vi2c_vlg_sample_tst
+!i10b 1
+Z22 !s100 1E[njb4_adlLh1jNOMadZ2
+Z23 I7h0]<lc]Dg:6I^K5b?n`I2
+Z24 VF9_Oj<nY`T]]FVG1KWKRE1
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vi2c_vlg_vec_tst
+!i10b 1
+Z25 !s100 5FVS?5H[9^VlJN8l??@em1
+Z26 IX@6<XMPR@;@Ih?5@LVlGO2
+Z27 VG7leF=koEPmlj1YS<cFiE2
+R4
+R16
+R17
+R18
+Z28 L0 395
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

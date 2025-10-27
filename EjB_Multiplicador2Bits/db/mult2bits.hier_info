@@ -1,5 +1,5 @@
 |mult2bits
-R3 <= FullAdder:inst6.COUT
+R3 <= FullAdder:inst7.COUT
 A1 => inst4.IN0
 A1 => inst3.IN0
 B1 => inst4.IN1
@@ -8,12 +8,12 @@ A0 => inst5.IN0
 A0 => inst2.IN0
 B0 => inst3.IN1
 B0 => inst2.IN1
-R2 <= FullAdder:inst6.S
-R1 <= FullAdder:inst.S
+R2 <= FullAdder:inst7.S
+R1 <= FullAdder:inst8.S
 R0 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mult2bits|FullAdder:inst6
+|mult2bits|FullAdder:inst7
 A => and2.IN0
 A => and3.IN0
 A => S.IN1
@@ -27,7 +27,7 @@ S <= S.DB_MAX_OUTPUT_PORT_TYPE
 COUT <= COUT.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mult2bits|FullAdder:inst
+|mult2bits|FullAdder:inst8
 A => and2.IN0
 A => and3.IN0
 A => S.IN1

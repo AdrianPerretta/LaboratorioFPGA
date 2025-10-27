@@ -1,5 +1,5 @@
 Fitter report for FullAdder
-Sun Oct 19 20:32:27 2025
+Sun Oct 26 18:08:32 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -63,10 +63,10 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Sun Oct 19 20:32:27 2025           ;
+; Fitter Status                      ; Successful - Sun Oct 26 18:08:32 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; FullAdder                                       ;
-; Top-level Entity Name              ; Block1                                          ;
+; Top-level Entity Name              ; FullAdder                                       ;
 ; Family                             ; Cyclone III                                     ;
 ; Device                             ; EP3C120F780C7                                   ;
 ; Timing Models                      ; Final                                           ;
@@ -202,7 +202,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Facultad/FPGA/TP_Laboratorio/Ej1_SumadorCompleto/output_files/FullAdder.pin.
+The pin-out file can be found in C:/Facultad/FPGA/LaboratorioFPGA/EjA_SumadorCompleto/output_files/FullAdder.pin.
 
 
 +---------------------------------------------------------------------+
@@ -330,7 +330,7 @@ The pin-out file can be found in C:/Facultad/FPGA/TP_Laboratorio/Ej1_SumadorComp
 +------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+
 ; Name ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination Control Block ; Location assigned by ;
 +------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+
-; A    ; AC14  ; 3        ; 56           ; 0            ; 21           ; 2                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; A    ; AG19  ; 4        ; 72           ; 0            ; 7            ; 2                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
 ; B    ; AD18  ; 4        ; 85           ; 0            ; 7            ; 2                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
 ; CIN  ; AG23  ; 4        ; 81           ; 0            ; 21           ; 2                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
 +------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+
@@ -341,8 +341,8 @@ The pin-out file can be found in C:/Facultad/FPGA/TP_Laboratorio/Ej1_SumadorComp
 +------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 ; Name ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Output Register ; Output Enable Register ; Power Up High ; Slew Rate ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination                       ; Termination Control Block ; Output Buffer Pre-emphasis ; Voltage Output Differential ; Location assigned by ; Output Enable Source ; Output Enable Group ;
 +------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
-; COUT ; AG19  ; 4        ; 72           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; S    ; AF19  ; 4        ; 83           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
+; COUT ; AF19  ; 4        ; 83           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
+; S    ; AC17  ; 4        ; 74           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 +------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 
 
@@ -374,8 +374,8 @@ The pin-out file can be found in C:/Facultad/FPGA/TP_Laboratorio/Ej1_SumadorComp
 +----------+----------------+---------------+--------------+
 ; 1        ; 4 / 58 ( 7 % ) ; 2.5V          ; --           ;
 ; 2        ; 0 / 63 ( 0 % ) ; 2.5V          ; --           ;
-; 3        ; 1 / 73 ( 1 % ) ; 2.5V          ; --           ;
-; 4        ; 4 / 71 ( 6 % ) ; 2.5V          ; --           ;
+; 3        ; 0 / 73 ( 0 % ) ; 2.5V          ; --           ;
+; 4        ; 5 / 71 ( 7 % ) ; 2.5V          ; --           ;
 ; 5        ; 0 / 65 ( 0 % ) ; 2.5V          ; --           ;
 ; 6        ; 1 / 58 ( 2 % ) ; 2.5V          ; --           ;
 ; 7        ; 0 / 72 ( 0 % ) ; 2.5V          ; --           ;
@@ -483,10 +483,10 @@ The pin-out file can be found in C:/Facultad/FPGA/TP_Laboratorio/Ej1_SumadorComp
 ; AC11     ; 185        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AC12     ; 179        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AC13     ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; AC14     ; 195        ; 3        ; A                                                         ; input  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AC14     ; 195        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AC15     ; 203        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AC16     ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; AC17     ; 221        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
+; AC17     ; 221        ; 4        ; S                                                         ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AC18     ; 240        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; AC19     ; 247        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AC20     ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -572,7 +572,7 @@ The pin-out file can be found in C:/Facultad/FPGA/TP_Laboratorio/Ej1_SumadorComp
 ; AF16     ; 210        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AF17     ; 216        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AF18     ; 226        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; AF19     ; 232        ; 4        ; S                                                         ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AF19     ; 232        ; 4        ; COUT                                                      ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AF20     ; 236        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AF21     ; 239        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AF22     ; 252        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
@@ -600,7 +600,7 @@ The pin-out file can be found in C:/Facultad/FPGA/TP_Laboratorio/Ej1_SumadorComp
 ; AG16     ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; AG17     ; 207        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AG18     ; 217        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; AG19     ; 219        ; 4        ; COUT                                                      ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AG19     ; 219        ; 4        ; A                                                         ; input  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AG20     ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; AG21     ; 223        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AG22     ; 227        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
@@ -1177,7 +1177,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
-; |Block1                    ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 5    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |Block1             ; work         ;
+; |FullAdder                 ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 5    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |FullAdder          ; work         ;
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -1190,7 +1190,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; S    ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; COUT ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; A    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; B    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; B    ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 ; CIN  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 +------+----------+---------------+---------------+-----------------------+-----+------+
 
@@ -1201,14 +1201,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Source Pin / Fanout ; Pad To Core Index ; Setting ;
 +---------------------+-------------------+---------+
 ; A                   ;                   ;         ;
-;      - inst4~0      ; 0                 ; 6       ;
-;      - inst~0       ; 0                 ; 6       ;
+;      - S~0          ; 0                 ; 6       ;
+;      - COUT~0       ; 0                 ; 6       ;
 ; B                   ;                   ;         ;
-;      - inst4~0      ; 0                 ; 6       ;
-;      - inst~0       ; 0                 ; 6       ;
+;      - S~0          ; 1                 ; 6       ;
+;      - COUT~0       ; 1                 ; 6       ;
 ; CIN                 ;                   ;         ;
-;      - inst4~0      ; 0                 ; 6       ;
-;      - inst~0       ; 0                 ; 6       ;
+;      - S~0          ; 0                 ; 6       ;
+;      - COUT~0       ; 0                 ; 6       ;
 +---------------------+-------------------+---------+
 
 
@@ -1220,8 +1220,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; CIN~input ; 2                   ;
 ; B~input   ; 2                   ;
 ; A~input   ; 2                   ;
-; inst~0    ; 1                   ;
-; inst4~0   ; 1                   ;
+; COUT~0    ; 1                   ;
+; S~0       ; 1                   ;
 +-----------+---------------------+
 
 
@@ -1231,12 +1231,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Other Routing Resource Type ; Usage                 ;
 +-----------------------------+-----------------------+
 ; Block interconnects         ; 5 / 342,891 ( < 1 % ) ;
-; C16 interconnects           ; 1 / 10,120 ( < 1 % )  ;
-; C4 interconnects            ; 4 / 209,544 ( < 1 % ) ;
+; C16 interconnects           ; 0 / 10,120 ( 0 % )    ;
+; C4 interconnects            ; 5 / 209,544 ( < 1 % ) ;
 ; Global clocks               ; 0 / 20 ( 0 % )        ;
 ; Local interconnects         ; 0 / 119,088 ( 0 % )   ;
-; R24 interconnects           ; 1 / 9,963 ( < 1 % )   ;
-; R4 interconnects            ; 5 / 289,782 ( < 1 % ) ;
+; R24 interconnects           ; 0 / 9,963 ( 0 % )     ;
+; R4 interconnects            ; 6 / 289,782 ( < 1 % ) ;
 +-----------------------------+-----------------------+
 
 
@@ -1439,7 +1439,7 @@ Info (332130): Timing requirements not specified -- quality metrics such as perf
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
@@ -1452,23 +1452,23 @@ Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.02 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.13 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
-Info (144001): Generated suppressed messages file C:/Facultad/FPGA/TP_Laboratorio/Ej1_SumadorCompleto/output_files/FullAdder.fit.smsg
+Info (144001): Generated suppressed messages file C:/Facultad/FPGA/LaboratorioFPGA/EjA_SumadorCompleto/output_files/FullAdder.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 5030 megabytes
-    Info: Processing ended: Sun Oct 19 20:32:28 2025
-    Info: Elapsed time: 00:00:12
+    Info: Peak virtual memory: 5041 megabytes
+    Info: Processing ended: Sun Oct 26 18:08:32 2025
+    Info: Elapsed time: 00:00:11
     Info: Total CPU time (on all processors): 00:00:08
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Facultad/FPGA/TP_Laboratorio/Ej1_SumadorCompleto/output_files/FullAdder.fit.smsg.
+The suppressed messages can be found in C:/Facultad/FPGA/LaboratorioFPGA/EjA_SumadorCompleto/output_files/FullAdder.fit.smsg.
 
 

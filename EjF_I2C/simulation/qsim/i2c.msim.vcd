@@ -1,0 +1,657 @@
+$comment
+	File created using the following command:
+		vcd file i2c.msim.vcd -direction
+$end
+$date
+	Mon Oct 27 00:19:48 2025
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module i2c_vlg_vec_tst $end
+$var reg 1 ! clk $end
+$var reg 8 " dato [7:0] $end
+$var reg 7 # dir [6:0] $end
+$var reg 1 $ reset $end
+$var reg 1 % rowed $end
+$var reg 1 & SDA $end
+$var wire 1 ' acknow $end
+$var wire 1 ( dato_mostrado [7] $end
+$var wire 1 ) dato_mostrado [6] $end
+$var wire 1 * dato_mostrado [5] $end
+$var wire 1 + dato_mostrado [4] $end
+$var wire 1 , dato_mostrado [3] $end
+$var wire 1 - dato_mostrado [2] $end
+$var wire 1 . dato_mostrado [1] $end
+$var wire 1 / dato_mostrado [0] $end
+$var wire 1 0 Hab_Dat $end
+$var wire 1 1 Hab_Dir $end
+$var wire 1 2 leer $end
+$var wire 1 3 sampler $end
+$scope module i1 $end
+$var wire 1 4 gnd $end
+$var wire 1 5 vcc $end
+$var wire 1 6 unknown $end
+$var tri1 1 7 devclrn $end
+$var tri1 1 8 devpor $end
+$var tri1 1 9 devoe $end
+$var wire 1 : dir[0]~input_o $end
+$var wire 1 ; dir[1]~input_o $end
+$var wire 1 < dir[2]~input_o $end
+$var wire 1 = dir[3]~input_o $end
+$var wire 1 > dir[4]~input_o $end
+$var wire 1 ? dir[5]~input_o $end
+$var wire 1 @ dir[6]~input_o $end
+$var wire 1 A dato[0]~input_o $end
+$var wire 1 B dato[1]~input_o $end
+$var wire 1 C dato[2]~input_o $end
+$var wire 1 D dato[3]~input_o $end
+$var wire 1 E dato[4]~input_o $end
+$var wire 1 F dato[5]~input_o $end
+$var wire 1 G dato[6]~input_o $end
+$var wire 1 H dato[7]~input_o $end
+$var wire 1 I rowed~input_o $end
+$var wire 1 J dato_mostrado[0]~output_o $end
+$var wire 1 K dato_mostrado[1]~output_o $end
+$var wire 1 L dato_mostrado[2]~output_o $end
+$var wire 1 M dato_mostrado[3]~output_o $end
+$var wire 1 N dato_mostrado[4]~output_o $end
+$var wire 1 O dato_mostrado[5]~output_o $end
+$var wire 1 P dato_mostrado[6]~output_o $end
+$var wire 1 Q dato_mostrado[7]~output_o $end
+$var wire 1 R Hab_Dat~output_o $end
+$var wire 1 S Hab_Dir~output_o $end
+$var wire 1 T leer~output_o $end
+$var wire 1 U acknow~output_o $end
+$var wire 1 V clk~input_o $end
+$var wire 1 W clk~inputclkctrl_outclk $end
+$var wire 1 X reset~input_o $end
+$var wire 1 Y state.Oscioso~q $end
+$var wire 1 Z SDA~input_o $end
+$var wire 1 [ state~12_combout $end
+$var wire 1 \ state.Guarda_dir~feeder_combout $end
+$var wire 1 ] state.Guarda_dir~q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b0 "
+b1110111 #
+1$
+1%
+1&
+0'
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+00
+01
+02
+x3
+04
+15
+x6
+17
+18
+19
+1:
+1;
+1<
+0=
+1>
+1?
+1@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+1I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+1X
+0Y
+1Z
+0[
+0\
+0]
+$end
+#10000
+1!
+1V
+1W
+03
+#20000
+0$
+0&
+0!
+0X
+0Z
+0V
+0W
+13
+1[
+1\
+#30000
+1!
+1V
+1W
+03
+1Y
+1]
+0[
+1S
+11
+0\
+#40000
+1&
+0!
+1Z
+0V
+0W
+13
+#50000
+1!
+1V
+1W
+03
+0Y
+0]
+0S
+01
+#60000
+0!
+0V
+0W
+13
+#70000
+1!
+1V
+1W
+03
+#80000
+0!
+0V
+0W
+13
+#90000
+1!
+1V
+1W
+03
+#100000
+0!
+0V
+0W
+13
+#110000
+1!
+1V
+1W
+03
+#120000
+0!
+0V
+0W
+13
+#130000
+1!
+1V
+1W
+03
+#140000
+0!
+0V
+0W
+13
+#150000
+1!
+1V
+1W
+03
+#160000
+0!
+0V
+0W
+13
+#170000
+1!
+1V
+1W
+03
+#180000
+0!
+0V
+0W
+13
+#190000
+1!
+1V
+1W
+03
+#200000
+0!
+0V
+0W
+13
+#210000
+1!
+1V
+1W
+03
+#220000
+0!
+0V
+0W
+13
+#230000
+1!
+1V
+1W
+03
+#240000
+0!
+0V
+0W
+13
+#250000
+1!
+1V
+1W
+03
+#260000
+0!
+0V
+0W
+13
+#270000
+1!
+1V
+1W
+03
+#280000
+0!
+0V
+0W
+13
+#290000
+1!
+1V
+1W
+03
+#300000
+0!
+0V
+0W
+13
+#310000
+1!
+1V
+1W
+03
+#320000
+0!
+0V
+0W
+13
+#330000
+1!
+1V
+1W
+03
+#340000
+0!
+0V
+0W
+13
+#350000
+1!
+1V
+1W
+03
+#360000
+0!
+0V
+0W
+13
+#370000
+1!
+1V
+1W
+03
+#380000
+0!
+0V
+0W
+13
+#390000
+1!
+1V
+1W
+03
+#400000
+0!
+0V
+0W
+13
+#410000
+1!
+1V
+1W
+03
+#420000
+0!
+0V
+0W
+13
+#430000
+1!
+1V
+1W
+03
+#440000
+0!
+0V
+0W
+13
+#450000
+1!
+1V
+1W
+03
+#460000
+0!
+0V
+0W
+13
+#470000
+1!
+1V
+1W
+03
+#480000
+0!
+0V
+0W
+13
+#490000
+1!
+1V
+1W
+03
+#500000
+0!
+0V
+0W
+13
+#510000
+1!
+1V
+1W
+03
+#520000
+0!
+0V
+0W
+13
+#530000
+1!
+1V
+1W
+03
+#540000
+0!
+0V
+0W
+13
+#550000
+1!
+1V
+1W
+03
+#560000
+0!
+0V
+0W
+13
+#570000
+1!
+1V
+1W
+03
+#580000
+0!
+0V
+0W
+13
+#590000
+1!
+1V
+1W
+03
+#600000
+0!
+0V
+0W
+13
+#610000
+1!
+1V
+1W
+03
+#620000
+0!
+0V
+0W
+13
+#630000
+1!
+1V
+1W
+03
+#640000
+0!
+0V
+0W
+13
+#650000
+1!
+1V
+1W
+03
+#660000
+0!
+0V
+0W
+13
+#670000
+1!
+1V
+1W
+03
+#680000
+0!
+0V
+0W
+13
+#690000
+1!
+1V
+1W
+03
+#700000
+0!
+0V
+0W
+13
+#710000
+1!
+1V
+1W
+03
+#720000
+0!
+0V
+0W
+13
+#730000
+1!
+1V
+1W
+03
+#740000
+0!
+0V
+0W
+13
+#750000
+1!
+1V
+1W
+03
+#760000
+0!
+0V
+0W
+13
+#770000
+1!
+1V
+1W
+03
+#780000
+0!
+0V
+0W
+13
+#790000
+1!
+1V
+1W
+03
+#800000
+0!
+0V
+0W
+13
+#810000
+1!
+1V
+1W
+03
+#820000
+0!
+0V
+0W
+13
+#830000
+1!
+1V
+1W
+03
+#840000
+0!
+0V
+0W
+13
+#850000
+1!
+1V
+1W
+03
+#860000
+0!
+0V
+0W
+13
+#870000
+1!
+1V
+1W
+03
+#880000
+0!
+0V
+0W
+13
+#890000
+1!
+1V
+1W
+03
+#900000
+0!
+0V
+0W
+13
+#910000
+1!
+1V
+1W
+03
+#920000
+0!
+0V
+0W
+13
+#930000
+1!
+1V
+1W
+03
+#940000
+0!
+0V
+0W
+13
+#950000
+1!
+1V
+1W
+03
+#960000
+0!
+0V
+0W
+13
+#970000
+1!
+1V
+1W
+03
+#980000
+0!
+0V
+0W
+13
+#990000
+1!
+1V
+1W
+03
+#1000000

@@ -14,7 +14,7 @@
 
 -- PROGRAM		"Quartus II 64-Bit"
 -- VERSION		"Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
--- CREATED		"Sun Oct 19 21:33:24 2025"
+-- CREATED		"Sun Oct 26 17:05:28 2025"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -58,33 +58,33 @@ SYNTHESIZED_WIRE_6 <= '0';
 
 
 
-b2v_inst : fulladder
-PORT MAP(A => SYNTHESIZED_WIRE_0,
-		 B => SYNTHESIZED_WIRE_1,
-		 CIN => SYNTHESIZED_WIRE_6,
-		 S => R1,
-		 COUT => SYNTHESIZED_WIRE_4);
-
-
 
 R0 <= A0 AND B0;
 
 
-SYNTHESIZED_WIRE_1 <= A1 AND B0;
+SYNTHESIZED_WIRE_4 <= A1 AND B0;
 
 
-SYNTHESIZED_WIRE_3 <= A1 AND B1;
+SYNTHESIZED_WIRE_0 <= A1 AND B1;
 
 
-SYNTHESIZED_WIRE_0 <= A0 AND B1;
+SYNTHESIZED_WIRE_3 <= A0 AND B1;
 
 
-b2v_inst6 : fulladder
-PORT MAP(A => SYNTHESIZED_WIRE_3,
-		 B => SYNTHESIZED_WIRE_4,
+b2v_inst7 : fulladder
+PORT MAP(A => SYNTHESIZED_WIRE_0,
+		 B => SYNTHESIZED_WIRE_1,
 		 CIN => SYNTHESIZED_WIRE_6,
 		 S => R2,
 		 COUT => R3);
+
+
+b2v_inst8 : fulladder
+PORT MAP(A => SYNTHESIZED_WIRE_3,
+		 B => SYNTHESIZED_WIRE_4,
+		 CIN => SYNTHESIZED_WIRE_6,
+		 S => R1,
+		 COUT => SYNTHESIZED_WIRE_1);
 
 
 END bdf_type;

@@ -1,0 +1,41 @@
+|i2c
+clk => fin_dato.CLK
+clk => fin_dir.CLK
+clk => state~6.DATAIN
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+dir[0] => ~NO_FANOUT~
+dir[1] => ~NO_FANOUT~
+dir[2] => ~NO_FANOUT~
+dir[3] => ~NO_FANOUT~
+dir[4] => ~NO_FANOUT~
+dir[5] => ~NO_FANOUT~
+dir[6] => ~NO_FANOUT~
+dato[0] => ~NO_FANOUT~
+dato[1] => ~NO_FANOUT~
+dato[2] => ~NO_FANOUT~
+dato[3] => ~NO_FANOUT~
+dato[4] => ~NO_FANOUT~
+dato[5] => ~NO_FANOUT~
+dato[6] => ~NO_FANOUT~
+dato[7] => ~NO_FANOUT~
+SDA => Selector0.IN3
+SDA => Selector1.IN1
+rowed => leer$latch.DATAIN
+dato_mostrado[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+dato_mostrado[1] <= dato_mostrado[1].DB_MAX_OUTPUT_PORT_TYPE
+dato_mostrado[2] <= dato_mostrado[2].DB_MAX_OUTPUT_PORT_TYPE
+dato_mostrado[3] <= dato_mostrado[3].DB_MAX_OUTPUT_PORT_TYPE
+dato_mostrado[4] <= dato_mostrado[4].DB_MAX_OUTPUT_PORT_TYPE
+dato_mostrado[5] <= dato_mostrado[5].DB_MAX_OUTPUT_PORT_TYPE
+dato_mostrado[6] <= dato_mostrado[6].DB_MAX_OUTPUT_PORT_TYPE
+dato_mostrado[7] <= dato_mostrado[7].DB_MAX_OUTPUT_PORT_TYPE
+Hab_Dat <= Hab_Dat_interna.DB_MAX_OUTPUT_PORT_TYPE
+Hab_Dir <= Hab_Dir_interna.DB_MAX_OUTPUT_PORT_TYPE
+leer <= leer$latch.DB_MAX_OUTPUT_PORT_TYPE
+acknow <= acknow.DB_MAX_OUTPUT_PORT_TYPE
+
+
