@@ -1,5 +1,5 @@
 Assembler report for mult2bitscs
-Fri Oct 24 12:39:10 2025
+Tue Oct 28 23:06:28 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -10,7 +10,7 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Facultad/FPGA/LaboratorioFPGA/EjC_Multiplicador2BitsCS/output_files/mult2bitscs.sof
+  5. Assembler Device Options: C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/output_files/mult2bitscs.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Oct 24 12:39:10 2025 ;
+; Assembler Status      ; Successful - Tue Oct 28 23:06:28 2025 ;
 ; Revision Name         ; mult2bitscs                           ;
 ; Top-level Entity Name ; mult2bitscs                           ;
 ; Family                ; Cyclone III                           ;
@@ -77,24 +77,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                              ;
-+----------------------------------------------------------------------------------------+
-; File Name                                                                              ;
-+----------------------------------------------------------------------------------------+
-; C:/Facultad/FPGA/LaboratorioFPGA/EjC_Multiplicador2BitsCS/output_files/mult2bitscs.sof ;
-+----------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                           ;
++-----------------------------------------------------------------------------------------------------+
+; File Name                                                                                           ;
++-----------------------------------------------------------------------------------------------------+
+; C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/output_files/mult2bitscs.sof ;
++-----------------------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Facultad/FPGA/LaboratorioFPGA/EjC_Multiplicador2BitsCS/output_files/mult2bitscs.sof ;
-+----------------+-------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                         ;
-+----------------+-------------------------------------------------------------------------------------------------+
-; Device         ; EP3C120F780C7                                                                                   ;
-; JTAG usercode  ; 0x0056429E                                                                                      ;
-; Checksum       ; 0x0056429E                                                                                      ;
-+----------------+-------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/output_files/mult2bitscs.sof ;
++----------------+--------------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                      ;
++----------------+--------------------------------------------------------------------------------------------------------------+
+; Device         ; EP3C120F780C7                                                                                                ;
+; JTAG usercode  ; 0x005646E4                                                                                                   ;
+; Checksum       ; 0x005646E4                                                                                                   ;
++----------------+--------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Oct 24 12:39:07 2025
+    Info: Processing started: Tue Oct 28 23:06:22 2025
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off mult2bitscs -c mult2bitscs
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4556 megabytes
-    Info: Processing ended: Fri Oct 24 12:39:10 2025
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 4574 megabytes
+    Info: Processing ended: Tue Oct 28 23:06:28 2025
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:06
 
 

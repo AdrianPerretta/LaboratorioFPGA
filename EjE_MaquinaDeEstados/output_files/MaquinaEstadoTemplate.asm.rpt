@@ -1,5 +1,5 @@
 Assembler report for MaquinaEstadoTemplate
-Sat Oct 25 21:10:53 2025
+Tue Oct 28 22:44:46 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -10,7 +10,7 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Facultad/FPGA/LaboratorioFPGA/EjE_MaquinaDeEstados/output_files/MaquinaEstadoTemplate.sof
+  5. Assembler Device Options: C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjE_MaquinaDeEstados/output_files/MaquinaEstadoTemplate.sof
   6. Assembler Messages
 
 
@@ -37,11 +37,11 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sat Oct 25 21:10:53 2025 ;
+; Assembler Status      ; Successful - Tue Oct 28 22:44:46 2025 ;
 ; Revision Name         ; MaquinaEstadoTemplate                 ;
 ; Top-level Entity Name ; MaquinaEstadoTemplate                 ;
-; Family                ; Cyclone IV GX                         ;
-; Device                ; EP4CGX15BF14C6                        ;
+; Family                ; Cyclone III                           ;
+; Device                ; EP3C120F780C7                         ;
 +-----------------------+---------------------------------------+
 
 
@@ -77,24 +77,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+----------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                    ;
-+----------------------------------------------------------------------------------------------+
-; File Name                                                                                    ;
-+----------------------------------------------------------------------------------------------+
-; C:/Facultad/FPGA/LaboratorioFPGA/EjE_MaquinaDeEstados/output_files/MaquinaEstadoTemplate.sof ;
-+----------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                                 ;
++-----------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                 ;
++-----------------------------------------------------------------------------------------------------------+
+; C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjE_MaquinaDeEstados/output_files/MaquinaEstadoTemplate.sof ;
++-----------------------------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Facultad/FPGA/LaboratorioFPGA/EjE_MaquinaDeEstados/output_files/MaquinaEstadoTemplate.sof ;
-+----------------+-------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                               ;
-+----------------+-------------------------------------------------------------------------------------------------------+
-; Device         ; EP4CGX15BF14C6                                                                                        ;
-; JTAG usercode  ; 0x000BC5AE                                                                                            ;
-; Checksum       ; 0x000BC5AE                                                                                            ;
-+----------------+-------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjE_MaquinaDeEstados/output_files/MaquinaEstadoTemplate.sof ;
++----------------+--------------------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                            ;
++----------------+--------------------------------------------------------------------------------------------------------------------+
+; Device         ; EP3C120F780C7                                                                                                      ;
+; JTAG usercode  ; 0x005633BC                                                                                                         ;
+; Checksum       ; 0x005633BC                                                                                                         ;
++----------------+--------------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sat Oct 25 21:10:52 2025
+    Info: Processing started: Tue Oct 28 22:44:40 2025
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off MaquinaEstadoTemplate -c MaquinaEstadoTemplate
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4607 megabytes
-    Info: Processing ended: Sat Oct 25 21:10:53 2025
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 4570 megabytes
+    Info: Processing ended: Tue Oct 28 22:44:46 2025
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:06
 
 

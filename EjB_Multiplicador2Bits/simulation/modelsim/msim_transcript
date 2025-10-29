@@ -10,7 +10,14 @@
 # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/FullAdder.vhd}
+# vcom -93 -work work {C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mult2bits
+# -- Compiling architecture bdf_type of mult2bits
+# vcom -93 -work work {C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/FullAdder.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -18,29 +25,29 @@
 # -- Compiling entity FullAdder
 # -- Compiling architecture fnc of FullAdder
 # 
-# vcom -93 -work work {C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd}
+# vcom -93 -work work {C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity mult2bits_tb
 # -- Compiling architecture fnc of mult2bits_tb
-# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(46): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(46): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  mult2bits_tb
 # vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps mult2bits_tb 
@@ -48,12 +55,12 @@
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading work.mult2bits_tb(fnc)
-# ** Warning: (vsim-3473) Component instance "uut : mult2bits" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /mult2bits_tb File: C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd
+# Loading work.mult2bits(bdf_type)
+# Loading work.fulladder(fnc)
 # 
 # add wave *
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
-# run -all
+# run 2000 sec

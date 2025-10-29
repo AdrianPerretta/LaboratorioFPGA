@@ -1,19 +1,19 @@
 |mult2bits
-R3 <= FullAdder:inst7.COUT
-A1 => inst4.IN0
-A1 => inst3.IN0
-B1 => inst4.IN1
-B1 => inst5.IN1
-A0 => inst5.IN0
-A0 => inst2.IN0
-B0 => inst3.IN1
-B0 => inst2.IN1
-R2 <= FullAdder:inst7.S
-R1 <= FullAdder:inst8.S
-R0 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B0 => R0.IN0
+B0 => SYNTHESIZED_WIRE_4.IN0
+A0 => R0.IN1
+A0 => SYNTHESIZED_WIRE_3.IN0
+A1 => SYNTHESIZED_WIRE_4.IN1
+A1 => SYNTHESIZED_WIRE_0.IN0
+B1 => SYNTHESIZED_WIRE_0.IN1
+B1 => SYNTHESIZED_WIRE_3.IN1
+R3 <= fulladder:b2v_inst7.COUT
+R2 <= fulladder:b2v_inst7.S
+R1 <= fulladder:b2v_inst8.S
+R0 <= R0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mult2bits|FullAdder:inst7
+|mult2bits|FullAdder:b2v_inst7
 A => and2.IN0
 A => and3.IN0
 A => S.IN1
@@ -27,7 +27,7 @@ S <= S.DB_MAX_OUTPUT_PORT_TYPE
 COUT <= COUT.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mult2bits|FullAdder:inst8
+|mult2bits|FullAdder:b2v_inst8
 A => and2.IN0
 A => and3.IN0
 A => S.IN1

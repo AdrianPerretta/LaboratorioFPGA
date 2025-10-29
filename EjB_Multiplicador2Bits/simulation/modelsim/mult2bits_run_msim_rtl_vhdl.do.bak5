@@ -1,0 +1,17 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/FullAdder.vhd}
+
+vcom -93 -work work {C:/Facultad/FPGA/LaboratorioFPGA/EjB_Multiplicador2Bits/mult2bits_tb.vhd}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  mult2bits_tb
+
+add wave *
+view structure
+view signals
+run -all

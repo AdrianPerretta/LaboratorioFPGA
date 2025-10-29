@@ -76,10 +76,9 @@ set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "2000 ns" -section_id mul
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME mult2bitscs_tb -section_id mult2bitscs_tb
 set_location_assignment PIN_AF19 -to BANDERA_CEROS
 set_location_assignment PIN_AF18 -to BANDERA_SIGNO
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name EDA_TEST_BENCH_FILE mult2bitscs_tb.vhd -section_id mult2bitscs_tb
 set_global_assignment -name VHDL_FILE mult2bitscs.vhd
 set_global_assignment -name VHDL_FILE FullAdder.vhd
-set_global_assignment -name BDF_FILE mult2bitscs.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE EstimuloMultiplicadorCS.vwf
 set_global_assignment -name VHDL_FILE mult2bitscs_tb.vhd
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
