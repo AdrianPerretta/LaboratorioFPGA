@@ -5,6 +5,8 @@ entity i2cEsquematico_vlg_check_tst is
         cout1           : in     vl_logic;
         cout2           : in     vl_logic;
         cout3           : in     vl_logic;
+        cout4           : in     vl_logic;
+        DATO            : in     vl_logic_vector(7 downto 0);
         Prueba          : in     vl_logic;
         SDA             : in     vl_logic;
         sampler_rx      : in     vl_logic

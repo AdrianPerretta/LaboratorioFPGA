@@ -7,6 +7,8 @@ entity i2cEsquematico is
         SDA             : inout  vl_logic;
         cout1           : out    vl_logic;
         cout2           : out    vl_logic;
-        cout3           : out    vl_logic
+        cout3           : out    vl_logic;
+        cout4           : out    vl_logic;
+        DATO            : out    vl_logic_vector(7 downto 0)
     );
 end i2cEsquematico;

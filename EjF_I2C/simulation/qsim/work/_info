@@ -80,10 +80,11 @@ R9
 !s85 0
 !s101 -O0
 vi2cEsquematico
-Z29 IniSehdk`HjGH;?RaXB@Oa0
-Z30 Vkle^Y:b6>Mo0dU[[:fQ@_2
-R3
-Z31 w1761792390
+Z29 !s100 1DmnaWFJm:gn6=dVCng:X0
+Z30 IY6nogHTNlTDMD[PTcMM1W2
+Z31 V4NR0<Rekh:U?fiP7iiZkV1
+Z32 dC:\Users\User\Downloads\LaboratorioFPGA\EjF_I2C\simulation\qsim
+Z33 w1761848921
 R5
 R6
 L0 31
@@ -92,20 +93,19 @@ r1
 31
 R8
 R9
-Z32 ni2c@esquematico
+Z34 ni2c@esquematico
 !i10b 1
-Z33 !s100 oj<zDz[MHSlDZCYn9CPn@1
 !s85 0
-Z34 !s108 1761792392.177000
+Z35 !s108 1761848921.920000
 R12
 !s101 -O0
 vi2cEsquematico_vlg_check_tst
 !i10b 1
-Z35 !s100 omkDcAW_e>=c5MmM=_a8<2
-Z36 I_@]>Jz6MXlm:Y8NN5<N^O2
-Z37 V:l58z81i@NO`n`<QE4o>I3
-R3
-Z38 w1761792389
+Z36 !s100 nBRfZNT2H7mPhLMBhAW4g2
+Z37 IMJW]mU6eQ>z`3W^>5YQ7>1
+Z38 VF6W_QNA[mf=:YkjW`l`c]3
+R32
+Z39 w1761848920
 R17
 R18
 L0 59
@@ -113,19 +113,19 @@ R7
 r1
 !s85 0
 31
-Z39 !s108 1761792392.330000
-Z40 !s107 i2c.vt|
+Z40 !s108 1761848922.061000
+Z41 !s107 i2c.vt|
 R21
 !s101 -O0
 R9
-Z41 ni2c@esquematico_vlg_check_tst
+Z42 ni2c@esquematico_vlg_check_tst
 vi2cEsquematico_vlg_sample_tst
 !i10b 1
-Z42 !s100 8z9T3B]i`?0HQhiU_^[ZU2
-Z43 IVKg?[=JfUH;3KNB0cYoRk1
-Z44 V>8hzZVcI97><A^IXP3Z9>3
-R3
-R38
+Z43 !s100 8z9T3B]i`?0HQhiU_^[ZU2
+Z44 IVKg?[=JfUH;3KNB0cYoRk1
+Z45 V>8hzZVcI97><A^IXP3Z9>3
+R32
+R39
 R17
 R18
 L0 29
@@ -133,29 +133,29 @@ R7
 r1
 !s85 0
 31
-R39
 R40
+R41
 R21
 !s101 -O0
 R9
-Z45 ni2c@esquematico_vlg_sample_tst
+Z46 ni2c@esquematico_vlg_sample_tst
 vi2cEsquematico_vlg_vec_tst
 !i10b 1
-Z46 !s100 l?V4j[0Vh]NUO`CUa4_Od2
-Z47 I9UCcD3iAhG0c1@<a>JoH`2
-Z48 Vj8BV[24DzINC3HeLciOEo0
-R3
-R38
+Z47 !s100 ee0OHZ8g;en4?WQhU<S<00
+Z48 I1ZenL8CVTlITM^?3g8ga70
+Z49 Vj8BV[24DzINC3HeLciOEo0
+R32
+R39
 R17
 R18
-Z49 L0 256
+Z50 L0 435
 R7
 r1
 !s85 0
 31
-R39
 R40
+R41
 R21
 !s101 -O0
 R9
-Z50 ni2c@esquematico_vlg_vec_tst
+Z51 ni2c@esquematico_vlg_vec_tst

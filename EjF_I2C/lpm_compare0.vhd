@@ -71,7 +71,7 @@ ARCHITECTURE SYN OF lpm_compare0 IS
 	END COMPONENT;
 
 BEGIN
-	sub_wire1_bv(6 DOWNTO 0) <= "1110111";
+	sub_wire1_bv(6 DOWNTO 0) <= "1110110";
 	sub_wire1    <= To_stdlogicvector(sub_wire1_bv);
 	aeb    <= sub_wire0;
 
@@ -104,7 +104,7 @@ END SYN;
 -- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Cyclone III"
 -- Retrieval info: PRIVATE: LPM_PIPELINE NUMERIC "0"
 -- Retrieval info: PRIVATE: Latency NUMERIC "0"
--- Retrieval info: PRIVATE: PortBValue NUMERIC "119"
+-- Retrieval info: PRIVATE: PortBValue NUMERIC "118"
 -- Retrieval info: PRIVATE: Radix NUMERIC "2"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
 -- Retrieval info: PRIVATE: SignedCompare NUMERIC "0"
@@ -121,11 +121,11 @@ END SYN;
 -- Retrieval info: USED_PORT: aeb 0 0 0 0 OUTPUT NODEFVAL "aeb"
 -- Retrieval info: USED_PORT: dataa 0 0 7 0 INPUT NODEFVAL "dataa[6..0]"
 -- Retrieval info: CONNECT: @dataa 0 0 7 0 dataa 0 0 7 0
--- Retrieval info: CONNECT: @datab 0 0 7 0 119 0 0 7 0
+-- Retrieval info: CONNECT: @datab 0 0 7 0 118 0 0 7 0
 -- Retrieval info: CONNECT: aeb 0 0 0 0 @aeb 0 0 0 0
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare0.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare0.inc FALSE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare0.cmp TRUE
--- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare0.bsf TRUE FALSE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare0.bsf TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare0_inst.vhd FALSE
 -- Retrieval info: LIB_FILE: lpm

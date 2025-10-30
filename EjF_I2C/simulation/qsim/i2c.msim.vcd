@@ -3,7 +3,7 @@ $comment
 		vcd file i2c.msim.vcd -direction
 $end
 $date
-	Wed Oct 29 23:46:33 2025
+	Thu Oct 30 15:28:42 2025
 $end
 $version
 	ModelSim Version 10.1d
@@ -17,108 +17,143 @@ $var reg 1 " treg_SDA $end
 $var wire 1 # cout1 $end
 $var wire 1 $ cout2 $end
 $var wire 1 % cout3 $end
-$var wire 1 & Prueba $end
-$var wire 1 ' SDA $end
-$var wire 1 ( sampler $end
+$var wire 1 & cout4 $end
+$var wire 1 ' DATO [7] $end
+$var wire 1 ( DATO [6] $end
+$var wire 1 ) DATO [5] $end
+$var wire 1 * DATO [4] $end
+$var wire 1 + DATO [3] $end
+$var wire 1 , DATO [2] $end
+$var wire 1 - DATO [1] $end
+$var wire 1 . DATO [0] $end
+$var wire 1 / Prueba $end
+$var wire 1 0 SDA $end
+$var wire 1 1 sampler $end
 $scope module i1 $end
-$var wire 1 ) gnd $end
-$var wire 1 * vcc $end
-$var wire 1 + unknown $end
-$var tri1 1 , devclrn $end
-$var tri1 1 - devpor $end
-$var tri1 1 . devoe $end
-$var wire 1 / con7|LPM_COUNTER_component|auto_generated|counter_comb_bita6~combout $end
-$var wire 1 0 con7|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~0_combout $end
-$var wire 1 1 maquina|Selector0~0_combout $end
-$var wire 1 2 inst10~combout $end
-$var wire 1 3 inst9~clkctrl_outclk $end
-$var wire 1 4 inst10~clkctrl_outclk $end
-$var wire 1 5 inst12~o $end
-$var wire 1 6 Prueba~output_o $end
-$var wire 1 7 cout1~output_o $end
-$var wire 1 8 cout2~output_o $end
-$var wire 1 9 cout3~output_o $end
-$var wire 1 : clock~input_o $end
-$var wire 1 ; clock~inputclkctrl_outclk $end
-$var wire 1 < inst12_ibuf~o $end
-$var wire 1 = shift7|LPM_SHIFTREG_component|dffs[0]~feeder_combout $end
-$var wire 1 > shift7|LPM_SHIFTREG_component|dffs[3]~feeder_combout $end
-$var wire 1 ? shift7|LPM_SHIFTREG_component|dffs[4]~feeder_combout $end
-$var wire 1 @ shift7|LPM_SHIFTREG_component|dffs[5]~feeder_combout $end
-$var wire 1 A comparador|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~0_combout $end
-$var wire 1 B maquina|reg_fstate~3_combout $end
-$var wire 1 C maquina|fstate.ROW~q $end
-$var wire 1 D maquina|fstate.ACK_Estado~feeder_combout $end
-$var wire 1 E maquina|fstate.ACK_Estado~q $end
-$var wire 1 F con8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout $end
-$var wire 1 G ~GND~combout $end
-$var wire 1 H con8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT $end
-$var wire 1 I con8|LPM_COUNTER_component|auto_generated|counter_comb_bita1~combout $end
-$var wire 1 J con8|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT $end
-$var wire 1 K con8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout $end
-$var wire 1 L con8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT $end
-$var wire 1 M con8|LPM_COUNTER_component|auto_generated|counter_comb_bita3~combout $end
-$var wire 1 N con8|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~1_combout $end
-$var wire 1 O con8|LPM_COUNTER_component|auto_generated|counter_comb_bita3~COUT $end
-$var wire 1 P con8|LPM_COUNTER_component|auto_generated|counter_comb_bita4~combout $end
-$var wire 1 Q con8|LPM_COUNTER_component|auto_generated|counter_comb_bita4~COUT $end
-$var wire 1 R con8|LPM_COUNTER_component|auto_generated|counter_comb_bita5~COUT $end
-$var wire 1 S con8|LPM_COUNTER_component|auto_generated|counter_comb_bita6~combout $end
-$var wire 1 T con8|LPM_COUNTER_component|auto_generated|counter_comb_bita6~COUT $end
-$var wire 1 U con8|LPM_COUNTER_component|auto_generated|counter_comb_bita7~combout $end
-$var wire 1 V con8|LPM_COUNTER_component|auto_generated|counter_comb_bita5~combout $end
-$var wire 1 W con8|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~0_combout $end
-$var wire 1 X con8|LPM_COUNTER_component|auto_generated|counter_comb_bita7~COUT $end
-$var wire 1 Y con8|LPM_COUNTER_component|auto_generated|counter_comb_bita7~0_combout $end
-$var wire 1 Z con8|LPM_COUNTER_component|auto_generated|cout_actual~combout $end
-$var wire 1 [ maquina|Selector2~0_combout $end
-$var wire 1 \ maquina|fstate.Guardar_Dato~q $end
-$var wire 1 ] maquina|Selector0~1_combout $end
-$var wire 1 ^ maquina|Selector0~2_combout $end
-$var wire 1 _ maquina|Selector0~3_combout $end
-$var wire 1 ` maquina|fstate.Oscioso~q $end
-$var wire 1 a con7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout $end
-$var wire 1 b con7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT $end
-$var wire 1 c con7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT $end
-$var wire 1 d con7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout $end
-$var wire 1 e con7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~combout $end
-$var wire 1 f con7|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~1_combout $end
-$var wire 1 g con7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT $end
-$var wire 1 h con7|LPM_COUNTER_component|auto_generated|counter_comb_bita3~combout $end
-$var wire 1 i con7|LPM_COUNTER_component|auto_generated|counter_comb_bita3~COUT $end
-$var wire 1 j con7|LPM_COUNTER_component|auto_generated|counter_comb_bita4~combout $end
-$var wire 1 k con7|LPM_COUNTER_component|auto_generated|counter_comb_bita4~COUT $end
-$var wire 1 l con7|LPM_COUNTER_component|auto_generated|counter_comb_bita5~combout $end
-$var wire 1 m con7|LPM_COUNTER_component|auto_generated|counter_comb_bita5~COUT $end
-$var wire 1 n con7|LPM_COUNTER_component|auto_generated|counter_comb_bita6~COUT $end
-$var wire 1 o con7|LPM_COUNTER_component|auto_generated|counter_comb_bita6~0_combout $end
-$var wire 1 p maquina|reg_fstate~2_combout $end
-$var wire 1 q maquina|Selector1~0_combout $end
-$var wire 1 r maquina|fstate.Guardar_dir~q $end
-$var wire 1 s inst9~combout $end
-$var wire 1 t con7|LPM_COUNTER_component|auto_generated|counter_reg_bit [6] $end
-$var wire 1 u con7|LPM_COUNTER_component|auto_generated|counter_reg_bit [5] $end
-$var wire 1 v con7|LPM_COUNTER_component|auto_generated|counter_reg_bit [4] $end
-$var wire 1 w con7|LPM_COUNTER_component|auto_generated|counter_reg_bit [3] $end
-$var wire 1 x con7|LPM_COUNTER_component|auto_generated|counter_reg_bit [2] $end
-$var wire 1 y con7|LPM_COUNTER_component|auto_generated|counter_reg_bit [1] $end
-$var wire 1 z con7|LPM_COUNTER_component|auto_generated|counter_reg_bit [0] $end
-$var wire 1 { con8|LPM_COUNTER_component|auto_generated|counter_reg_bit [7] $end
-$var wire 1 | con8|LPM_COUNTER_component|auto_generated|counter_reg_bit [6] $end
-$var wire 1 } con8|LPM_COUNTER_component|auto_generated|counter_reg_bit [5] $end
-$var wire 1 ~ con8|LPM_COUNTER_component|auto_generated|counter_reg_bit [4] $end
-$var wire 1 !! con8|LPM_COUNTER_component|auto_generated|counter_reg_bit [3] $end
-$var wire 1 "! con8|LPM_COUNTER_component|auto_generated|counter_reg_bit [2] $end
-$var wire 1 #! con8|LPM_COUNTER_component|auto_generated|counter_reg_bit [1] $end
-$var wire 1 $! con8|LPM_COUNTER_component|auto_generated|counter_reg_bit [0] $end
-$var wire 1 %! comparador|LPM_COMPARE_component|auto_generated|aneb_result_wire [0] $end
-$var wire 1 &! shift7|LPM_SHIFTREG_component|dffs [6] $end
-$var wire 1 '! shift7|LPM_SHIFTREG_component|dffs [5] $end
-$var wire 1 (! shift7|LPM_SHIFTREG_component|dffs [4] $end
-$var wire 1 )! shift7|LPM_SHIFTREG_component|dffs [3] $end
-$var wire 1 *! shift7|LPM_SHIFTREG_component|dffs [2] $end
-$var wire 1 +! shift7|LPM_SHIFTREG_component|dffs [1] $end
-$var wire 1 ,! shift7|LPM_SHIFTREG_component|dffs [0] $end
+$var wire 1 2 gnd $end
+$var wire 1 3 vcc $end
+$var wire 1 4 unknown $end
+$var tri1 1 5 devclrn $end
+$var tri1 1 6 devpor $end
+$var tri1 1 7 devoe $end
+$var wire 1 8 con7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout $end
+$var wire 1 9 con7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~combout $end
+$var wire 1 : con8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout $end
+$var wire 1 ; con8|LPM_COUNTER_component|auto_generated|counter_comb_bita5~combout $end
+$var wire 1 < con7|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~1_combout $end
+$var wire 1 = maquina|Selector0~0_combout $end
+$var wire 1 > maquina|Selector2~0_combout $end
+$var wire 1 ? inst9~clkctrl_outclk $end
+$var wire 1 @ inst12~o $end
+$var wire 1 A Prueba~output_o $end
+$var wire 1 B cout1~output_o $end
+$var wire 1 C cout2~output_o $end
+$var wire 1 D cout3~output_o $end
+$var wire 1 E cout4~output_o $end
+$var wire 1 F DATO[7]~output_o $end
+$var wire 1 G DATO[6]~output_o $end
+$var wire 1 H DATO[5]~output_o $end
+$var wire 1 I DATO[4]~output_o $end
+$var wire 1 J DATO[3]~output_o $end
+$var wire 1 K DATO[2]~output_o $end
+$var wire 1 L DATO[1]~output_o $end
+$var wire 1 M DATO[0]~output_o $end
+$var wire 1 N clock~input_o $end
+$var wire 1 O clock~inputclkctrl_outclk $end
+$var wire 1 P inst12_ibuf~o $end
+$var wire 1 Q shift7|LPM_SHIFTREG_component|dffs[0]~feeder_combout $end
+$var wire 1 R shift7|LPM_SHIFTREG_component|dffs[1]~feeder_combout $end
+$var wire 1 S shift7|LPM_SHIFTREG_component|dffs[4]~feeder_combout $end
+$var wire 1 T shift7|LPM_SHIFTREG_component|dffs[5]~feeder_combout $end
+$var wire 1 U comparador|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~0_combout $end
+$var wire 1 V maquina|reg_fstate~2_combout $end
+$var wire 1 W maquina|fstate.ROW~q $end
+$var wire 1 X maquina|fstate.ACK_Estado~feeder_combout $end
+$var wire 1 Y maquina|fstate.ACK_Estado~q $end
+$var wire 1 Z con8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT $end
+$var wire 1 [ con8|LPM_COUNTER_component|auto_generated|counter_comb_bita1~combout $end
+$var wire 1 \ ~GND~combout $end
+$var wire 1 ] con8|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~1_combout $end
+$var wire 1 ^ con8|LPM_COUNTER_component|auto_generated|counter_comb_bita7~combout $end
+$var wire 1 _ con8|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~0_combout $end
+$var wire 1 ` con8|LPM_COUNTER_component|auto_generated|cout_actual~combout $end
+$var wire 1 a con8|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT $end
+$var wire 1 b con8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout $end
+$var wire 1 c con8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT $end
+$var wire 1 d con8|LPM_COUNTER_component|auto_generated|counter_comb_bita3~combout $end
+$var wire 1 e con8|LPM_COUNTER_component|auto_generated|counter_comb_bita3~COUT $end
+$var wire 1 f con8|LPM_COUNTER_component|auto_generated|counter_comb_bita4~combout $end
+$var wire 1 g con8|LPM_COUNTER_component|auto_generated|counter_comb_bita4~COUT $end
+$var wire 1 h con8|LPM_COUNTER_component|auto_generated|counter_comb_bita5~COUT $end
+$var wire 1 i con8|LPM_COUNTER_component|auto_generated|counter_comb_bita6~combout $end
+$var wire 1 j con8|LPM_COUNTER_component|auto_generated|counter_comb_bita6~COUT $end
+$var wire 1 k con8|LPM_COUNTER_component|auto_generated|counter_comb_bita7~COUT $end
+$var wire 1 l con8|LPM_COUNTER_component|auto_generated|counter_comb_bita7~0_combout $end
+$var wire 1 m maquina|Selector2~1_combout $end
+$var wire 1 n maquina|fstate.Guardar_Dato~q $end
+$var wire 1 o maquina|Selector0~1_combout $end
+$var wire 1 p maquina|Selector0~2_combout $end
+$var wire 1 q maquina|Selector0~3_combout $end
+$var wire 1 r maquina|fstate.Oscioso~q $end
+$var wire 1 s con7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT $end
+$var wire 1 t con7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT $end
+$var wire 1 u con7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout $end
+$var wire 1 v con7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT $end
+$var wire 1 w con7|LPM_COUNTER_component|auto_generated|counter_comb_bita3~combout $end
+$var wire 1 x con7|LPM_COUNTER_component|auto_generated|counter_comb_bita3~COUT $end
+$var wire 1 y con7|LPM_COUNTER_component|auto_generated|counter_comb_bita4~combout $end
+$var wire 1 z con7|LPM_COUNTER_component|auto_generated|counter_comb_bita4~COUT $end
+$var wire 1 { con7|LPM_COUNTER_component|auto_generated|counter_comb_bita5~combout $end
+$var wire 1 | con7|LPM_COUNTER_component|auto_generated|counter_comb_bita5~COUT $end
+$var wire 1 } con7|LPM_COUNTER_component|auto_generated|counter_comb_bita6~combout $end
+$var wire 1 ~ con7|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~0_combout $end
+$var wire 1 !! con7|LPM_COUNTER_component|auto_generated|counter_comb_bita6~COUT $end
+$var wire 1 "! con7|LPM_COUNTER_component|auto_generated|counter_comb_bita6~0_combout $end
+$var wire 1 #! con7|LPM_COUNTER_component|auto_generated|cout_actual~combout $end
+$var wire 1 $! maquina|Selector1~0_combout $end
+$var wire 1 %! maquina|fstate.Guardar_dir~q $end
+$var wire 1 &! inst9~combout $end
+$var wire 1 '! inst10~combout $end
+$var wire 1 (! inst10~clkctrl_outclk $end
+$var wire 1 )! shift8|LPM_SHIFTREG_component|dffs[0]~feeder_combout $end
+$var wire 1 *! shift8|LPM_SHIFTREG_component|dffs[1]~feeder_combout $end
+$var wire 1 +! shift8|LPM_SHIFTREG_component|dffs[2]~feeder_combout $end
+$var wire 1 ,! shift8|LPM_SHIFTREG_component|dffs[3]~feeder_combout $end
+$var wire 1 -! shift8|LPM_SHIFTREG_component|dffs[4]~feeder_combout $end
+$var wire 1 .! shift8|LPM_SHIFTREG_component|dffs[5]~feeder_combout $end
+$var wire 1 /! shift8|LPM_SHIFTREG_component|dffs[6]~feeder_combout $end
+$var wire 1 0! shift8|LPM_SHIFTREG_component|dffs[7]~feeder_combout $end
+$var wire 1 1! con8|LPM_COUNTER_component|auto_generated|counter_reg_bit [7] $end
+$var wire 1 2! con8|LPM_COUNTER_component|auto_generated|counter_reg_bit [6] $end
+$var wire 1 3! con8|LPM_COUNTER_component|auto_generated|counter_reg_bit [5] $end
+$var wire 1 4! con8|LPM_COUNTER_component|auto_generated|counter_reg_bit [4] $end
+$var wire 1 5! con8|LPM_COUNTER_component|auto_generated|counter_reg_bit [3] $end
+$var wire 1 6! con8|LPM_COUNTER_component|auto_generated|counter_reg_bit [2] $end
+$var wire 1 7! con8|LPM_COUNTER_component|auto_generated|counter_reg_bit [1] $end
+$var wire 1 8! con8|LPM_COUNTER_component|auto_generated|counter_reg_bit [0] $end
+$var wire 1 9! comparador|LPM_COMPARE_component|auto_generated|aneb_result_wire [0] $end
+$var wire 1 :! shift7|LPM_SHIFTREG_component|dffs [6] $end
+$var wire 1 ;! shift7|LPM_SHIFTREG_component|dffs [5] $end
+$var wire 1 <! shift7|LPM_SHIFTREG_component|dffs [4] $end
+$var wire 1 =! shift7|LPM_SHIFTREG_component|dffs [3] $end
+$var wire 1 >! shift7|LPM_SHIFTREG_component|dffs [2] $end
+$var wire 1 ?! shift7|LPM_SHIFTREG_component|dffs [1] $end
+$var wire 1 @! shift7|LPM_SHIFTREG_component|dffs [0] $end
+$var wire 1 A! shift8|LPM_SHIFTREG_component|dffs [7] $end
+$var wire 1 B! shift8|LPM_SHIFTREG_component|dffs [6] $end
+$var wire 1 C! shift8|LPM_SHIFTREG_component|dffs [5] $end
+$var wire 1 D! shift8|LPM_SHIFTREG_component|dffs [4] $end
+$var wire 1 E! shift8|LPM_SHIFTREG_component|dffs [3] $end
+$var wire 1 F! shift8|LPM_SHIFTREG_component|dffs [2] $end
+$var wire 1 G! shift8|LPM_SHIFTREG_component|dffs [1] $end
+$var wire 1 H! shift8|LPM_SHIFTREG_component|dffs [0] $end
+$var wire 1 I! con7|LPM_COUNTER_component|auto_generated|counter_reg_bit [6] $end
+$var wire 1 J! con7|LPM_COUNTER_component|auto_generated|counter_reg_bit [5] $end
+$var wire 1 K! con7|LPM_COUNTER_component|auto_generated|counter_reg_bit [4] $end
+$var wire 1 L! con7|LPM_COUNTER_component|auto_generated|counter_reg_bit [3] $end
+$var wire 1 M! con7|LPM_COUNTER_component|auto_generated|counter_reg_bit [2] $end
+$var wire 1 N! con7|LPM_COUNTER_component|auto_generated|counter_reg_bit [1] $end
+$var wire 1 O! con7|LPM_COUNTER_component|auto_generated|counter_reg_bit [0] $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
@@ -130,1146 +165,1132 @@ $dumpvars
 0$
 0%
 0&
-1'
-x(
+0.
+0-
+0,
+0+
+0*
 0)
-1*
-x+
-1,
-1-
-1.
+0(
+0'
 0/
 10
-01
+x1
 02
-03
-04
-z5
-06
-07
-08
+13
+x4
+15
+16
+17
+18
 09
-0:
+1:
 0;
 1<
-1=
-0>
+0=
+1>
 0?
-0@
-1A
+z@
+0A
 0B
 0C
 0D
 0E
-1F
+0F
 0G
 0H
 0I
-1J
+0J
 0K
 0L
 0M
 0N
-1O
-0P
-0Q
-1R
+0O
+1P
+1Q
+0R
 0S
 0T
-0U
+1U
 0V
-1W
-1X
+0W
+0X
 0Y
 0Z
 0[
 0\
 0]
-1^
-0_
+0^
+1_
 0`
 1a
 0b
-1c
+0c
 0d
-0e
+1e
 0f
 0g
-0h
-1i
+1h
+0i
 0j
-0k
+1k
 0l
-1m
+0m
 0n
 0o
-0p
+1p
 0q
 0r
 0s
-0z
-0y
-0x
-0w
-0v
+1t
 0u
-0t
-0$!
-0#!
-0"!
-0!!
-0~
-0}
-0|
+0v
+0w
+1x
+0y
+0z
 0{
-1%!
-0,!
-0+!
-0*!
-0)!
-0(!
-0'!
+1|
+0}
+0~
+0!!
+0"!
+0#!
+0$!
+0%!
 0&!
+0'!
+0(!
+1)!
+0*!
+0+!
+0,!
+0-!
+0.!
+0/!
+00!
+08!
+07!
+06!
+05!
+04!
+03!
+02!
+01!
+19!
+0@!
+0?!
+0>!
+0=!
+0<!
+0;!
+0:!
+0H!
+0G!
+0F!
+0E!
+0D!
+0C!
+0B!
+0A!
+0O!
+0N!
+0M!
+0L!
+0K!
+0J!
+0I!
 $end
 #10000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #20000
-0!
-0:
-0;
-1(
-#30000
-1!
-1:
-1;
-0(
-#40000
 0"
 0!
-0'
-0<
-0:
-0;
-1(
+00
+0P
+0N
+0O
+11
+0)!
+1$!
+0p
+0Q
 1q
-0^
-0=
-1_
-#50000
-1"
+#30000
 1!
-1'
-1<
-1:
-1;
-0(
-0q
-1^
-1=
-0_
-1`
+1N
+1O
+01
 1r
-1q
-0^
-17
+1%!
+1B
 1#
-1s
-13
-1_
-18
+1&!
+1?
+1C
 1$
-1z
-1,!
-1b
-0a
-1e
+1O!
+0<
+1s
+08
+19
+#40000
+1"
+0!
+10
+1P
+0N
+0O
+11
+1)!
+1Q
+0&!
+0?
+0C
+0$
+#50000
+1!
+1N
+1O
+01
+1&!
+1?
+1C
+1$
+1@!
+0O!
+1N!
+1R
+0s
+18
+0t
+09
+1t
+19
+1u
+0u
 #60000
 0!
-0:
-0;
-1(
-0s
-03
-08
+0N
+0O
+11
+0&!
+0?
+0C
 0$
 #70000
 1!
-1:
-1;
-0(
-1s
-13
-18
+1N
+1O
+01
+1&!
+1?
+1C
 1$
-1y
-0z
-1+!
-0c
-0e
-0b
-1a
-1d
-1c
-1e
-0d
+1?!
+1O!
+1s
+08
+0t
+09
+1u
 #80000
 0!
-0:
-0;
-1(
-0s
-03
-08
+0N
+0O
+11
+0&!
+0?
+0C
 0$
 #90000
 1!
-1:
-1;
-0(
-1s
-13
-18
+1N
+1O
+01
+1&!
+1?
+1C
 1$
-1z
-1*!
-1b
-0a
-1>
-0c
-0e
-1d
+1M!
+1>!
+0O!
+0N!
+1v
+0u
+0s
+18
+1t
+19
+1w
+09
+0v
+1u
+0w
 #100000
 0"
 0!
-0'
-0<
-0:
-0;
-1(
-0=
-0s
-03
-08
+00
+0P
+0N
+0O
+11
+0)!
+0Q
+0&!
+0?
+0C
 0$
 #110000
 1!
-1:
-1;
-0(
-1s
-13
-18
-1$
-0y
-1x
-0z
-1)!
-0,!
-1c
-1e
-1g
-0d
-0b
-1a
+1N
+1O
+01
+1&!
 1?
-0g
-1d
-1h
-0e
-0h
+1C
+1$
+1=!
+0@!
+1O!
+1S
+0R
+1s
+08
+19
 #120000
 1"
 0!
-1'
-1<
-0:
-0;
-1(
-1=
-0s
-03
-08
+10
+1P
+0N
+0O
+11
+1)!
+1Q
+0&!
+0?
+0C
 0$
 #130000
 1!
-1:
-1;
-0(
-1s
-13
-18
+1N
+1O
+01
+1&!
+1?
+1C
 1$
-1z
-1(!
-0+!
-1,!
-1b
-0a
-1@
-1e
+1<!
+0?!
+1@!
+0O!
+1N!
+1T
+1R
+0s
+18
+0t
+09
+1t
+19
+1v
+0u
+0v
+1u
+1w
+0w
 #140000
 0!
-0:
-0;
-1(
-0s
-03
-08
+0N
+0O
+11
+0&!
+0?
+0C
 0$
 #150000
 1!
-1:
-1;
-0(
-1s
-13
-18
+1N
+1O
+01
+1&!
+1?
+1C
 1$
-1y
-0z
-1'!
-0*!
-1+!
-1f
-0c
-0e
-0b
-1a
-0>
-1p
-11
-1g
-0d
-1c
-1e
-0q
-0_
-1h
-0g
-1d
-0h
-#160000
-0!
-0:
-0;
-1(
-0s
-03
+1;!
+0>!
+1?!
+1O!
+1s
 08
+0t
+09
+1v
+0u
+1w
+#160000
+0"
+0!
+00
+0P
+0N
+0O
+11
+0)!
+0Q
+0&!
+0?
+0C
 0$
 #170000
-0"
 1!
-0'
-0<
-1:
-1;
-0(
-0=
-1s
-13
-18
-1$
-0y
-0x
-1&!
-0)!
-1*!
-0,!
-0`
-0r
-0f
-0e
-0d
-0A
-0?
-1>
-1q
+1N
+1O
 01
-07
-0#
+1&!
+1?
+1C
+1$
+1L!
+0M!
+1:!
+0=!
+1>!
+0@!
+0O!
+0N!
+1~
+0x
+0w
+0v
+1u
+1<
+0U
+0S
+0R
 0s
-03
-0p
-1_
-08
-0$
+18
+1t
+19
+1=
+1y
+1x
+1w
+09!
+09
+0u
+1#!
+1V
+0y
+0$!
+1D
+1E
+1%
+1&
 #180000
 0!
-0:
-0;
-1(
+0N
+0O
+11
+0&!
+0?
+0C
+0$
 #190000
 1!
-1:
-1;
-0(
-1`
-1r
-17
-1#
-1s
-13
-18
-1$
-1z
-0(!
-1)!
-0+!
-1b
-0a
-1A
-0@
+1N
+1O
+01
+1&!
 1?
-1e
+1C
+1$
+0L!
+0<!
+1=!
+0?!
+1W
+0%!
+0~
+0w
+1U
+0T
+1S
+19!
+1X
+0=
+0B
+0#
+0&!
+0?
+0V
+0D
+0C
+0%
+0$
+0#!
+0E
+0&
 #200000
 0!
-0:
-0;
-1(
-0s
-03
-08
-0$
+0N
+0O
+11
 #210000
-1!
-1:
-1;
-0(
-1s
-13
-18
-1$
-1y
-0z
-0'!
-1(!
-0*!
-0c
-0e
-0b
-1a
-1@
-0>
-1d
-1c
-1e
-0d
-#220000
 x"
-0!
-x'
-x<
-0:
-0;
-1(
-x=
-0s
-03
-08
-0$
-#230000
 1!
-1:
-1;
-0(
-1s
-13
-18
-1$
-1z
-0&!
-1'!
-0)!
-x,!
-1b
-0a
-0?
-0c
-0e
-1d
-#240000
+x0
+xP
+1N
+1O
+01
+x)!
+xQ
+0W
+1Y
+0X
+1m
+1A
+1@
+1/
+#220000
 0!
-0:
-0;
-1(
-0s
-03
-08
-0$
-#310000
+0N
+0O
+11
+#270000
 0"
 1!
-0'
-0<
-1:
-1;
-0(
-0=
-1s
-13
-18
-1$
-0y
-1x
-0z
-1&!
-0(!
-x+!
-0,!
-1c
-1e
-1g
-0d
-0b
-1a
-0@
-0g
-1d
-1h
-0e
-0h
-#320000
+1N
+1O
+01
+1n
+0Y
+1'!
+0A
+z@
+1(!
+0/
+00
+0P
+0)!
+0Q
+18!
+xH!
+1Z
+0:
+x*!
+xM
+x.
+1[
+#280000
 1"
 0!
-1'
-1<
+10
+1P
+0N
+0O
+11
+1)!
+1Q
+0'!
+0(!
+#290000
+1!
+1N
+1O
+01
+1'!
+1(!
+17!
+08!
+xG!
+1H!
+0a
+0[
+0Z
+1:
+x+!
+1*!
+xL
+1M
+x-
+1.
+1b
+1a
+1[
+0b
+#300000
+0!
+0N
+0O
+11
+0'!
+0(!
+#310000
+1!
+1N
+1O
+01
+1'!
+1(!
+18!
+xF!
+1G!
+1Z
 0:
-0;
-1(
-1=
-0s
-03
-08
-0$
+x,!
+1+!
+xK
+1L
+x,
+1-
+0a
+0[
+1b
+#320000
+0!
+0N
+0O
+11
+0'!
+0(!
 #330000
 1!
-1:
-1;
-0(
-1s
-13
-18
-1$
-1z
-0'!
-x*!
-0+!
-1,!
-1b
-0a
-x>
-1e
-#340000
-0!
-0:
-0;
-1(
-0s
-03
-08
-0$
-#350000
-1!
-1:
-1;
-0(
-1s
-13
-18
-1$
-1y
-0z
-0&!
-x)!
-0*!
-1+!
-1f
-0c
-0e
+1N
+1O
+01
+1'!
+1(!
+16!
+07!
+08!
+xE!
+1F!
+1c
 0b
 1a
-x?
-0>
-1p
-11
-1g
-0d
-1c
-1e
-0q
-0_
-1h
-0g
+1[
+0Z
+1:
+x-!
+1,!
+xJ
+1K
+x+
+1,
 1d
-0h
-#360000
+0c
+1b
+0[
+0d
+#340000
 0!
+0N
+0O
+11
+0'!
+0(!
+#350000
+1!
+1N
+1O
+01
+1'!
+1(!
+18!
+xD!
+1E!
+1Z
 0:
-0;
-1(
-0s
-03
-08
-0$
+x.!
+1-!
+xI
+1J
+x*
+1+
+1[
+#360000
+0"
+0!
+00
+0P
+0N
+0O
+11
+0)!
+0Q
+0'!
+0(!
 #370000
 1!
-1:
-1;
-0(
-1s
-13
-18
-1$
-0y
-0x
-x(!
-0)!
-1*!
-0`
-0r
-0f
-0e
-0d
-x@
-0?
-1>
-1^
+1N
+1O
 01
-07
-0#
-0s
-03
-0p
-08
-0$
+1'!
+1(!
+17!
+08!
+xC!
+1D!
+0H!
+0a
+0[
+0Z
+1:
+x/!
+1.!
+0*!
+xH
+1I
+0M
+x)
+1*
+0.
+1c
+0b
+1a
+1[
+1d
+0c
+1b
+0d
 #380000
+1"
 0!
-0:
-0;
-1(
+10
+1P
+0N
+0O
+11
+1)!
+1Q
+0'!
+0(!
 #390000
 1!
-1:
-1;
-0(
+1N
+1O
+01
+1'!
+1(!
+18!
+xB!
+1C!
+0G!
+1H!
+1Z
+0:
+x0!
+1/!
+0+!
+1*!
+xG
+1H
+0L
+1M
+x(
+1)
+0-
+1.
+0a
+0[
+1c
+0b
+1d
 #400000
 0"
 0!
-0'
-0<
-0:
-0;
-1(
-1q
-0^
-0=
-1_
+00
+0P
+0N
+0O
+11
+0)!
+0Q
+0'!
+0(!
 #410000
 1!
-1:
-1;
-0(
-1`
-1r
-17
-1#
-1s
-13
-18
-1$
-1z
-x'!
-0(!
-1)!
-0,!
+1N
+1O
+01
+1'!
+1(!
+15!
+06!
+07!
+08!
+xA!
+1B!
+0F!
+1G!
+0H!
+0e
+0d
+1]
+0c
 1b
-0a
-0@
-1?
+1a
+1[
+0Z
+1:
+10!
+0,!
+1+!
+0*!
+xF
+1G
+0K
+1L
+0M
+x'
+1(
+0,
+1-
+0.
+1f
+1o
+1`
+0>
 1e
+1d
+0b
+0[
+0q
+0m
+0f
 #420000
 1"
 0!
-1'
-1<
-0:
-0;
-1(
-1=
-0s
-03
-08
-0$
+10
+1P
+0N
+0O
+11
+1)!
+1Q
+0'!
+0(!
 #430000
 1!
-1:
-1;
-0(
-1s
-13
-18
-1$
-1y
-0z
-x&!
-0'!
+1N
+1O
+01
+1'!
 1(!
-0+!
-1,!
-0c
-0e
-0b
-1a
-1@
-1d
-1c
-1e
+05!
+0n
+0r
+1A!
+0E!
+1F!
+0G!
+1H!
 0d
+0]
+0'!
+0o
+1p
+0-!
+1,!
+0+!
+1*!
+1F
+0J
+1K
+0L
+1M
+0(!
+1'
+0+
+1,
+0-
+1.
+0`
+1>
 #440000
-0"
 0!
-0'
-0<
-0:
-0;
-1(
-0=
-0s
-03
-08
-0$
+0N
+0O
+11
 #450000
 1!
-1:
-1;
-0(
-1s
-13
-18
-1$
-1z
-0&!
-1'!
-0*!
-1+!
-0,!
-1b
-0a
-0>
-0c
-0e
-1d
+1N
+1O
+01
 #460000
-1"
 0!
-1'
-1<
-0:
-0;
-1(
-1=
-0s
-03
-08
-0$
+0N
+0O
+11
 #470000
 1!
-1:
-1;
-0(
-1s
-13
-18
-1$
-0y
-1x
-0z
-1&!
-0)!
-1*!
-0+!
-1,!
-1c
-1e
-1g
-0d
-0b
-1a
-0A
-0?
-1>
-0g
-1d
-1h
-0e
-0h
+1N
+1O
+01
 #480000
-0"
 0!
-0'
-0<
-0:
-0;
-1(
-0=
-0s
-03
-08
-0$
+0N
+0O
+11
 #490000
 1!
-1:
-1;
-0(
-1s
-13
-18
-1$
-1z
-0(!
-1)!
-0*!
-1+!
-0,!
-1b
-0a
-1A
-0@
-1?
-0>
-1e
+1N
+1O
+01
 #500000
 0!
-0:
-0;
-1(
-0s
-03
-08
-0$
-#510000
-1"
-1!
-1'
-1<
-1:
-1;
-0(
-1=
-1s
-13
-18
-1$
-1y
-0z
-0'!
-1(!
-0)!
-1*!
-0+!
-1,!
-1f
-0c
-0e
-0b
-1a
-1@
-0?
-1>
-1p
+0N
+0O
 11
-1g
-0d
-1c
-1e
-0q
-0_
-1h
-0g
-1d
-0h
+#510000
+1!
+1N
+1O
+01
 #520000
 0!
-0:
-0;
-1(
-0s
-03
-08
-0$
+0N
+0O
+11
 #530000
 1!
-1:
-1;
-0(
-1s
-13
-18
-1$
-0y
-0x
-0&!
-1'!
-0(!
-1)!
-0*!
-1+!
-0`
-0r
-0f
-0e
-0d
-0@
-1?
-0>
-1^
+1N
+1O
 01
-07
-0#
-0s
-03
-0p
-08
-0$
 #540000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #550000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #560000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #570000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #580000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #590000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #600000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #610000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #620000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #630000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #640000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #650000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #660000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #670000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #680000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #690000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #700000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #710000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #720000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #730000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #740000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #750000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #760000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #770000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #780000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #790000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #800000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #810000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #820000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #830000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #840000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #850000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #860000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #870000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #880000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #890000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #900000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #910000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #920000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #930000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #940000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #950000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #960000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #970000
 1!
-1:
-1;
-0(
+1N
+1O
+01
 #980000
 0!
-0:
-0;
-1(
+0N
+0O
+11
 #990000
-0"
 1!
-0'
-0<
-1:
-1;
-0(
-1q
-0^
-0=
-1_
+1N
+1O
+01
 #1000000

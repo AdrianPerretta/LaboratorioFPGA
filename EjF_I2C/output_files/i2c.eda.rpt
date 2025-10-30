@@ -1,5 +1,5 @@
 EDA Netlist Writer report for i2c
-Wed Oct 29 23:46:30 2025
+Thu Oct 30 15:28:41 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Oct 29 23:46:30 2025 ;
+; EDA Netlist Writer Status ; Successful - Thu Oct 30 15:28:41 2025 ;
 ; Revision Name             ; i2c                                   ;
 ; Top-level Entity Name     ; i2cEsquematico                        ;
 ; Family                    ; Cyclone III                           ;
@@ -65,13 +65,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+----------------------------------------------------------------------------------+
-; Simulation Generated Files                                                       ;
-+----------------------------------------------------------------------------------+
-; Generated Files                                                                  ;
-+----------------------------------------------------------------------------------+
-; C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjF_i2c/simulation/modelsim/i2c.vo ;
-+----------------------------------------------------------------------------------+
++----------------------------------------------------------------------------+
+; Simulation Generated Files                                                 ;
++----------------------------------------------------------------------------+
+; Generated Files                                                            ;
++----------------------------------------------------------------------------+
+; C:/Users/User/Downloads/LaboratorioFPGA/EjF_I2C/simulation/modelsim/i2c.vo ;
++----------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -80,13 +80,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Oct 29 23:46:29 2025
+    Info: Processing started: Thu Oct 30 15:28:40 2025
 Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog i2c -c i2c
-Info (204019): Generated file i2c.vo in folder "C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjF_i2c/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file i2c.vo in folder "C:/Users/User/Downloads/LaboratorioFPGA/EjF_I2C/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4545 megabytes
-    Info: Processing ended: Wed Oct 29 23:46:31 2025
-    Info: Elapsed time: 00:00:02
+    Info: Peak virtual memory: 387 megabytes
+    Info: Processing ended: Thu Oct 30 15:28:41 2025
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

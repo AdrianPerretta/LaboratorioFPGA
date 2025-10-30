@@ -7,6 +7,15 @@ SDA <> inst12
 cout1 <= i2c:maquina.Hab_dir
 cout2 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
 cout3 <= lpm_compare0:comparador.aeb
+cout4 <= lpm_counter0:con7.cout
+DATO[0] <= lpm_shiftreg0:shift8.q[0]
+DATO[1] <= lpm_shiftreg0:shift8.q[1]
+DATO[2] <= lpm_shiftreg0:shift8.q[2]
+DATO[3] <= lpm_shiftreg0:shift8.q[3]
+DATO[4] <= lpm_shiftreg0:shift8.q[4]
+DATO[5] <= lpm_shiftreg0:shift8.q[5]
+DATO[6] <= lpm_shiftreg0:shift8.q[6]
+DATO[7] <= lpm_shiftreg0:shift8.q[7]
 
 
 |i2cEsquematico|i2c:maquina
@@ -45,7 +54,7 @@ q[6] <= lpm_counter:LPM_COUNTER_component.q[6]
 
 
 |i2cEsquematico|lpm_counter0:con7|lpm_counter:LPM_COUNTER_component
-clock => cntr_4hj:auto_generated.clock
+clock => cntr_8hj:auto_generated.clock
 clk_en => ~NO_FANOUT~
 cnt_en => ~NO_FANOUT~
 updown => ~NO_FANOUT~
@@ -65,14 +74,14 @@ data[4] => ~NO_FANOUT~
 data[5] => ~NO_FANOUT~
 data[6] => ~NO_FANOUT~
 cin => ~NO_FANOUT~
-q[0] <= cntr_4hj:auto_generated.q[0]
-q[1] <= cntr_4hj:auto_generated.q[1]
-q[2] <= cntr_4hj:auto_generated.q[2]
-q[3] <= cntr_4hj:auto_generated.q[3]
-q[4] <= cntr_4hj:auto_generated.q[4]
-q[5] <= cntr_4hj:auto_generated.q[5]
-q[6] <= cntr_4hj:auto_generated.q[6]
-cout <= cntr_4hj:auto_generated.cout
+q[0] <= cntr_8hj:auto_generated.q[0]
+q[1] <= cntr_8hj:auto_generated.q[1]
+q[2] <= cntr_8hj:auto_generated.q[2]
+q[3] <= cntr_8hj:auto_generated.q[3]
+q[4] <= cntr_8hj:auto_generated.q[4]
+q[5] <= cntr_8hj:auto_generated.q[5]
+q[6] <= cntr_8hj:auto_generated.q[6]
+cout <= cntr_8hj:auto_generated.cout
 eq[0] <= <GND>
 eq[1] <= <GND>
 eq[2] <= <GND>
@@ -91,7 +100,7 @@ eq[14] <= <GND>
 eq[15] <= <GND>
 
 
-|i2cEsquematico|lpm_counter0:con7|lpm_counter:LPM_COUNTER_component|cntr_4hj:auto_generated
+|i2cEsquematico|lpm_counter0:con7|lpm_counter:LPM_COUNTER_component|cntr_8hj:auto_generated
 clock => counter_reg_bit[6].CLK
 clock => counter_reg_bit[5].CLK
 clock => counter_reg_bit[4].CLK
@@ -109,7 +118,7 @@ q[5] <= counter_reg_bit[5].DB_MAX_OUTPUT_PORT_TYPE
 q[6] <= counter_reg_bit[6].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|i2cEsquematico|lpm_counter0:con7|lpm_counter:LPM_COUNTER_component|cntr_4hj:auto_generated|cmpr_kfc:cmpr1
+|i2cEsquematico|lpm_counter0:con7|lpm_counter:LPM_COUNTER_component|cntr_8hj:auto_generated|cmpr_kfc:cmpr1
 aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
 dataa[0] => data_wire[0].IN0
 dataa[1] => data_wire[0].IN0
@@ -141,7 +150,7 @@ q[7] <= lpm_counter:LPM_COUNTER_component.q[7]
 
 
 |i2cEsquematico|lpm_counter1:con8|lpm_counter:LPM_COUNTER_component
-clock => cntr_6hj:auto_generated.clock
+clock => cntr_7hj:auto_generated.clock
 clk_en => ~NO_FANOUT~
 cnt_en => ~NO_FANOUT~
 updown => ~NO_FANOUT~
@@ -162,15 +171,15 @@ data[5] => ~NO_FANOUT~
 data[6] => ~NO_FANOUT~
 data[7] => ~NO_FANOUT~
 cin => ~NO_FANOUT~
-q[0] <= cntr_6hj:auto_generated.q[0]
-q[1] <= cntr_6hj:auto_generated.q[1]
-q[2] <= cntr_6hj:auto_generated.q[2]
-q[3] <= cntr_6hj:auto_generated.q[3]
-q[4] <= cntr_6hj:auto_generated.q[4]
-q[5] <= cntr_6hj:auto_generated.q[5]
-q[6] <= cntr_6hj:auto_generated.q[6]
-q[7] <= cntr_6hj:auto_generated.q[7]
-cout <= cntr_6hj:auto_generated.cout
+q[0] <= cntr_7hj:auto_generated.q[0]
+q[1] <= cntr_7hj:auto_generated.q[1]
+q[2] <= cntr_7hj:auto_generated.q[2]
+q[3] <= cntr_7hj:auto_generated.q[3]
+q[4] <= cntr_7hj:auto_generated.q[4]
+q[5] <= cntr_7hj:auto_generated.q[5]
+q[6] <= cntr_7hj:auto_generated.q[6]
+q[7] <= cntr_7hj:auto_generated.q[7]
+cout <= cntr_7hj:auto_generated.cout
 eq[0] <= <GND>
 eq[1] <= <GND>
 eq[2] <= <GND>
@@ -189,7 +198,7 @@ eq[14] <= <GND>
 eq[15] <= <GND>
 
 
-|i2cEsquematico|lpm_counter1:con8|lpm_counter:LPM_COUNTER_component|cntr_6hj:auto_generated
+|i2cEsquematico|lpm_counter1:con8|lpm_counter:LPM_COUNTER_component|cntr_7hj:auto_generated
 clock => counter_reg_bit[7].CLK
 clock => counter_reg_bit[6].CLK
 clock => counter_reg_bit[5].CLK
@@ -209,7 +218,7 @@ q[6] <= counter_reg_bit[6].DB_MAX_OUTPUT_PORT_TYPE
 q[7] <= counter_reg_bit[7].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|i2cEsquematico|lpm_counter1:con8|lpm_counter:LPM_COUNTER_component|cntr_6hj:auto_generated|cmpr_lfc:cmpr1
+|i2cEsquematico|lpm_counter1:con8|lpm_counter:LPM_COUNTER_component|cntr_7hj:auto_generated|cmpr_lfc:cmpr1
 aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
 dataa[0] => data_wire[0].IN0
 dataa[1] => data_wire[0].IN0

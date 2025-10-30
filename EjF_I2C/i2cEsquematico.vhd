@@ -14,7 +14,7 @@
 
 -- PROGRAM		"Quartus II 64-Bit"
 -- VERSION		"Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
--- CREATED		"Wed Oct 29 23:45:49 2025"
+-- CREATED		"Thu Oct 30 15:28:26 2025"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -29,7 +29,9 @@ ENTITY i2cEsquematico IS
 		Prueba :  OUT  STD_LOGIC;
 		cout1 :  OUT  STD_LOGIC;
 		cout2 :  OUT  STD_LOGIC;
-		cout3 :  OUT  STD_LOGIC
+		cout3 :  OUT  STD_LOGIC;
+		cout4 :  OUT  STD_LOGIC;
+		DATO :  OUT  STD_LOGIC_VECTOR(7 DOWNTO 0)
 	);
 END i2cEsquematico;
 
@@ -108,6 +110,7 @@ Prueba <= SYNTHESIZED_WIRE_18;
 cout1 <= SYNTHESIZED_WIRE_6;
 cout2 <= SYNTHESIZED_WIRE_16;
 cout3 <= SYNTHESIZED_WIRE_11;
+cout4 <= SYNTHESIZED_WIRE_9;
 SYNTHESIZED_WIRE_7 <= '0';
 
 
@@ -161,7 +164,8 @@ PORT MAP(clock => SYNTHESIZED_WIRE_16,
 
 b2v_shift8 : lpm_shiftreg0
 PORT MAP(clock => SYNTHESIZED_WIRE_17,
-		 shiftin => SYNTHESIZED_WIRE_19);
+		 shiftin => SYNTHESIZED_WIRE_19,
+		 q => DATO);
 
 
 END bdf_type;
