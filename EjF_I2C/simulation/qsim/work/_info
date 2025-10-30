@@ -2,80 +2,160 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Facultad\FPGA\LaboratorioFPGA\EjF_I2C\simulation\qsim
+Z0 dC:\Users\Adrian\Downloads\lab\LaboratorioFPGA\EjF_i2c\simulation\qsim
 vi2c
-Z1 !s100 O:zkI2^Wgdb`WVfHI0;422
-Z2 IJ6=h6J39aMN5f9Vbdlk]n1
-Z3 V4EYV=bGJ4oe11b<?BKSmR0
-Z4 dC:\Facultad\FPGA\LaboratorioFPGA\EjF_I2C\simulation\qsim
-Z5 w1761535188
-Z6 8i2c.vo
-Z7 Fi2c.vo
+Z1 I5E7R]mcJ4ecciAf@6VdDK2
+Z2 VGakEh:C0UU9ZILhVmnA382
+Z3 dC:\Users\Adrian\Downloads\lab\LaboratorioFPGA\EjF_i2c\simulation\qsim
+Z4 w1761789276
+Z5 8i2c.vo
+Z6 Fi2c.vo
 L0 31
-Z8 OV;L;10.1d;51
+Z7 OV;L;10.1d;51
 r1
 31
-Z9 !s90 -work|work|i2c.vo|
-Z10 o-work work -O0
+Z8 !s90 -work|work|i2c.vo|
+Z9 o-work work -O0
+Z10 !s100 j5b1Se@Ve5Xz^Boa^lIH82
+Z11 !s108 1761789277.257000
+Z12 !s107 i2c.vo|
 !i10b 1
 !s85 0
-Z11 !s108 1761535188.578000
-Z12 !s107 i2c.vo|
 !s101 -O0
 vi2c_vlg_check_tst
-!i10b 1
-Z13 !s100 SWlkha@lSL[]h2R90B^Zj0
-Z14 I2821heng5_7Radm;hG[JS0
-Z15 Vd19`mf?`dRZ0nU_bCHP<02
-R4
-Z16 w1761535187
+Z13 !s100 MegRPK<[7f8Rb@8_6=eA80
+Z14 IXb5;Q:U0@moN:a1:H1`jV3
+Z15 VBPM7PhJdE]DQ@ZD]cl@HC2
+R3
+Z16 w1761789274
 Z17 8i2c.vt
 Z18 Fi2c.vt
 L0 67
-R8
+R7
 r1
-!s85 0
 31
-Z19 !s108 1761535188.641000
+Z19 !s108 1761789277.382000
 Z20 !s107 i2c.vt|
 Z21 !s90 -work|work|i2c.vt|
-!s101 -O0
-R10
-vi2c_vlg_sample_tst
+R9
 !i10b 1
-Z22 !s100 1E[njb4_adlLh1jNOMadZ2
-Z23 I7h0]<lc]Dg:6I^K5b?n`I2
-Z24 VF9_Oj<nY`T]]FVG1KWKRE1
-R4
+!s85 0
+!s101 -O0
+vi2c_vlg_sample_tst
+Z22 !s100 f6``VFENYj1=FNfEEU9_m3
+Z23 IFJ^legd9M3Nk:QFJQIDm51
+Z24 Vb=>TE>Hi21P`38?hclnkW2
+R3
 R16
 R17
 R18
 L0 29
-R8
+R7
 r1
-!s85 0
 31
 R19
 R20
 R21
-!s101 -O0
-R10
-vi2c_vlg_vec_tst
+R9
 !i10b 1
-Z25 !s100 5FVS?5H[9^VlJN8l??@em1
-Z26 IX@6<XMPR@;@Ih?5@LVlGO2
+!s85 0
+!s101 -O0
+vi2c_vlg_vec_tst
+Z25 !s100 ;ZfCTYeP25ZzFLK23QD[70
+Z26 IP]8ik_@ZX]N7e8kHXfXfR2
 Z27 VG7leF=koEPmlj1YS<cFiE2
-R4
+R3
 R16
 R17
 R18
-Z28 L0 395
-R8
+Z28 L0 150
+R7
 r1
-!s85 0
 31
 R19
 R20
 R21
+R9
+!i10b 1
+!s85 0
 !s101 -O0
-R10
+vi2cEsquematico
+Z29 IniSehdk`HjGH;?RaXB@Oa0
+Z30 Vkle^Y:b6>Mo0dU[[:fQ@_2
+R3
+Z31 w1761792390
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z32 ni2c@esquematico
+!i10b 1
+Z33 !s100 oj<zDz[MHSlDZCYn9CPn@1
+!s85 0
+Z34 !s108 1761792392.177000
+R12
+!s101 -O0
+vi2cEsquematico_vlg_check_tst
+!i10b 1
+Z35 !s100 omkDcAW_e>=c5MmM=_a8<2
+Z36 I_@]>Jz6MXlm:Y8NN5<N^O2
+Z37 V:l58z81i@NO`n`<QE4o>I3
+R3
+Z38 w1761792389
+R17
+R18
+L0 59
+R7
+r1
+!s85 0
+31
+Z39 !s108 1761792392.330000
+Z40 !s107 i2c.vt|
+R21
+!s101 -O0
+R9
+Z41 ni2c@esquematico_vlg_check_tst
+vi2cEsquematico_vlg_sample_tst
+!i10b 1
+Z42 !s100 8z9T3B]i`?0HQhiU_^[ZU2
+Z43 IVKg?[=JfUH;3KNB0cYoRk1
+Z44 V>8hzZVcI97><A^IXP3Z9>3
+R3
+R38
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R39
+R40
+R21
+!s101 -O0
+R9
+Z45 ni2c@esquematico_vlg_sample_tst
+vi2cEsquematico_vlg_vec_tst
+!i10b 1
+Z46 !s100 l?V4j[0Vh]NUO`CUa4_Od2
+Z47 I9UCcD3iAhG0c1@<a>JoH`2
+Z48 Vj8BV[24DzINC3HeLciOEo0
+R3
+R38
+R17
+R18
+Z49 L0 256
+R7
+r1
+!s85 0
+31
+R39
+R40
+R21
+!s101 -O0
+R9
+Z50 ni2c@esquematico_vlg_vec_tst

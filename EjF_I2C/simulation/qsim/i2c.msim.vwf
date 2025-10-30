@@ -32,7 +32,7 @@ HEADER
 	GRID_DUTY_CYCLE = 50;
 }
 
-SIGNAL("i2c_vlg_vec_tst|clk")
+SIGNAL("i2cEsquematico_vlg_vec_tst|clock")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -42,177 +42,7 @@ SIGNAL("i2c_vlg_vec_tst|clk")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|dato")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = BUS;
-	WIDTH = 8;
-	LSB_INDEX = 0;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("i2c_vlg_vec_tst|dato[7]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "i2c_vlg_vec_tst|dato";
-}
-
-SIGNAL("i2c_vlg_vec_tst|dato[6]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "i2c_vlg_vec_tst|dato";
-}
-
-SIGNAL("i2c_vlg_vec_tst|dato[5]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "i2c_vlg_vec_tst|dato";
-}
-
-SIGNAL("i2c_vlg_vec_tst|dato[4]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "i2c_vlg_vec_tst|dato";
-}
-
-SIGNAL("i2c_vlg_vec_tst|dato[3]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "i2c_vlg_vec_tst|dato";
-}
-
-SIGNAL("i2c_vlg_vec_tst|dato[2]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "i2c_vlg_vec_tst|dato";
-}
-
-SIGNAL("i2c_vlg_vec_tst|dato[1]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "i2c_vlg_vec_tst|dato";
-}
-
-SIGNAL("i2c_vlg_vec_tst|dato[0]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "i2c_vlg_vec_tst|dato";
-}
-
-SIGNAL("i2c_vlg_vec_tst|dir")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = BUS;
-	WIDTH = 7;
-	LSB_INDEX = 0;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("i2c_vlg_vec_tst|dir[6]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "i2c_vlg_vec_tst|dir";
-}
-
-SIGNAL("i2c_vlg_vec_tst|dir[5]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "i2c_vlg_vec_tst|dir";
-}
-
-SIGNAL("i2c_vlg_vec_tst|dir[4]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "i2c_vlg_vec_tst|dir";
-}
-
-SIGNAL("i2c_vlg_vec_tst|dir[3]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "i2c_vlg_vec_tst|dir";
-}
-
-SIGNAL("i2c_vlg_vec_tst|dir[2]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "i2c_vlg_vec_tst|dir";
-}
-
-SIGNAL("i2c_vlg_vec_tst|dir[1]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "i2c_vlg_vec_tst|dir";
-}
-
-SIGNAL("i2c_vlg_vec_tst|dir[0]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "i2c_vlg_vec_tst|dir";
-}
-
-SIGNAL("i2c_vlg_vec_tst|reset")
+SIGNAL("i2cEsquematico_vlg_vec_tst|treg_SDA")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -222,7 +52,7 @@ SIGNAL("i2c_vlg_vec_tst|reset")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|rowed")
+SIGNAL("i2cEsquematico_vlg_vec_tst|cout1")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -232,7 +62,7 @@ SIGNAL("i2c_vlg_vec_tst|rowed")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|SDA")
+SIGNAL("i2cEsquematico_vlg_vec_tst|cout2")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -242,7 +72,7 @@ SIGNAL("i2c_vlg_vec_tst|SDA")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|acknow")
+SIGNAL("i2cEsquematico_vlg_vec_tst|cout3")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -252,7 +82,7 @@ SIGNAL("i2c_vlg_vec_tst|acknow")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|dato_mostrado[7]")
+SIGNAL("i2cEsquematico_vlg_vec_tst|Prueba")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -262,7 +92,7 @@ SIGNAL("i2c_vlg_vec_tst|dato_mostrado[7]")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|dato_mostrado[6]")
+SIGNAL("i2cEsquematico_vlg_vec_tst|SDA")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -272,7 +102,7 @@ SIGNAL("i2c_vlg_vec_tst|dato_mostrado[6]")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|dato_mostrado[5]")
+SIGNAL("i2cEsquematico_vlg_vec_tst|sampler")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -282,7 +112,7 @@ SIGNAL("i2c_vlg_vec_tst|dato_mostrado[5]")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|dato_mostrado[4]")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|gnd")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -292,7 +122,7 @@ SIGNAL("i2c_vlg_vec_tst|dato_mostrado[4]")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|dato_mostrado[3]")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|vcc")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -302,7 +132,7 @@ SIGNAL("i2c_vlg_vec_tst|dato_mostrado[3]")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|dato_mostrado[2]")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|unknown")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -312,7 +142,7 @@ SIGNAL("i2c_vlg_vec_tst|dato_mostrado[2]")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|dato_mostrado[1]")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|devclrn")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -322,7 +152,7 @@ SIGNAL("i2c_vlg_vec_tst|dato_mostrado[1]")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|dato_mostrado[0]")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|devpor")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -332,7 +162,7 @@ SIGNAL("i2c_vlg_vec_tst|dato_mostrado[0]")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|Hab_Dat")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|devoe")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -342,7 +172,7 @@ SIGNAL("i2c_vlg_vec_tst|Hab_Dat")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|Hab_Dir")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita6~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -352,7 +182,7 @@ SIGNAL("i2c_vlg_vec_tst|Hab_Dir")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|leer")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -362,7 +192,7 @@ SIGNAL("i2c_vlg_vec_tst|leer")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|sampler")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|maquina|Selector0~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -372,7 +202,7 @@ SIGNAL("i2c_vlg_vec_tst|sampler")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|gnd")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|inst10~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -382,7 +212,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|gnd")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|vcc")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|inst9~clkctrl_outclk")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -392,7 +222,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|vcc")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|unknown")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|inst10~clkctrl_outclk")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -402,7 +232,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|unknown")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|devclrn")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|inst12~o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -412,7 +242,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|devclrn")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|devpor")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|Prueba~output_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -422,7 +252,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|devpor")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|devoe")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|cout1~output_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -432,7 +262,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|devoe")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dir[0]~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|cout2~output_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -442,7 +272,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dir[0]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dir[1]~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|cout3~output_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -452,7 +282,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dir[1]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dir[2]~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|clock~input_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -462,7 +292,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dir[2]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dir[3]~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|clock~inputclkctrl_outclk")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -472,7 +302,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dir[3]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dir[4]~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|inst12_ibuf~o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -482,7 +312,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dir[4]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dir[5]~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[0]~feeder_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -492,7 +322,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dir[5]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dir[6]~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[3]~feeder_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -502,7 +332,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dir[6]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dato[0]~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[4]~feeder_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -512,7 +342,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dato[0]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dato[1]~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[5]~feeder_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -522,7 +352,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dato[1]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dato[2]~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|comparador|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -532,7 +362,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dato[2]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dato[3]~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|maquina|reg_fstate~3_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -542,7 +372,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dato[3]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dato[4]~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.ROW~q")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -552,7 +382,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dato[4]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dato[5]~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.ACK_Estado~feeder_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -562,7 +392,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dato[5]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dato[6]~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.ACK_Estado~q")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -572,7 +402,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dato[6]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dato[7]~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -582,7 +412,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dato[7]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|rowed~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|~GND~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -592,7 +422,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|rowed~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dato_mostrado[0]~output_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -602,7 +432,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dato_mostrado[0]~output_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dato_mostrado[1]~output_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita1~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -612,7 +442,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dato_mostrado[1]~output_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dato_mostrado[2]~output_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -622,7 +452,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dato_mostrado[2]~output_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dato_mostrado[3]~output_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -632,7 +462,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dato_mostrado[3]~output_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dato_mostrado[4]~output_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -642,7 +472,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dato_mostrado[4]~output_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dato_mostrado[5]~output_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita3~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -652,7 +482,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dato_mostrado[5]~output_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dato_mostrado[6]~output_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~1_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -662,7 +492,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dato_mostrado[6]~output_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|dato_mostrado[7]~output_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita3~COUT")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -672,7 +502,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|dato_mostrado[7]~output_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|Hab_Dat~output_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita4~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -682,7 +512,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|Hab_Dat~output_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|Hab_Dir~output_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita4~COUT")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -692,7 +522,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|Hab_Dir~output_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|leer~output_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita5~COUT")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -702,7 +532,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|leer~output_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|acknow~output_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita6~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -712,7 +542,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|acknow~output_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|clk~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita6~COUT")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -722,7 +552,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|clk~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|clk~inputclkctrl_outclk")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita7~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -732,7 +562,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|clk~inputclkctrl_outclk")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|reset~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita5~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -742,7 +572,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|reset~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|state.Oscioso~q")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -752,7 +582,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|state.Oscioso~q")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|SDA~input_o")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita7~COUT")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -762,7 +592,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|SDA~input_o")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|state~12_combout")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita7~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -772,7 +602,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|state~12_combout")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|state.Guarda_dir~feeder_combout")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|cout_actual~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -782,7 +612,7 @@ SIGNAL("i2c_vlg_vec_tst|i1|state.Guarda_dir~feeder_combout")
 	PARENT = "";
 }
 
-SIGNAL("i2c_vlg_vec_tst|i1|state.Guarda_dir~q")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|maquina|Selector2~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -792,7 +622,477 @@ SIGNAL("i2c_vlg_vec_tst|i1|state.Guarda_dir~q")
 	PARENT = "";
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|clk")
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.Guardar_Dato~q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|maquina|Selector0~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|maquina|Selector0~2_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|maquina|Selector0~3_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.Oscioso~q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita3~combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita3~COUT")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita4~combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita4~COUT")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita5~combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita5~COUT")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita6~COUT")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita6~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|maquina|reg_fstate~2_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|maquina|Selector1~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.Guardar_dir~q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|inst9~combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[6]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[5]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[4]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[7]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[6]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[5]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[4]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|comparador|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[6]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[5]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[4]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|clock")
 {
 	NODE
 	{
@@ -821,13 +1121,7 @@ TRANSITION_LIST("i2c_vlg_vec_tst|clk")
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
+		LEVEL 0 FOR 70.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
@@ -900,273 +1194,91 @@ TRANSITION_LIST("i2c_vlg_vec_tst|clk")
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|dato[7]")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|treg_SDA")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dato[6]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dato[5]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dato[4]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dato[3]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dato[2]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dato[1]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dato[0]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dir[6]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dir[5]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dir[4]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dir[3]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dir[2]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dir[1]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dir[0]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|reset")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 980.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|rowed")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|SDA")
-{
-	NODE
-	{
-		REPEAT = 1;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL X FOR 90.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 960.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|acknow")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dato_mostrado[7]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dato_mostrado[6]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dato_mostrado[5]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dato_mostrado[4]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dato_mostrado[3]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dato_mostrado[2]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dato_mostrado[1]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|dato_mostrado[0]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|Hab_Dat")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|Hab_Dir")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 30.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 950.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 480.0;
+		LEVEL 0 FOR 10.0;
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|leer")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|cout1")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 180.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|cout2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 480.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|cout3")
 {
 	NODE
 	{
@@ -1175,7 +1287,40 @@ TRANSITION_LIST("i2c_vlg_vec_tst|leer")
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|sampler")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|Prueba")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|SDA")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL X FOR 90.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 480.0;
+		LEVEL 0 FOR 10.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|sampler")
 {
 	NODE
 	{
@@ -1204,13 +1349,7 @@ TRANSITION_LIST("i2c_vlg_vec_tst|sampler")
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
+		LEVEL 1 FOR 70.0;
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
@@ -1283,7 +1422,7 @@ TRANSITION_LIST("i2c_vlg_vec_tst|sampler")
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|gnd")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|gnd")
 {
 	NODE
 	{
@@ -1292,7 +1431,7 @@ TRANSITION_LIST("i2c_vlg_vec_tst|i1|gnd")
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|vcc")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|vcc")
 {
 	NODE
 	{
@@ -1301,7 +1440,7 @@ TRANSITION_LIST("i2c_vlg_vec_tst|i1|vcc")
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|unknown")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|unknown")
 {
 	NODE
 	{
@@ -1310,7 +1449,7 @@ TRANSITION_LIST("i2c_vlg_vec_tst|i1|unknown")
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|devclrn")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|devclrn")
 {
 	NODE
 	{
@@ -1319,7 +1458,7 @@ TRANSITION_LIST("i2c_vlg_vec_tst|i1|devclrn")
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|devpor")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|devpor")
 {
 	NODE
 	{
@@ -1328,7 +1467,7 @@ TRANSITION_LIST("i2c_vlg_vec_tst|i1|devpor")
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|devoe")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|devoe")
 {
 	NODE
 	{
@@ -1337,7 +1476,16 @@ TRANSITION_LIST("i2c_vlg_vec_tst|i1|devoe")
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dir[0]~input_o")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita6~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~0_combout")
 {
 	NODE
 	{
@@ -1346,25 +1494,22 @@ TRANSITION_LIST("i2c_vlg_vec_tst|i1|dir[0]~input_o")
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dir[1]~input_o")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|maquina|Selector0~0_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 150.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 180.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 140.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 470.0;
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dir[2]~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dir[3]~input_o")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|inst10~combout")
 {
 	NODE
 	{
@@ -1373,207 +1518,52 @@ TRANSITION_LIST("i2c_vlg_vec_tst|i1|dir[3]~input_o")
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dir[4]~input_o")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|inst9~clkctrl_outclk")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dir[5]~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dir[6]~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dato[0]~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dato[1]~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dato[2]~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dato[3]~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dato[4]~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dato[5]~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dato[6]~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dato[7]~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|rowed~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dato_mostrado[0]~output_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dato_mostrado[1]~output_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dato_mostrado[2]~output_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dato_mostrado[3]~output_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dato_mostrado[4]~output_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dato_mostrado[5]~output_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dato_mostrado[6]~output_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|dato_mostrado[7]~output_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|Hab_Dat~output_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|Hab_Dir~output_o")
-{
-	NODE
-	{
-		REPEAT = 1;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 950.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 480.0;
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|leer~output_o")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|inst10~clkctrl_outclk")
 {
 	NODE
 	{
@@ -1582,7 +1572,16 @@ TRANSITION_LIST("i2c_vlg_vec_tst|i1|leer~output_o")
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|acknow~output_o")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|inst12~o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL Z FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|Prueba~output_o")
 {
 	NODE
 	{
@@ -1591,120 +1590,27 @@ TRANSITION_LIST("i2c_vlg_vec_tst|i1|acknow~output_o")
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|clk~input_o")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|cout1~output_o")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 180.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 470.0;
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|clk~inputclkctrl_outclk")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|cout2~output_o")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 10.0;
+		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
@@ -1716,165 +1622,1279 @@ TRANSITION_LIST("i2c_vlg_vec_tst|i1|clk~inputclkctrl_outclk")
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|reset~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 980.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|state.Oscioso~q")
-{
-	NODE
-	{
-		REPEAT = 1;
 		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 950.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 480.0;
 	}
 }
 
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|SDA~input_o")
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|cout3~output_o")
 {
 	NODE
 	{
 		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|clock~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|clock~inputclkctrl_outclk")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|inst12_ibuf~o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL X FOR 90.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 960.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|state~12_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 970.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|state.Guarda_dir~feeder_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 970.0;
-	}
-}
-
-TRANSITION_LIST("i2c_vlg_vec_tst|i1|state.Guarda_dir~q")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 30.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 950.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 480.0;
+		LEVEL 0 FOR 10.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[0]~feeder_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL X FOR 90.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 480.0;
+		LEVEL 0 FOR 10.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[3]~feeder_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 90.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 120.0;
+		LEVEL X FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[4]~feeder_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 110.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 120.0;
+		LEVEL X FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[5]~feeder_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 130.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL X FOR 40.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|comparador|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 170.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 280.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 510.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|maquina|reg_fstate~3_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.ROW~q")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.ACK_Estado~feeder_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.ACK_Estado~q")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|~GND~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita1~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita3~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita3~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita4~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita4~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita5~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita6~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita6~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita7~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita5~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita7~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita7~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|cout_actual~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|maquina|Selector2~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.Guardar_Dato~q")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|maquina|Selector0~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|maquina|Selector0~2_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 330.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 130.0;
+		LEVEL 1 FOR 460.0;
+		LEVEL 0 FOR 10.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|maquina|Selector0~3_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 110.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 180.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 110.0;
+		LEVEL 0 FOR 480.0;
+		LEVEL 1 FOR 10.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.Oscioso~q")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 180.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 490.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 490.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 90.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 140.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 530.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 90.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 140.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 150.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 180.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 140.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita3~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita3~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita4~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita4~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita5~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita5~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita6~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita6~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|maquina|reg_fstate~2_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 150.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 180.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 140.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|maquina|Selector1~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 110.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 180.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 110.0;
+		LEVEL 0 FOR 480.0;
+		LEVEL 1 FOR 10.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.Guardar_dir~q")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 180.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|inst9~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 480.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[6]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 110.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 140.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 490.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[7]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[6]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|comparador|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[6]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 170.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL X FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 150.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL X FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 130.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL X FOR 40.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 110.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 120.0;
+		LEVEL X FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 90.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 120.0;
+		LEVEL X FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 120.0;
+		LEVEL X FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 470.0;
+	}
+}
+
+TRANSITION_LIST("i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL X FOR 80.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 490.0;
 	}
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|clk";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|clock";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 0;
@@ -1883,177 +2903,160 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|treg_SDA";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 1;
 	TREE_LEVEL = 0;
-	CHILDREN = 2, 3, 4, 5, 6, 7, 8, 9;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato[7]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|cout1";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 2;
-	TREE_LEVEL = 1;
-	PARENT = 1;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato[6]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|cout2";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 3;
-	TREE_LEVEL = 1;
-	PARENT = 1;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato[5]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|cout3";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 4;
-	TREE_LEVEL = 1;
-	PARENT = 1;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato[4]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|Prueba";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 5;
-	TREE_LEVEL = 1;
-	PARENT = 1;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato[3]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|SDA";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 6;
-	TREE_LEVEL = 1;
-	PARENT = 1;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato[2]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|sampler";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 7;
-	TREE_LEVEL = 1;
-	PARENT = 1;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato[1]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|gnd";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 8;
-	TREE_LEVEL = 1;
-	PARENT = 1;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato[0]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|vcc";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 9;
-	TREE_LEVEL = 1;
-	PARENT = 1;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dir";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|unknown";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 10;
 	TREE_LEVEL = 0;
-	CHILDREN = 11, 12, 13, 14, 15, 16, 17;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dir[6]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|devclrn";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 11;
-	TREE_LEVEL = 1;
-	PARENT = 10;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dir[5]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|devpor";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 12;
-	TREE_LEVEL = 1;
-	PARENT = 10;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dir[4]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|devoe";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 13;
-	TREE_LEVEL = 1;
-	PARENT = 10;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dir[3]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita6~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 14;
-	TREE_LEVEL = 1;
-	PARENT = 10;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dir[2]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 15;
-	TREE_LEVEL = 1;
-	PARENT = 10;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dir[1]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|maquina|Selector0~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 16;
-	TREE_LEVEL = 1;
-	PARENT = 10;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dir[0]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|inst10~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 17;
-	TREE_LEVEL = 1;
-	PARENT = 10;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|reset";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|inst9~clkctrl_outclk";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 18;
@@ -2062,7 +3065,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|rowed";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|inst10~clkctrl_outclk";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 19;
@@ -2071,7 +3074,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|SDA";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|inst12~o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 20;
@@ -2080,7 +3083,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|acknow";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|Prueba~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 21;
@@ -2089,7 +3092,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato_mostrado[7]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|cout1~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 22;
@@ -2098,7 +3101,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato_mostrado[6]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|cout2~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 23;
@@ -2107,7 +3110,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato_mostrado[5]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|cout3~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 24;
@@ -2116,7 +3119,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato_mostrado[4]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|clock~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 25;
@@ -2125,7 +3128,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato_mostrado[3]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|clock~inputclkctrl_outclk";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 26;
@@ -2134,7 +3137,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato_mostrado[2]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|inst12_ibuf~o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 27;
@@ -2143,7 +3146,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato_mostrado[1]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[0]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 28;
@@ -2152,7 +3155,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|dato_mostrado[0]";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[3]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 29;
@@ -2161,7 +3164,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|Hab_Dat";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[4]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 30;
@@ -2170,7 +3173,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|Hab_Dir";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[5]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 31;
@@ -2179,7 +3182,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|leer";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|comparador|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 32;
@@ -2188,7 +3191,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|sampler";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|maquina|reg_fstate~3_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 33;
@@ -2197,7 +3200,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|gnd";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.ROW~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 34;
@@ -2206,7 +3209,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|vcc";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.ACK_Estado~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 35;
@@ -2215,7 +3218,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|unknown";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.ACK_Estado~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 36;
@@ -2224,7 +3227,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|devclrn";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 37;
@@ -2233,7 +3236,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|devpor";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|~GND~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 38;
@@ -2242,7 +3245,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|devoe";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 39;
@@ -2251,7 +3254,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dir[0]~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita1~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 40;
@@ -2260,7 +3263,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dir[1]~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 41;
@@ -2269,7 +3272,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dir[2]~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 42;
@@ -2278,7 +3281,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dir[3]~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 43;
@@ -2287,7 +3290,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dir[4]~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita3~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 44;
@@ -2296,7 +3299,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dir[5]~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 45;
@@ -2305,7 +3308,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dir[6]~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita3~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 46;
@@ -2314,7 +3317,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dato[0]~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita4~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 47;
@@ -2323,7 +3326,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dato[1]~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita4~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 48;
@@ -2332,7 +3335,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dato[2]~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita5~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 49;
@@ -2341,7 +3344,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dato[3]~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita6~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 50;
@@ -2350,7 +3353,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dato[4]~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita6~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 51;
@@ -2359,7 +3362,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dato[5]~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita7~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 52;
@@ -2368,7 +3371,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dato[6]~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita5~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 53;
@@ -2377,7 +3380,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dato[7]~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 54;
@@ -2386,7 +3389,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|rowed~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita7~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 55;
@@ -2395,7 +3398,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dato_mostrado[0]~output_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_comb_bita7~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 56;
@@ -2404,7 +3407,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dato_mostrado[1]~output_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|cout_actual~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 57;
@@ -2413,7 +3416,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dato_mostrado[2]~output_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|maquina|Selector2~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 58;
@@ -2422,7 +3425,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dato_mostrado[3]~output_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.Guardar_Dato~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 59;
@@ -2431,7 +3434,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dato_mostrado[4]~output_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|maquina|Selector0~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 60;
@@ -2440,7 +3443,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dato_mostrado[5]~output_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|maquina|Selector0~2_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 61;
@@ -2449,7 +3452,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dato_mostrado[6]~output_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|maquina|Selector0~3_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 62;
@@ -2458,7 +3461,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|dato_mostrado[7]~output_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.Oscioso~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 63;
@@ -2467,7 +3470,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|Hab_Dat~output_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 64;
@@ -2476,7 +3479,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|Hab_Dir~output_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 65;
@@ -2485,7 +3488,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|leer~output_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 66;
@@ -2494,7 +3497,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|acknow~output_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 67;
@@ -2503,7 +3506,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|clk~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 68;
@@ -2512,7 +3515,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|clk~inputclkctrl_outclk";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|cmpr1|aneb_result_wire[0]~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 69;
@@ -2521,7 +3524,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|reset~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 70;
@@ -2530,7 +3533,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|state.Oscioso~q";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita3~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 71;
@@ -2539,7 +3542,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|SDA~input_o";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita3~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 72;
@@ -2548,7 +3551,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|state~12_combout";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita4~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 73;
@@ -2557,7 +3560,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|state.Guarda_dir~feeder_combout";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita4~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 74;
@@ -2566,10 +3569,280 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "i2c_vlg_vec_tst|i1|state.Guarda_dir~q";
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita5~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 75;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita5~COUT";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 76;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita6~COUT";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 77;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_comb_bita6~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 78;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|maquina|reg_fstate~2_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 79;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|maquina|Selector1~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 80;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|maquina|fstate.Guardar_dir~q";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 81;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|inst9~combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 82;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[6]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 83;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[5]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 84;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[4]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 85;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 86;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 87;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 88;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con7|LPM_COUNTER_component|auto_generated|counter_reg_bit[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 89;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[7]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 90;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[6]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 91;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[5]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 92;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[4]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 93;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 94;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 95;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 96;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|con8|LPM_COUNTER_component|auto_generated|counter_reg_bit[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 97;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|comparador|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 98;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[6]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 99;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[5]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 100;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[4]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 101;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 102;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 103;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 104;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "i2cEsquematico_vlg_vec_tst|i1|shift7|LPM_SHIFTREG_component|dffs[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 105;
 	TREE_LEVEL = 0;
 }
 ;
