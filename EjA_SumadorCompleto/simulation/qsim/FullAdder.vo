@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
-// DATE "10/26/2025 18:00:34"
+// DATE "10/31/2025 23:11:27"
 
 // 
 // Device: Altera EP3C120F780C7 Package FBGA780
@@ -41,11 +41,11 @@ output 	S;
 output 	COUT;
 
 // Design Ports Information
-// S	=>  Location: PIN_AC5,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// COUT	=>  Location: PIN_AB6,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// A	=>  Location: PIN_AB5,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// B	=>  Location: PIN_AF4,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// CIN	=>  Location: PIN_AC4,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// S	=>  Location: PIN_AC17,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// COUT	=>  Location: PIN_AF19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// A	=>  Location: PIN_AG19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// B	=>  Location: PIN_AD18,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// CIN	=>  Location: PIN_AG23,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
 wire gnd;
@@ -61,14 +61,14 @@ tri1 devpor;
 tri1 devoe;
 wire \S~output_o ;
 wire \COUT~output_o ;
-wire \CIN~input_o ;
 wire \A~input_o ;
+wire \CIN~input_o ;
 wire \B~input_o ;
 wire \S~0_combout ;
 wire \COUT~0_combout ;
 
 
-// Location: IOOBUF_X0_Y5_N16
+// Location: IOOBUF_X74_Y0_N23
 cycloneiii_io_obuf \S~output (
 	.i(\S~0_combout ),
 	.oe(vcc),
@@ -81,7 +81,7 @@ defparam \S~output .bus_hold = "false";
 defparam \S~output .open_drain_output = "false";
 // synopsys translate_on
 
-// Location: IOOBUF_X0_Y4_N9
+// Location: IOOBUF_X83_Y0_N16
 cycloneiii_io_obuf \COUT~output (
 	.i(\COUT~0_combout ),
 	.oe(vcc),
@@ -94,17 +94,7 @@ defparam \COUT~output .bus_hold = "false";
 defparam \COUT~output .open_drain_output = "false";
 // synopsys translate_on
 
-// Location: IOIBUF_X0_Y4_N1
-cycloneiii_io_ibuf \CIN~input (
-	.i(CIN),
-	.ibar(gnd),
-	.o(\CIN~input_o ));
-// synopsys translate_off
-defparam \CIN~input .bus_hold = "false";
-defparam \CIN~input .simulate_z_as = "z";
-// synopsys translate_on
-
-// Location: IOIBUF_X0_Y4_N22
+// Location: IOIBUF_X72_Y0_N8
 cycloneiii_io_ibuf \A~input (
 	.i(A),
 	.ibar(gnd),
@@ -114,7 +104,17 @@ defparam \A~input .bus_hold = "false";
 defparam \A~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: IOIBUF_X1_Y0_N1
+// Location: IOIBUF_X81_Y0_N22
+cycloneiii_io_ibuf \CIN~input (
+	.i(CIN),
+	.ibar(gnd),
+	.o(\CIN~input_o ));
+// synopsys translate_off
+defparam \CIN~input .bus_hold = "false";
+defparam \CIN~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X85_Y0_N8
 cycloneiii_io_ibuf \B~input (
 	.i(B),
 	.ibar(gnd),
@@ -124,37 +124,37 @@ defparam \B~input .bus_hold = "false";
 defparam \B~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: LCCOMB_X1_Y4_N0
+// Location: LCCOMB_X80_Y1_N8
 cycloneiii_lcell_comb \S~0 (
 // Equation(s):
-// \S~0_combout  = \CIN~input_o  $ (\A~input_o  $ (\B~input_o ))
+// \S~0_combout  = \A~input_o  $ (\CIN~input_o  $ (\B~input_o ))
 
-	.dataa(\CIN~input_o ),
-	.datab(\A~input_o ),
-	.datac(gnd),
+	.dataa(\A~input_o ),
+	.datab(gnd),
+	.datac(\CIN~input_o ),
 	.datad(\B~input_o ),
 	.cin(gnd),
 	.combout(\S~0_combout ),
 	.cout());
 // synopsys translate_off
-defparam \S~0 .lut_mask = 16'h9966;
+defparam \S~0 .lut_mask = 16'hA55A;
 defparam \S~0 .sum_lutc_input = "datac";
 // synopsys translate_on
 
-// Location: LCCOMB_X1_Y4_N2
+// Location: LCCOMB_X80_Y1_N2
 cycloneiii_lcell_comb \COUT~0 (
 // Equation(s):
-// \COUT~0_combout  = (\CIN~input_o  & ((\A~input_o ) # (\B~input_o ))) # (!\CIN~input_o  & (\A~input_o  & \B~input_o ))
+// \COUT~0_combout  = (\A~input_o  & ((\CIN~input_o ) # (\B~input_o ))) # (!\A~input_o  & (\CIN~input_o  & \B~input_o ))
 
-	.dataa(\CIN~input_o ),
-	.datab(\A~input_o ),
-	.datac(gnd),
+	.dataa(\A~input_o ),
+	.datab(gnd),
+	.datac(\CIN~input_o ),
 	.datad(\B~input_o ),
 	.cin(gnd),
 	.combout(\COUT~0_combout ),
 	.cout());
 // synopsys translate_off
-defparam \COUT~0 .lut_mask = 16'hEE88;
+defparam \COUT~0 .lut_mask = 16'hFAA0;
 defparam \COUT~0 .sum_lutc_input = "datac";
 // synopsys translate_on
 

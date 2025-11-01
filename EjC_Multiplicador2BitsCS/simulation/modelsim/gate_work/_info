@@ -2,9 +2,9 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\Adrian\Downloads\lab\LaboratorioFPGA\EjC_Multiplicador2BitsCS\simulation\modelsim
+Z0 dC:\Facultad\FPGA\1\LaboratorioFPGA\EjC_Multiplicador2BitsCS\simulation\modelsim
 Emult2bitscs
-Z1 w1761703594
+Z1 w1761963216
 Z2 DPx10 cycloneiii 20 cycloneiii_atom_pack 0 22 n^46VOjinLK5_01fgQc6Z0
 Z3 DPx10 cycloneiii 21 cycloneiii_components 0 22 VeH8af>S`B?U[[D6_Khe@0
 Z4 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
@@ -13,20 +13,20 @@ Z6 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
 Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
 Z9 DPx6 altera 28 altera_primitives_components 0 22 W]_:GkoiISnEn83KNb:3:2
-Z10 dC:\Users\Adrian\Downloads\lab\LaboratorioFPGA\EjC_Multiplicador2BitsCS\simulation\modelsim
+Z10 dC:\Facultad\FPGA\1\LaboratorioFPGA\EjC_Multiplicador2BitsCS\simulation\modelsim
 Z11 8mult2bitscs.vho
 Z12 Fmult2bitscs.vho
 l0
 L36
-VTnbRQj8TQb<jEmg3X=6W20
+Vj3;>af95FPJ71kazgBb5m0
 Z13 OV;C;10.1d;51
 31
-Z14 !s108 1761703633.766000
+Z14 !s108 1761963227.111000
 Z15 !s90 -reportprogress|300|-93|-work|work|mult2bitscs.vho|
 Z16 !s107 mult2bitscs.vho|
 Z17 o-93 -work work -O0
 Z18 tExplicit 1
-!s100 5:R5FVin@^1DblV7TaaaG1
+!s100 f@bQ_ADIN<h9T?Sk@2bDK0
 !i10b 1
 Astructure
 R2
@@ -37,10 +37,10 @@ R6
 R7
 R8
 R9
-DEx4 work 11 mult2bitscs 0 22 TnbRQj8TQb<jEmg3X=6W20
-l125
+DEx4 work 11 mult2bitscs 0 22 j3;>af95FPJ71kazgBb5m0
+l124
 L68
-VI[>_P9QaoI_znk7^BNEFg3
+V:8[`CZ2XHOdB1HAPhVHeW3
 R13
 31
 R14
@@ -48,15 +48,15 @@ R15
 R16
 R17
 R18
-!s100 [TLnA]G1X[0SX8H`Tb=?>1
+!s100 4;cKlQ0RM]b3`G0iC2<Lj1
 !i10b 1
 Emult2bitscs_tb
-Z19 w1761616930
+Z19 w1761961898
 R7
 R8
 R10
-Z20 8C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd
-Z21 FC:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd
+Z20 8C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd
+Z21 FC:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd
 l0
 L4
 V=alDL3i2hoC=9co05dVHD0
@@ -64,9 +64,9 @@ V=alDL3i2hoC=9co05dVHD0
 R13
 31
 !i10b 1
-Z22 !s108 1761703633.980000
-Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd|
-Z24 !s107 C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd|
+Z22 !s108 1761963227.283000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd|
+Z24 !s107 C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd|
 R17
 R18
 Afnc

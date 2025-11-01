@@ -7,7 +7,7 @@ vmap work gate_work
 
 vcom -93 -work work {mult2bitscs.vho}
 
-vcom -93 -work work {C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd}
+vcom -93 -work work {C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd}
 
 vsim -t 1ps -L altera -L cycloneiii -L gate_work -L work -voptargs="+acc"  mult2bitscs_tb
 

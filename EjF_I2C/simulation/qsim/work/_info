@@ -83,8 +83,8 @@ vi2cEsquematico
 Z29 !s100 YMRGgKY_jzgeHNNX`CWGN0
 Z30 I@dYU5LcLT@3?=;i@>`I;H2
 Z31 V:aK?GJdfZP>bbiVWQeK0f0
-Z32 dC:\Facultad\FPGA\LaboratorioFPGA\EjF_I2C\simulation\qsim
-Z33 w1761926739
+Z32 dC:\Facultad\FPGA\1\LaboratorioFPGA\EjF_I2C\simulation\qsim
+Z33 w1761963349
 R5
 R6
 L0 31
@@ -96,7 +96,7 @@ R9
 Z34 ni2c@esquematico
 !i10b 1
 !s85 0
-Z35 !s108 1761926740.109000
+Z35 !s108 1761963350.501000
 R12
 !s101 -O0
 vi2cEsquematico_vlg_check_tst
@@ -105,7 +105,7 @@ Z36 !s100 3Nd6DPbC5>]MnH5X:`:VP2
 Z37 IlnaMZ:jNge^o5^`bbCm?52
 Z38 VkXK1cch5fdbQbY]@DQZ^n2
 R32
-Z39 w1761926738
+R33
 R17
 R18
 L0 59
@@ -113,19 +113,19 @@ R7
 r1
 !s85 0
 31
-Z40 !s108 1761926740.178000
-Z41 !s107 i2c.vt|
+Z39 !s108 1761963350.576000
+Z40 !s107 i2c.vt|
 R21
 !s101 -O0
 R9
-Z42 ni2c@esquematico_vlg_check_tst
+Z41 ni2c@esquematico_vlg_check_tst
 vi2cEsquematico_vlg_sample_tst
 !i10b 1
-Z43 !s100 7TN6TY?44:2i6doPTF0V;3
-Z44 I]RT]1gBP3HhVUAiRS_EZ_0
-Z45 V4CVH:LQjSM@HZ:_0YJ6[h0
+Z42 !s100 7TN6TY?44:2i6doPTF0V;3
+Z43 I]RT]1gBP3HhVUAiRS_EZ_0
+Z44 V4CVH:LQjSM@HZ:_0YJ6[h0
 R32
-R39
+R33
 R17
 R18
 L0 29
@@ -133,29 +133,29 @@ R7
 r1
 !s85 0
 31
+R39
 R40
-R41
 R21
 !s101 -O0
 R9
-Z46 ni2c@esquematico_vlg_sample_tst
+Z45 ni2c@esquematico_vlg_sample_tst
 vi2cEsquematico_vlg_vec_tst
 !i10b 1
-Z47 !s100 FX[XD[SEjk];5L?[BfWH?2
-Z48 IMKJG`i80JXgf0>Ke<h8mz2
-Z49 Vj8BV[24DzINC3HeLciOEo0
+Z46 !s100 FX[XD[SEjk];5L?[BfWH?2
+Z47 IMKJG`i80JXgf0>Ke<h8mz2
+Z48 Vj8BV[24DzINC3HeLciOEo0
 R32
-R39
+R33
 R17
 R18
-Z50 L0 327
+Z49 L0 327
 R7
 r1
 !s85 0
 31
+R39
 R40
-R41
 R21
 !s101 -O0
 R9
-Z51 ni2c@esquematico_vlg_vec_tst
+Z50 ni2c@esquematico_vlg_vec_tst

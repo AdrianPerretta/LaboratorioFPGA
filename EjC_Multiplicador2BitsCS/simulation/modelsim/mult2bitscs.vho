@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
--- DATE "10/31/2025 14:11:25"
+-- DATE "10/31/2025 23:13:36"
 
 -- 
 -- Device: Altera EP3C120F780C7 Package FBGA780
@@ -108,11 +108,11 @@ SIGNAL \inst22~q\ : std_logic;
 SIGNAL \A1~input_o\ : std_logic;
 SIGNAL \inst19~feeder_combout\ : std_logic;
 SIGNAL \inst19~q\ : std_logic;
-SIGNAL \inst28|S~0_combout\ : std_logic;
+SIGNAL \4|S~0_combout\ : std_logic;
 SIGNAL \inst15~q\ : std_logic;
-SIGNAL \inst26|S~0_combout\ : std_logic;
+SIGNAL \5|S~0_combout\ : std_logic;
 SIGNAL \inst16~q\ : std_logic;
-SIGNAL \inst27|S~combout\ : std_logic;
+SIGNAL \6|S~combout\ : std_logic;
 SIGNAL \inst17~q\ : std_logic;
 SIGNAL \A0~input_o\ : std_logic;
 SIGNAL \inst20~feeder_combout\ : std_logic;
@@ -384,9 +384,9 @@ PORT MAP (
 	q => \inst19~q\);
 
 -- Location: LCCOMB_X80_Y1_N24
-\inst28|S~0\ : cycloneiii_lcell_comb
+\4|S~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \inst28|S~0_combout\ = (\inst22~q\ & (\inst20~q\ & ((!\inst19~q\)))) # (!\inst22~q\ & (((\inst21~q\ & \inst19~q\))))
+-- \4|S~0_combout\ = (\inst22~q\ & (\inst20~q\ & ((!\inst19~q\)))) # (!\inst22~q\ & (((\inst21~q\ & \inst19~q\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -398,7 +398,7 @@ PORT MAP (
 	datab => \inst21~q\,
 	datac => \inst22~q\,
 	datad => \inst19~q\,
-	combout => \inst28|S~0_combout\);
+	combout => \4|S~0_combout\);
 
 -- Location: FF_X80_Y1_N25
 inst15 : dffeas
@@ -409,16 +409,16 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK~inputclkctrl_outclk\,
-	d => \inst28|S~0_combout\,
+	d => \4|S~0_combout\,
 	clrn => \CLEAR~inputclkctrl_outclk\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \inst15~q\);
 
 -- Location: LCCOMB_X80_Y1_N26
-\inst26|S~0\ : cycloneiii_lcell_comb
+\5|S~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \inst26|S~0_combout\ = (\inst22~q\ & ((\inst20~q\ & ((!\inst19~q\))) # (!\inst20~q\ & (!\inst21~q\ & \inst19~q\)))) # (!\inst22~q\ & (((\inst21~q\ & \inst19~q\))))
+-- \5|S~0_combout\ = (\inst22~q\ & ((\inst20~q\ & ((!\inst19~q\))) # (!\inst20~q\ & (!\inst21~q\ & \inst19~q\)))) # (!\inst22~q\ & (((\inst21~q\ & \inst19~q\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -430,7 +430,7 @@ PORT MAP (
 	datab => \inst21~q\,
 	datac => \inst22~q\,
 	datad => \inst19~q\,
-	combout => \inst26|S~0_combout\);
+	combout => \5|S~0_combout\);
 
 -- Location: FF_X80_Y1_N27
 inst16 : dffeas
@@ -441,16 +441,16 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK~inputclkctrl_outclk\,
-	d => \inst26|S~0_combout\,
+	d => \5|S~0_combout\,
 	clrn => \CLEAR~inputclkctrl_outclk\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \inst16~q\);
 
 -- Location: LCCOMB_X80_Y1_N20
-\inst27|S\ : cycloneiii_lcell_comb
+\6|S\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \inst27|S~combout\ = (\inst20~q\ & (\inst22~q\ $ (((\inst19~q\ & \inst21~q\))))) # (!\inst20~q\ & (\inst19~q\ & (\inst21~q\)))
+-- \6|S~combout\ = (\inst20~q\ & (\inst22~q\ $ (((\inst19~q\ & \inst21~q\))))) # (!\inst20~q\ & (\inst19~q\ & (\inst21~q\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -462,7 +462,7 @@ PORT MAP (
 	datab => \inst19~q\,
 	datac => \inst21~q\,
 	datad => \inst22~q\,
-	combout => \inst27|S~combout\);
+	combout => \6|S~combout\);
 
 -- Location: FF_X80_Y1_N21
 inst17 : dffeas
@@ -473,7 +473,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK~inputclkctrl_outclk\,
-	d => \inst27|S~combout\,
+	d => \6|S~combout\,
 	clrn => \CLEAR~inputclkctrl_outclk\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,

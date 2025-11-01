@@ -172,7 +172,7 @@ SIGNAL("FullAdder_vlg_vec_tst|i1|COUT~output_o")
 	PARENT = "";
 }
 
-SIGNAL("FullAdder_vlg_vec_tst|i1|CIN~input_o")
+SIGNAL("FullAdder_vlg_vec_tst|i1|A~input_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -182,7 +182,7 @@ SIGNAL("FullAdder_vlg_vec_tst|i1|CIN~input_o")
 	PARENT = "";
 }
 
-SIGNAL("FullAdder_vlg_vec_tst|i1|A~input_o")
+SIGNAL("FullAdder_vlg_vec_tst|i1|CIN~input_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -390,17 +390,6 @@ TRANSITION_LIST("FullAdder_vlg_vec_tst|i1|COUT~output_o")
 	}
 }
 
-TRANSITION_LIST("FullAdder_vlg_vec_tst|i1|CIN~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
-		LEVEL 1 FOR 400.0;
-		LEVEL 0 FOR 200.0;
-	}
-}
-
 TRANSITION_LIST("FullAdder_vlg_vec_tst|i1|A~input_o")
 {
 	NODE
@@ -414,6 +403,17 @@ TRANSITION_LIST("FullAdder_vlg_vec_tst|i1|A~input_o")
 		LEVEL 1 FOR 100.0;
 		LEVEL 0 FOR 100.0;
 		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 200.0;
+	}
+}
+
+TRANSITION_LIST("FullAdder_vlg_vec_tst|i1|CIN~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+		LEVEL 1 FOR 400.0;
 		LEVEL 0 FOR 200.0;
 	}
 }
@@ -587,7 +587,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "FullAdder_vlg_vec_tst|i1|CIN~input_o";
+	CHANNEL = "FullAdder_vlg_vec_tst|i1|A~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 14;
@@ -596,7 +596,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "FullAdder_vlg_vec_tst|i1|A~input_o";
+	CHANNEL = "FullAdder_vlg_vec_tst|i1|CIN~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 15;

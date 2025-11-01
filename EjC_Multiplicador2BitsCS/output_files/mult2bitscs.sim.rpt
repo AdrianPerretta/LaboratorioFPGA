@@ -1,5 +1,5 @@
 Simulator report for mult2bitscs
-Fri Oct 31 14:24:02 2025
+Fri Oct 31 23:08:09 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -45,43 +45,43 @@ applicable agreement for further details.
 +-----------------------------+--------------+
 ; Simulation Start Time       ; 0 ps         ;
 ; Simulation End Time         ; 1.0 us       ;
-; Simulation Netlist Size     ; 44 nodes     ;
-; Simulation Coverage         ;      95.45 % ;
-; Total Number of Transitions ; 391          ;
+; Simulation Netlist Size     ; 42 nodes     ;
+; Simulation Coverage         ;      95.24 % ;
+; Total Number of Transitions ; 385          ;
 ; Simulation Breakpoints      ; 0            ;
 ; Family                      ; Cyclone III  ;
 +-----------------------------+--------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Simulator Settings                                                                                                                                                                                 ;
-+--------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+---------------+
-; Option                                                                                     ; Setting                                                                               ; Default Value ;
-+--------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+---------------+
-; Simulation mode                                                                            ; Functional                                                                            ; Timing        ;
-; Start time                                                                                 ; 0 ns                                                                                  ; 0 ns          ;
-; Simulation results format                                                                  ; VWF                                                                                   ;               ;
-; Vector input source                                                                        ; C:/Facultad/FPGA/LaboratorioFPGA/EjC_Multiplicador2BitsCS/EstimuloMultiplicadorCS.vwf ;               ;
-; Add pins automatically to simulation output waveforms                                      ; On                                                                                    ; On            ;
-; Check outputs                                                                              ; Off                                                                                   ; Off           ;
-; Report simulation coverage                                                                 ; On                                                                                    ; On            ;
-; Display complete 1/0 value coverage report                                                 ; On                                                                                    ; On            ;
-; Display missing 1-value coverage report                                                    ; On                                                                                    ; On            ;
-; Display missing 0-value coverage report                                                    ; On                                                                                    ; On            ;
-; Detect setup and hold time violations                                                      ; Off                                                                                   ; Off           ;
-; Detect glitches                                                                            ; Off                                                                                   ; Off           ;
-; Disable timing delays in Timing Simulation                                                 ; Off                                                                                   ; Off           ;
-; Generate Signal Activity File                                                              ; Off                                                                                   ; Off           ;
-; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                                                   ; Off           ;
-; Group bus channels in simulation results                                                   ; Off                                                                                   ; Off           ;
-; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                                                    ; On            ;
-; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                                                            ; INPUT_EDGE    ;
-; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                                                   ; Off           ;
-; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                                                   ;               ;
-; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                                                  ; Auto          ;
-; Interconnect Delay Model Type                                                              ; Transport                                                                             ; Transport     ;
-; Cell Delay Model Type                                                                      ; Transport                                                                             ; Transport     ;
-+--------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+---------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                                                                   ;
++--------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                                                                 ; Default Value ;
++--------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                                                                              ; Timing        ;
+; Start time                                                                                 ; 0 ns                                                                                    ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                                                     ;               ;
+; Vector input source                                                                        ; C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/EstimuloMultiplicadorCS.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                                                      ; On            ;
+; Check outputs                                                                              ; Off                                                                                     ; Off           ;
+; Report simulation coverage                                                                 ; On                                                                                      ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                                                      ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                                                      ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                                                      ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                                                     ; Off           ;
+; Detect glitches                                                                            ; Off                                                                                     ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                                                     ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                                                     ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                                                     ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                                                     ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                                                      ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                                                              ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                                                     ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                                                     ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                                                    ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport                                                                               ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport                                                                               ; Transport     ;
++--------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+---------------+
 
 
 +----------------------+
@@ -96,10 +96,10 @@ Please use Quartus II 64-Bit to view the waveform report data.
 +-----------------------------------------------------+--------------+
 ; Type                                                ; Value        ;
 +-----------------------------------------------------+--------------+
-; Total coverage as a percentage                      ;      95.45 % ;
-; Total nodes checked                                 ; 44           ;
-; Total output ports checked                          ; 44           ;
-; Total output ports with complete 1/0-value coverage ; 42           ;
+; Total coverage as a percentage                      ;      95.24 % ;
+; Total nodes checked                                 ; 42           ;
+; Total output ports checked                          ; 42           ;
+; Total output ports with complete 1/0-value coverage ; 40           ;
 ; Total output ports with no 1/0-value coverage       ; 2            ;
 ; Total output ports with no 1-value coverage         ; 2            ;
 ; Total output ports with no 0-value coverage         ; 2            ;
@@ -107,76 +107,74 @@ Please use Quartus II 64-Bit to view the waveform report data.
 
 
 The following table displays output ports that toggle between 1 and 0 during simulation.
-+--------------------------------------------------------------------------------------------------------+
-; Complete 1/0-Value Coverage                                                                            ;
-+------------------------------------------+------------------------------------------+------------------+
-; Node Name                                ; Output Port Name                         ; Output Port Type ;
-+------------------------------------------+------------------------------------------+------------------+
-; |mult2bitscs|SYNTHESIZED_WIRE_17         ; |mult2bitscs|SYNTHESIZED_WIRE_17         ; out0             ;
-; |mult2bitscs|SYNTHESIZED_WIRE_22         ; |mult2bitscs|SYNTHESIZED_WIRE_22         ; out0             ;
-; |mult2bitscs|SYNTHESIZED_WIRE_45         ; |mult2bitscs|SYNTHESIZED_WIRE_45         ; regout           ;
-; |mult2bitscs|DFF_inst16                  ; |mult2bitscs|DFF_inst16                  ; regout           ;
-; |mult2bitscs|DFF_inst17                  ; |mult2bitscs|DFF_inst17                  ; regout           ;
-; |mult2bitscs|DFF_inst18                  ; |mult2bitscs|DFF_inst18                  ; regout           ;
-; |mult2bitscs|SYNTHESIZED_WIRE_10         ; |mult2bitscs|SYNTHESIZED_WIRE_10         ; out0             ;
-; |mult2bitscs|SYNTHESIZED_WIRE_37         ; |mult2bitscs|SYNTHESIZED_WIRE_37         ; regout           ;
-; |mult2bitscs|SYNTHESIZED_WIRE_44         ; |mult2bitscs|SYNTHESIZED_WIRE_44         ; regout           ;
-; |mult2bitscs|SYNTHESIZED_WIRE_38         ; |mult2bitscs|SYNTHESIZED_WIRE_38         ; regout           ;
-; |mult2bitscs|SYNTHESIZED_WIRE_23         ; |mult2bitscs|SYNTHESIZED_WIRE_23         ; out0             ;
-; |mult2bitscs|SYNTHESIZED_WIRE_20         ; |mult2bitscs|SYNTHESIZED_WIRE_20         ; out0             ;
-; |mult2bitscs|BANDERA_CEROS~0             ; |mult2bitscs|BANDERA_CEROS~0             ; out0             ;
-; |mult2bitscs|BANDERA_CEROS~1             ; |mult2bitscs|BANDERA_CEROS~1             ; out0             ;
-; |mult2bitscs|BANDERA_CEROS~2             ; |mult2bitscs|BANDERA_CEROS~2             ; out0             ;
-; |mult2bitscs|SYNTHESIZED_WIRE_16         ; |mult2bitscs|SYNTHESIZED_WIRE_16         ; out0             ;
-; |mult2bitscs|SYNTHESIZED_WIRE_19         ; |mult2bitscs|SYNTHESIZED_WIRE_19         ; out0             ;
-; |mult2bitscs|SYNTHESIZED_WIRE_41         ; |mult2bitscs|SYNTHESIZED_WIRE_41         ; regout           ;
-; |mult2bitscs|B0                          ; |mult2bitscs|B0                          ; out              ;
-; |mult2bitscs|A0                          ; |mult2bitscs|A0                          ; out              ;
-; |mult2bitscs|A1                          ; |mult2bitscs|A1                          ; out              ;
-; |mult2bitscs|CLK                         ; |mult2bitscs|CLK                         ; out              ;
-; |mult2bitscs|B1                          ; |mult2bitscs|B1                          ; out              ;
-; |mult2bitscs|R3                          ; |mult2bitscs|R3                          ; pin_out          ;
-; |mult2bitscs|R2                          ; |mult2bitscs|R2                          ; pin_out          ;
-; |mult2bitscs|R1                          ; |mult2bitscs|R1                          ; pin_out          ;
-; |mult2bitscs|R0                          ; |mult2bitscs|R0                          ; pin_out          ;
-; |mult2bitscs|BANDERA_CEROS               ; |mult2bitscs|BANDERA_CEROS               ; pin_out          ;
-; |mult2bitscs|BANDERA_SIGNO               ; |mult2bitscs|BANDERA_SIGNO               ; pin_out          ;
-; |mult2bitscs|FullAdder:b2v_inst29|S      ; |mult2bitscs|FullAdder:b2v_inst29|S      ; out0             ;
-; |mult2bitscs|FullAdder:b2v_inst28|xor1   ; |mult2bitscs|FullAdder:b2v_inst28|xor1   ; out0             ;
-; |mult2bitscs|FullAdder:b2v_inst28|S      ; |mult2bitscs|FullAdder:b2v_inst28|S      ; out0             ;
-; |mult2bitscs|FullAdder:b2v_inst27|and2   ; |mult2bitscs|FullAdder:b2v_inst27|and2   ; out0             ;
-; |mult2bitscs|FullAdder:b2v_inst27|S      ; |mult2bitscs|FullAdder:b2v_inst27|S      ; out0             ;
-; |mult2bitscs|FullAdder:b2v_inst26|xor1   ; |mult2bitscs|FullAdder:b2v_inst26|xor1   ; out0             ;
-; |mult2bitscs|FullAdder:b2v_inst26|and1   ; |mult2bitscs|FullAdder:b2v_inst26|and1   ; out0             ;
-; |mult2bitscs|FullAdder:b2v_inst26|and2   ; |mult2bitscs|FullAdder:b2v_inst26|and2   ; out0             ;
-; |mult2bitscs|FullAdder:b2v_inst26|S      ; |mult2bitscs|FullAdder:b2v_inst26|S      ; out0             ;
-; |mult2bitscs|FullAdder:b2v_inst26|COUT~0 ; |mult2bitscs|FullAdder:b2v_inst26|COUT~0 ; out0             ;
-; |mult2bitscs|FullAdder:b2v_inst26|COUT   ; |mult2bitscs|FullAdder:b2v_inst26|COUT   ; out0             ;
-; |mult2bitscs|FullAdder:b2v_inst12|and3   ; |mult2bitscs|FullAdder:b2v_inst12|and3   ; out0             ;
-; |mult2bitscs|FullAdder:b2v_inst12|S      ; |mult2bitscs|FullAdder:b2v_inst12|S      ; out0             ;
-+------------------------------------------+------------------------------------------+------------------+
++--------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                          ;
++---------------------------------+---------------------------------+------------------+
+; Node Name                       ; Output Port Name                ; Output Port Type ;
++---------------------------------+---------------------------------+------------------+
+; |mult2bitscs|R3                 ; |mult2bitscs|R3                 ; pin_out          ;
+; |mult2bitscs|inst15             ; |mult2bitscs|inst15             ; regout           ;
+; |mult2bitscs|CLK                ; |mult2bitscs|CLK                ; out              ;
+; |mult2bitscs|inst13             ; |mult2bitscs|inst13             ; out0             ;
+; |mult2bitscs|inst19             ; |mult2bitscs|inst19             ; regout           ;
+; |mult2bitscs|A1                 ; |mult2bitscs|A1                 ; out              ;
+; |mult2bitscs|inst20             ; |mult2bitscs|inst20             ; regout           ;
+; |mult2bitscs|A0                 ; |mult2bitscs|A0                 ; out              ;
+; |mult2bitscs|inst22             ; |mult2bitscs|inst22             ; regout           ;
+; |mult2bitscs|B1                 ; |mult2bitscs|B1                 ; out              ;
+; |mult2bitscs|inst24             ; |mult2bitscs|inst24             ; out0             ;
+; |mult2bitscs|inst21             ; |mult2bitscs|inst21             ; regout           ;
+; |mult2bitscs|B0                 ; |mult2bitscs|B0                 ; out              ;
+; |mult2bitscs|inst4              ; |mult2bitscs|inst4              ; out0             ;
+; |mult2bitscs|inst11             ; |mult2bitscs|inst11             ; out0             ;
+; |mult2bitscs|inst5              ; |mult2bitscs|inst5              ; out0             ;
+; |mult2bitscs|inst3              ; |mult2bitscs|inst3              ; out0             ;
+; |mult2bitscs|R2                 ; |mult2bitscs|R2                 ; pin_out          ;
+; |mult2bitscs|inst16             ; |mult2bitscs|inst16             ; regout           ;
+; |mult2bitscs|R1                 ; |mult2bitscs|R1                 ; pin_out          ;
+; |mult2bitscs|inst17             ; |mult2bitscs|inst17             ; regout           ;
+; |mult2bitscs|R0                 ; |mult2bitscs|R0                 ; pin_out          ;
+; |mult2bitscs|inst18             ; |mult2bitscs|inst18             ; regout           ;
+; |mult2bitscs|inst2              ; |mult2bitscs|inst2              ; out0             ;
+; |mult2bitscs|BANDERA_CEROS      ; |mult2bitscs|BANDERA_CEROS      ; pin_out          ;
+; |mult2bitscs|inst30             ; |mult2bitscs|inst30             ; out0             ;
+; |mult2bitscs|BANDERA_SIGNO      ; |mult2bitscs|BANDERA_SIGNO      ; pin_out          ;
+; |mult2bitscs|FullAdder:6|and2   ; |mult2bitscs|FullAdder:6|and2   ; out0             ;
+; |mult2bitscs|FullAdder:6|S      ; |mult2bitscs|FullAdder:6|S      ; out0             ;
+; |mult2bitscs|FullAdder:5|xor1   ; |mult2bitscs|FullAdder:5|xor1   ; out0             ;
+; |mult2bitscs|FullAdder:5|and1   ; |mult2bitscs|FullAdder:5|and1   ; out0             ;
+; |mult2bitscs|FullAdder:5|and2   ; |mult2bitscs|FullAdder:5|and2   ; out0             ;
+; |mult2bitscs|FullAdder:5|S      ; |mult2bitscs|FullAdder:5|S      ; out0             ;
+; |mult2bitscs|FullAdder:5|COUT~0 ; |mult2bitscs|FullAdder:5|COUT~0 ; out0             ;
+; |mult2bitscs|FullAdder:5|COUT   ; |mult2bitscs|FullAdder:5|COUT   ; out0             ;
+; |mult2bitscs|FullAdder:2|and3   ; |mult2bitscs|FullAdder:2|and3   ; out0             ;
+; |mult2bitscs|FullAdder:2|S      ; |mult2bitscs|FullAdder:2|S      ; out0             ;
+; |mult2bitscs|FullAdder:1|S      ; |mult2bitscs|FullAdder:1|S      ; out0             ;
+; |mult2bitscs|FullAdder:4|xor1   ; |mult2bitscs|FullAdder:4|xor1   ; out0             ;
+; |mult2bitscs|FullAdder:4|S      ; |mult2bitscs|FullAdder:4|S      ; out0             ;
++---------------------------------+---------------------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 1 during simulation.
-+----------------------------------------------------------------------------------------------------+
-; Missing 1-Value Coverage                                                                           ;
-+----------------------------------------+----------------------------------------+------------------+
-; Node Name                              ; Output Port Name                       ; Output Port Type ;
-+----------------------------------------+----------------------------------------+------------------+
-; |mult2bitscs|CLEAR                     ; |mult2bitscs|CLEAR                     ; out              ;
-; |mult2bitscs|FullAdder:b2v_inst26|and3 ; |mult2bitscs|FullAdder:b2v_inst26|and3 ; out0             ;
-+----------------------------------------+----------------------------------------+------------------+
++----------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                         ;
++-------------------------------+-------------------------------+------------------+
+; Node Name                     ; Output Port Name              ; Output Port Type ;
++-------------------------------+-------------------------------+------------------+
+; |mult2bitscs|CLEAR            ; |mult2bitscs|CLEAR            ; out              ;
+; |mult2bitscs|FullAdder:5|and3 ; |mult2bitscs|FullAdder:5|and3 ; out0             ;
++-------------------------------+-------------------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 0 during simulation.
-+----------------------------------------------------------------------------------------------------+
-; Missing 0-Value Coverage                                                                           ;
-+----------------------------------------+----------------------------------------+------------------+
-; Node Name                              ; Output Port Name                       ; Output Port Type ;
-+----------------------------------------+----------------------------------------+------------------+
-; |mult2bitscs|CLEAR                     ; |mult2bitscs|CLEAR                     ; out              ;
-; |mult2bitscs|FullAdder:b2v_inst26|and3 ; |mult2bitscs|FullAdder:b2v_inst26|and3 ; out0             ;
-+----------------------------------------+----------------------------------------+------------------+
++----------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                         ;
++-------------------------------+-------------------------------+------------------+
+; Node Name                     ; Output Port Name              ; Output Port Type ;
++-------------------------------+-------------------------------+------------------+
+; |mult2bitscs|CLEAR            ; |mult2bitscs|CLEAR            ; out              ;
+; |mult2bitscs|FullAdder:5|and3 ; |mult2bitscs|FullAdder:5|and3 ; out0             ;
++-------------------------------+-------------------------------+------------------+
 
 
 +---------------------+
@@ -192,20 +190,20 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Simulator
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Oct 31 14:24:02 2025
+    Info: Processing started: Fri Oct 31 23:08:09 2025
 Info: Command: quartus_sim --simulation_results_format=VWF mult2bitscs -c mult2bitscs
-Info (324025): Using vector source file "C:/Facultad/FPGA/LaboratorioFPGA/EjC_Multiplicador2BitsCS/EstimuloMultiplicadorCS.vwf"
+Info (324025): Using vector source file "C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/EstimuloMultiplicadorCS.vwf"
 Warning (328012): Can't find signal in vector source file for input pin "|mult2bitscs|CLEAR"
 Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
     Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
-Warning (324036): Found clock-sensitive change during active clock edge at time 50.0 ns on register "|mult2bitscs|SYNTHESIZED_WIRE_38"
+Warning (324036): Found clock-sensitive change during active clock edge at time 50.0 ns on register "|mult2bitscs|inst21"
 Info (310002): Simulation partitioned into 1 sub-simulations
-Info (328053): Simulation coverage is      95.45 %
-Info (328052): Number of transitions in simulation is 391
+Info (328053): Simulation coverage is      95.24 %
+Info (328052): Number of transitions in simulation is 385
 Info (324045): Vector file mult2bitscs.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
 Info: Quartus II 64-Bit Simulator was successful. 0 errors, 2 warnings
     Info: Peak virtual memory: 4446 megabytes
-    Info: Processing ended: Fri Oct 31 14:24:02 2025
+    Info: Processing ended: Fri Oct 31 23:08:09 2025
     Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 

@@ -4,82 +4,82 @@ K3
 cModel Technology
 Z0 dC:\Facultad\FPGA\LaboratorioFPGA\EjA_SumadorCompleto\simulation\qsim
 vFullAdder
-Z1 IW`_bb3kFLzncm?7FfaleV1
+Z1 IRf0e=fL_IjZLGkCZM?c5o3
 Z2 V^m10?gW_`ST5ToDMJ=0ZV3
-Z3 dC:\Facultad\FPGA\LaboratorioFPGA\EjA_SumadorCompleto\simulation\qsim
-Z4 w1761512434
+Z3 dC:\Facultad\FPGA\1\LaboratorioFPGA\EjA_SumadorCompleto\simulation\qsim
+Z4 w1761963087
 Z5 8FullAdder.vo
 Z6 FFullAdder.vo
 L0 31
 Z7 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
-Z9 n@full@adder
+Z8 !s90 -work|work|FullAdder.vo|
+Z9 o-work work -O0
+Z10 n@full@adder
 !i10b 1
-Z10 !s100 oDa=jgoa>YRN_9Ve@aL@K0
+Z11 !s100 zbCER[K?cn^jU?`djTCn^0
 !s85 0
-Z11 !s108 1761512435.167000
-Z12 !s107 FullAdder.vo|
-Z13 !s90 -work|work|FullAdder.vo|
+Z12 !s108 1761963087.762000
+Z13 !s107 FullAdder.vo|
 !s101 -O0
 vFullAdder_vlg_check_tst
 !i10b 1
-!s100 iF0Xncb]Vfie@Z7j7B29W3
-I?FoG5>BfYI8]B^_BGhehT0
-VB:eTeEBc>Rk`ZdUb2H>8h1
+Z14 !s100 iF0Xncb]Vfie@Z7j7B29W3
+Z15 I?FoG5>BfYI8]B^_BGhehT0
+Z16 VB:eTeEBc>Rk`ZdUb2H>8h1
 R3
-R4
-Z14 8FullAdder.vt
-Z15 FFullAdder.vt
+Z17 w1761963086
+Z18 8FullAdder.vt
+Z19 FFullAdder.vt
 L0 61
 R7
 r1
 !s85 0
 31
-Z16 !s108 1761512435.229000
-Z17 !s107 FullAdder.vt|
-Z18 !s90 -work|work|FullAdder.vt|
+Z20 !s108 1761963087.828000
+Z21 !s107 FullAdder.vt|
+Z22 !s90 -work|work|FullAdder.vt|
 !s101 -O0
-R8
-n@full@adder_vlg_check_tst
+R9
+Z23 n@full@adder_vlg_check_tst
 vFullAdder_vlg_sample_tst
 !i10b 1
-!s100 TJLDQz]n_LlZZQ0VRkFdH1
-I1l;Phf6JGd_]kZnRiJ24T3
-V6dGZ:<<>PA9F0a_3g[VgJ0
+Z24 !s100 TJLDQz]n_LlZZQ0VRkFdH1
+Z25 I1l;Phf6JGd_]kZnRiJ24T3
+Z26 V6dGZ:<<>PA9F0a_3g[VgJ0
 R3
-R4
-R14
-R15
+R17
+R18
+R19
 L0 29
 R7
 r1
 !s85 0
 31
-R16
-R17
-R18
+R20
+R21
+R22
 !s101 -O0
-R8
-n@full@adder_vlg_sample_tst
+R9
+Z27 n@full@adder_vlg_sample_tst
 vFullAdder_vlg_vec_tst
 !i10b 1
-!s100 ED>oD0m88V6BgKILlI98]2
-I0GFo;=iQeg=O7]962Hnja1
-V]<3@QoABVjl5_[FYU:^O:1
+Z28 !s100 ED>oD0m88V6BgKILlI98]2
+Z29 I0GFo;=iQeg=O7]962Hnja1
+Z30 V]<3@QoABVjl5_[FYU:^O:1
 R3
-R4
-R14
-R15
-L0 183
+R17
+R18
+R19
+Z31 L0 183
 R7
 r1
 !s85 0
 31
-R16
-R17
-R18
+R20
+R21
+R22
 !s101 -O0
-R8
-n@full@adder_vlg_vec_tst
+R9
+Z32 n@full@adder_vlg_vec_tst

@@ -1,5 +1,5 @@
 Flow report for mult2bitscs
-Fri Oct 31 14:23:25 2025
+Fri Oct 31 23:13:36 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Fri Oct 31 14:23:25 2025           ;
+; Flow Status                        ; Successful - Fri Oct 31 23:13:36 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; mult2bitscs                                     ;
 ; Top-level Entity Name              ; mult2bitscs                                     ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/31/2025 14:23:04 ;
+; Start date & time ; 10/31/2025 23:12:03 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; mult2bitscs         ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 127913730615492.176193138425520       ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 127913730615492.176196312336000       ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; uut                                   ; --            ; --          ; mult2bitscs_tb ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; On                                    ; --            ; --          ; eda_simulation ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; mult2bitscs_tb                        ; --            ; --          ; eda_simulation ;
@@ -104,12 +104,13 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
-; Fitter                    ; 00:00:12     ; 1.0                     ; 5045 MB             ; 00:00:08                           ;
-; Assembler                 ; 00:00:04     ; 1.0                     ; 4556 MB             ; 00:00:02                           ;
+; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:12     ; 1.0                     ; 5045 MB             ; 00:00:09                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 4556 MB             ; 00:00:03                           ;
 ; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4644 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4508 MB             ; 00:00:00                           ;
-; Total                     ; 00:00:19     ; --                      ; --                  ; 00:00:12                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4508 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4536 MB             ; 00:00:00                           ;
+; Total                     ; 00:00:19     ; --                      ; --                  ; 00:00:14                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -123,6 +124,7 @@ applicable agreement for further details.
 ; Assembler                 ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
 ; TimeQuest Timing Analyzer ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -134,6 +136,7 @@ quartus_fit --read_settings_files=off --write_settings_files=off mult2bitscs -c 
 quartus_asm --read_settings_files=off --write_settings_files=off mult2bitscs -c mult2bitscs
 quartus_sta mult2bitscs -c mult2bitscs
 quartus_eda --read_settings_files=off --write_settings_files=off mult2bitscs -c mult2bitscs
+quartus_eda --read_settings_files=on --write_settings_files=off mult2bitscs -c mult2bitscs
 
 
 

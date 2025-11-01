@@ -385,50 +385,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 224 184 336 328)
-	(text "FullAdder" (rect 0 5 12 51)(font "Arial" )(vertical))
-	(text "inst7" (rect 96 8 108 31)(font "Arial" )(vertical))
-	(port
-		(pt 32 0)
-		(input)
-		(text "A" (rect 0 0 8 12)(font "Arial" ))
-		(text "A" (rect 27 21 39 29)(font "Arial" )(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 48 0)
-		(input)
-		(text "B" (rect 0 0 7 12)(font "Arial" ))
-		(text "B" (rect 43 21 55 28)(font "Arial" )(vertical))
-		(line (pt 48 0)(pt 48 16))
-	)
-	(port
-		(pt 64 0)
-		(input)
-		(text "CIN" (rect 0 0 20 12)(font "Arial" ))
-		(text "CIN" (rect 59 21 71 41)(font "Arial" )(vertical))
-		(line (pt 64 0)(pt 64 16))
-	)
-	(port
-		(pt 32 144)
-		(output)
-		(text "S" (rect 0 0 7 12)(font "Arial" ))
-		(text "S" (rect 27 118 39 125)(font "Arial" )(vertical))
-		(line (pt 32 144)(pt 32 128))
-	)
-	(port
-		(pt 48 144)
-		(output)
-		(text "COUT" (rect 0 0 30 12)(font "Arial" ))
-		(text "COUT" (rect 43 98 55 128)(font "Arial" )(vertical))
-		(line (pt 48 144)(pt 48 128))
-	)
-	(drawing
-		(rectangle (rect 16 16 96 128))
-	)
-	(flipy_rotate90)
-)
-(symbol
 	(rect 112 88 144 136)
 	(text "NOT" (rect 22 1 32 21)(font "Arial" (font_size 6))(vertical))
 	(text "inst9" (rect -1 3 11 26)(font "Arial" )(vertical))
@@ -967,138 +923,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 560 536 672 680)
-	(text "FullAdder" (rect 0 5 12 51)(font "Arial" )(vertical))
-	(text "inst26" (rect 96 8 108 37)(font "Arial" )(vertical))
-	(port
-		(pt 32 0)
-		(input)
-		(text "A" (rect 0 0 8 12)(font "Arial" ))
-		(text "A" (rect 27 21 39 29)(font "Arial" )(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 48 0)
-		(input)
-		(text "B" (rect 0 0 7 12)(font "Arial" ))
-		(text "B" (rect 43 21 55 28)(font "Arial" )(vertical))
-		(line (pt 48 0)(pt 48 16))
-	)
-	(port
-		(pt 64 0)
-		(input)
-		(text "CIN" (rect 0 0 20 12)(font "Arial" ))
-		(text "CIN" (rect 59 21 71 41)(font "Arial" )(vertical))
-		(line (pt 64 0)(pt 64 16))
-	)
-	(port
-		(pt 32 144)
-		(output)
-		(text "S" (rect 0 0 7 12)(font "Arial" ))
-		(text "S" (rect 27 118 39 125)(font "Arial" )(vertical))
-		(line (pt 32 144)(pt 32 128))
-	)
-	(port
-		(pt 48 144)
-		(output)
-		(text "COUT" (rect 0 0 30 12)(font "Arial" ))
-		(text "COUT" (rect 43 98 55 128)(font "Arial" )(vertical))
-		(line (pt 48 144)(pt 48 128))
-	)
-	(drawing
-		(rectangle (rect 16 16 96 128))
-	)
-	(flipy_rotate90)
-)
-(symbol
-	(rect 688 536 800 680)
-	(text "FullAdder" (rect 0 5 12 51)(font "Arial" )(vertical))
-	(text "inst27" (rect 96 8 108 37)(font "Arial" )(vertical))
-	(port
-		(pt 32 0)
-		(input)
-		(text "A" (rect 0 0 8 12)(font "Arial" ))
-		(text "A" (rect 27 21 39 29)(font "Arial" )(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 48 0)
-		(input)
-		(text "B" (rect 0 0 7 12)(font "Arial" ))
-		(text "B" (rect 43 21 55 28)(font "Arial" )(vertical))
-		(line (pt 48 0)(pt 48 16))
-	)
-	(port
-		(pt 64 0)
-		(input)
-		(text "CIN" (rect 0 0 20 12)(font "Arial" ))
-		(text "CIN" (rect 59 21 71 41)(font "Arial" )(vertical))
-		(line (pt 64 0)(pt 64 16))
-	)
-	(port
-		(pt 32 144)
-		(output)
-		(text "S" (rect 0 0 7 12)(font "Arial" ))
-		(text "S" (rect 27 118 39 125)(font "Arial" )(vertical))
-		(line (pt 32 144)(pt 32 128))
-	)
-	(port
-		(pt 48 144)
-		(output)
-		(text "COUT" (rect 0 0 30 12)(font "Arial" ))
-		(text "COUT" (rect 43 98 55 128)(font "Arial" )(vertical))
-		(line (pt 48 144)(pt 48 128))
-	)
-	(drawing
-		(rectangle (rect 16 16 96 128))
-	)
-	(flipy_rotate90)
-)
-(symbol
-	(rect 96 184 208 328)
-	(text "FullAdder" (rect 0 5 12 51)(font "Arial" )(vertical))
-	(text "inst12" (rect 96 8 108 37)(font "Arial" )(vertical))
-	(port
-		(pt 32 0)
-		(input)
-		(text "A" (rect 0 0 8 12)(font "Arial" ))
-		(text "A" (rect 27 21 39 29)(font "Arial" )(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 48 0)
-		(input)
-		(text "B" (rect 0 0 7 12)(font "Arial" ))
-		(text "B" (rect 43 21 55 28)(font "Arial" )(vertical))
-		(line (pt 48 0)(pt 48 16))
-	)
-	(port
-		(pt 64 0)
-		(input)
-		(text "CIN" (rect 0 0 20 12)(font "Arial" ))
-		(text "CIN" (rect 59 21 71 41)(font "Arial" )(vertical))
-		(line (pt 64 0)(pt 64 16))
-	)
-	(port
-		(pt 32 144)
-		(output)
-		(text "S" (rect 0 0 7 12)(font "Arial" ))
-		(text "S" (rect 27 118 39 125)(font "Arial" )(vertical))
-		(line (pt 32 144)(pt 32 128))
-	)
-	(port
-		(pt 48 144)
-		(output)
-		(text "COUT" (rect 0 0 30 12)(font "Arial" ))
-		(text "COUT" (rect 43 98 55 128)(font "Arial" )(vertical))
-		(line (pt 48 144)(pt 48 128))
-	)
-	(drawing
-		(rectangle (rect 16 16 96 128))
-	)
-	(flipy_rotate90)
-)
-(symbol
 	(rect 168 104 200 136)
 	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
 	(text "inst6" (rect 3 21 26 33)(font "Arial" )(invisible))
@@ -1268,50 +1092,6 @@ applicable agreement for further details.
 	(flipy)
 )
 (symbol
-	(rect 360 536 472 680)
-	(text "FullAdder" (rect 0 5 12 51)(font "Arial" )(vertical))
-	(text "inst28" (rect 96 8 108 37)(font "Arial" )(vertical))
-	(port
-		(pt 32 0)
-		(input)
-		(text "A" (rect 0 0 8 12)(font "Arial" ))
-		(text "A" (rect 27 21 39 29)(font "Arial" )(vertical))
-		(line (pt 32 0)(pt 32 16))
-	)
-	(port
-		(pt 48 0)
-		(input)
-		(text "B" (rect 0 0 7 12)(font "Arial" ))
-		(text "B" (rect 43 21 55 28)(font "Arial" )(vertical))
-		(line (pt 48 0)(pt 48 16))
-	)
-	(port
-		(pt 64 0)
-		(input)
-		(text "CIN" (rect 0 0 20 12)(font "Arial" ))
-		(text "CIN" (rect 59 21 71 41)(font "Arial" )(vertical))
-		(line (pt 64 0)(pt 64 16))
-	)
-	(port
-		(pt 32 144)
-		(output)
-		(text "S" (rect 0 0 7 12)(font "Arial" ))
-		(text "S" (rect 27 118 39 125)(font "Arial" )(vertical))
-		(line (pt 32 144)(pt 32 128))
-	)
-	(port
-		(pt 48 144)
-		(output)
-		(text "COUT" (rect 0 0 30 12)(font "Arial" ))
-		(text "COUT" (rect 43 98 55 128)(font "Arial" )(vertical))
-		(line (pt 48 144)(pt 48 128))
-	)
-	(drawing
-		(rectangle (rect 16 16 96 128))
-	)
-	(flipy_rotate90)
-)
-(symbol
 	(rect 344 448 392 512)
 	(text "AND2" (rect 0 1 10 25)(font "Arial" (font_size 6))(vertical))
 	(text "inst13" (rect 37 3 49 32)(font "Arial" )(vertical))
@@ -1380,7 +1160,227 @@ applicable agreement for further details.
 (symbol
 	(rect -32 184 80 328)
 	(text "FullAdder" (rect 0 5 12 51)(font "Arial" )(vertical))
-	(text "inst29" (rect 96 8 108 37)(font "Arial" )(vertical))
+	(text "1" (rect 95 7 107 12)(font "Arial" )(vertical))
+	(port
+		(pt 32 0)
+		(input)
+		(text "A" (rect 0 0 8 12)(font "Arial" ))
+		(text "A" (rect 27 21 39 29)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 48 0)
+		(input)
+		(text "B" (rect 0 0 7 12)(font "Arial" ))
+		(text "B" (rect 43 21 55 28)(font "Arial" )(vertical))
+		(line (pt 48 0)(pt 48 16))
+	)
+	(port
+		(pt 64 0)
+		(input)
+		(text "CIN" (rect 0 0 20 12)(font "Arial" ))
+		(text "CIN" (rect 59 21 71 41)(font "Arial" )(vertical))
+		(line (pt 64 0)(pt 64 16))
+	)
+	(port
+		(pt 32 144)
+		(output)
+		(text "S" (rect 0 0 7 12)(font "Arial" ))
+		(text "S" (rect 27 118 39 125)(font "Arial" )(vertical))
+		(line (pt 32 144)(pt 32 128))
+	)
+	(port
+		(pt 48 144)
+		(output)
+		(text "COUT" (rect 0 0 30 12)(font "Arial" ))
+		(text "COUT" (rect 43 98 55 128)(font "Arial" )(vertical))
+		(line (pt 48 144)(pt 48 128))
+	)
+	(drawing
+		(rectangle (rect 16 16 96 128))
+	)
+	(flipy_rotate90)
+)
+(symbol
+	(rect 96 184 208 328)
+	(text "FullAdder" (rect 0 5 12 51)(font "Arial" )(vertical))
+	(text "2" (rect 95 7 107 12)(font "Arial" )(vertical))
+	(port
+		(pt 32 0)
+		(input)
+		(text "A" (rect 0 0 8 12)(font "Arial" ))
+		(text "A" (rect 27 21 39 29)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 48 0)
+		(input)
+		(text "B" (rect 0 0 7 12)(font "Arial" ))
+		(text "B" (rect 43 21 55 28)(font "Arial" )(vertical))
+		(line (pt 48 0)(pt 48 16))
+	)
+	(port
+		(pt 64 0)
+		(input)
+		(text "CIN" (rect 0 0 20 12)(font "Arial" ))
+		(text "CIN" (rect 59 21 71 41)(font "Arial" )(vertical))
+		(line (pt 64 0)(pt 64 16))
+	)
+	(port
+		(pt 32 144)
+		(output)
+		(text "S" (rect 0 0 7 12)(font "Arial" ))
+		(text "S" (rect 27 118 39 125)(font "Arial" )(vertical))
+		(line (pt 32 144)(pt 32 128))
+	)
+	(port
+		(pt 48 144)
+		(output)
+		(text "COUT" (rect 0 0 30 12)(font "Arial" ))
+		(text "COUT" (rect 43 98 55 128)(font "Arial" )(vertical))
+		(line (pt 48 144)(pt 48 128))
+	)
+	(drawing
+		(rectangle (rect 16 16 96 128))
+	)
+	(flipy_rotate90)
+)
+(symbol
+	(rect 224 184 336 328)
+	(text "FullAdder" (rect 0 5 12 51)(font "Arial" )(vertical))
+	(text "3" (rect 95 7 107 12)(font "Arial" )(vertical))
+	(port
+		(pt 32 0)
+		(input)
+		(text "A" (rect 0 0 8 12)(font "Arial" ))
+		(text "A" (rect 27 21 39 29)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 48 0)
+		(input)
+		(text "B" (rect 0 0 7 12)(font "Arial" ))
+		(text "B" (rect 43 21 55 28)(font "Arial" )(vertical))
+		(line (pt 48 0)(pt 48 16))
+	)
+	(port
+		(pt 64 0)
+		(input)
+		(text "CIN" (rect 0 0 20 12)(font "Arial" ))
+		(text "CIN" (rect 59 21 71 41)(font "Arial" )(vertical))
+		(line (pt 64 0)(pt 64 16))
+	)
+	(port
+		(pt 32 144)
+		(output)
+		(text "S" (rect 0 0 7 12)(font "Arial" ))
+		(text "S" (rect 27 118 39 125)(font "Arial" )(vertical))
+		(line (pt 32 144)(pt 32 128))
+	)
+	(port
+		(pt 48 144)
+		(output)
+		(text "COUT" (rect 0 0 30 12)(font "Arial" ))
+		(text "COUT" (rect 43 98 55 128)(font "Arial" )(vertical))
+		(line (pt 48 144)(pt 48 128))
+	)
+	(drawing
+		(rectangle (rect 16 16 96 128))
+	)
+	(flipy_rotate90)
+)
+(symbol
+	(rect 352 536 464 680)
+	(text "FullAdder" (rect 0 5 12 51)(font "Arial" )(vertical))
+	(text "4" (rect 92 4 104 9)(font "Arial" )(vertical))
+	(port
+		(pt 32 0)
+		(input)
+		(text "A" (rect 0 0 8 12)(font "Arial" ))
+		(text "A" (rect 27 21 39 29)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 48 0)
+		(input)
+		(text "B" (rect 0 0 7 12)(font "Arial" ))
+		(text "B" (rect 43 21 55 28)(font "Arial" )(vertical))
+		(line (pt 48 0)(pt 48 16))
+	)
+	(port
+		(pt 64 0)
+		(input)
+		(text "CIN" (rect 0 0 20 12)(font "Arial" ))
+		(text "CIN" (rect 59 21 71 41)(font "Arial" )(vertical))
+		(line (pt 64 0)(pt 64 16))
+	)
+	(port
+		(pt 32 144)
+		(output)
+		(text "S" (rect 0 0 7 12)(font "Arial" ))
+		(text "S" (rect 27 118 39 125)(font "Arial" )(vertical))
+		(line (pt 32 144)(pt 32 128))
+	)
+	(port
+		(pt 48 144)
+		(output)
+		(text "COUT" (rect 0 0 30 12)(font "Arial" ))
+		(text "COUT" (rect 43 98 55 128)(font "Arial" )(vertical))
+		(line (pt 48 144)(pt 48 128))
+	)
+	(drawing
+		(rectangle (rect 16 16 96 128))
+	)
+	(flipy_rotate90)
+)
+(symbol
+	(rect 552 536 664 680)
+	(text "FullAdder" (rect 0 5 12 51)(font "Arial" )(vertical))
+	(text "5" (rect 95 7 107 12)(font "Arial" )(vertical))
+	(port
+		(pt 32 0)
+		(input)
+		(text "A" (rect 0 0 8 12)(font "Arial" ))
+		(text "A" (rect 27 21 39 29)(font "Arial" )(vertical))
+		(line (pt 32 0)(pt 32 16))
+	)
+	(port
+		(pt 48 0)
+		(input)
+		(text "B" (rect 0 0 7 12)(font "Arial" ))
+		(text "B" (rect 43 21 55 28)(font "Arial" )(vertical))
+		(line (pt 48 0)(pt 48 16))
+	)
+	(port
+		(pt 64 0)
+		(input)
+		(text "CIN" (rect 0 0 20 12)(font "Arial" ))
+		(text "CIN" (rect 59 21 71 41)(font "Arial" )(vertical))
+		(line (pt 64 0)(pt 64 16))
+	)
+	(port
+		(pt 32 144)
+		(output)
+		(text "S" (rect 0 0 7 12)(font "Arial" ))
+		(text "S" (rect 27 118 39 125)(font "Arial" )(vertical))
+		(line (pt 32 144)(pt 32 128))
+	)
+	(port
+		(pt 48 144)
+		(output)
+		(text "COUT" (rect 0 0 30 12)(font "Arial" ))
+		(text "COUT" (rect 43 98 55 128)(font "Arial" )(vertical))
+		(line (pt 48 144)(pt 48 128))
+	)
+	(drawing
+		(rectangle (rect 16 16 96 128))
+	)
+	(flipy_rotate90)
+)
+(symbol
+	(rect 688 536 800 680)
+	(text "FullAdder" (rect 0 5 12 51)(font "Arial" )(vertical))
+	(text "6" (rect 95 7 107 12)(font "Arial" )(vertical))
 	(port
 		(pt 32 0)
 		(input)
@@ -1446,10 +1446,6 @@ applicable agreement for further details.
 	(pt 752 536)
 )
 (connector
-	(pt 592 536)
-	(pt 592 528)
-)
-(connector
 	(pt 720 480)
 	(pt 688 480)
 )
@@ -1458,20 +1454,8 @@ applicable agreement for further details.
 	(pt 696 416)
 )
 (connector
-	(pt 520 528)
-	(pt 520 504)
-)
-(connector
 	(pt 528 440)
 	(pt 528 400)
-)
-(connector
-	(pt 608 504)
-	(pt 608 536)
-)
-(connector
-	(pt 520 528)
-	(pt 592 528)
 )
 (connector
 	(pt 368 1128)
@@ -1488,26 +1472,6 @@ applicable agreement for further details.
 (connector
 	(pt 720 680)
 	(pt 720 1024)
-)
-(connector
-	(pt 368 920)
-	(pt 592 920)
-)
-(connector
-	(pt 592 680)
-	(pt 592 920)
-)
-(connector
-	(pt 680 688)
-	(pt 680 528)
-)
-(connector
-	(pt 680 528)
-	(pt 624 528)
-)
-(connector
-	(pt 624 536)
-	(pt 624 528)
 )
 (connector
 	(pt 888 320)
@@ -1696,10 +1660,6 @@ applicable agreement for further details.
 (connector
 	(pt 736 384)
 	(pt 736 536)
-)
-(connector
-	(pt 368 816)
-	(pt 392 816)
 )
 (connector
 	(pt 288 184)
@@ -2078,51 +2038,15 @@ applicable agreement for further details.
 	(pt 1032 880)
 )
 (connector
-	(pt 392 680)
-	(pt 392 816)
-)
-(connector
-	(pt 408 536)
-	(pt 408 520)
-)
-(connector
 	(pt 424 512)
 	(pt 424 520)
-)
-(connector
-	(pt 424 520)
-	(pt 408 520)
 )
 (connector
 	(pt 368 512)
 	(pt 368 520)
 )
 (connector
-	(pt 368 520)
-	(pt 392 520)
-)
-(connector
-	(pt 392 536)
-	(pt 392 520)
-)
-(connector
-	(pt 424 536)
-	(pt 424 528)
-)
-(connector
-	(pt 608 680)
-	(pt 608 688)
-)
-(connector
-	(pt 424 528)
 	(pt 488 528)
-)
-(connector
-	(pt 488 528)
-	(pt 488 688)
-)
-(connector
-	(pt 608 688)
 	(pt 488 688)
 )
 (connector
@@ -2260,6 +2184,90 @@ applicable agreement for further details.
 (connector
 	(pt 400 216)
 	(pt 832 216)
+)
+(connector
+	(pt 368 816)
+	(pt 384 816)
+)
+(connector
+	(pt 384 816)
+	(pt 384 680)
+)
+(connector
+	(pt 400 520)
+	(pt 400 536)
+)
+(connector
+	(pt 424 520)
+	(pt 400 520)
+)
+(connector
+	(pt 368 520)
+	(pt 384 520)
+)
+(connector
+	(pt 384 520)
+	(pt 384 536)
+)
+(connector
+	(pt 416 528)
+	(pt 416 536)
+)
+(connector
+	(pt 488 528)
+	(pt 416 528)
+)
+(connector
+	(pt 608 504)
+	(pt 608 528)
+)
+(connector
+	(pt 680 688)
+	(pt 680 528)
+)
+(connector
+	(pt 520 504)
+	(pt 520 528)
+)
+(connector
+	(pt 368 920)
+	(pt 584 920)
+)
+(connector
+	(pt 488 688)
+	(pt 600 688)
+)
+(connector
+	(pt 584 920)
+	(pt 584 680)
+)
+(connector
+	(pt 600 688)
+	(pt 600 680)
+)
+(connector
+	(pt 608 528)
+	(pt 600 528)
+)
+(connector
+	(pt 600 528)
+	(pt 600 536)
+)
+(connector
+	(pt 616 528)
+	(pt 616 536)
+)
+(connector
+	(pt 680 528)
+	(pt 616 528)
+)
+(connector
+	(pt 584 528)
+	(pt 584 536)
+)
+(connector
+	(pt 520 528)
+	(pt 584 528)
 )
 (junction (pt 848 296))
 (junction (pt 696 400))

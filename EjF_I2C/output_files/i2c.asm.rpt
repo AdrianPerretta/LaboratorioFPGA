@@ -1,5 +1,5 @@
 Assembler report for i2c
-Fri Oct 31 12:27:54 2025
+Fri Oct 31 23:15:18 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -10,7 +10,7 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Facultad/FPGA/LaboratorioFPGA/EjF_I2C/output_files/i2c.sof
+  5. Assembler Device Options: C:/Facultad/FPGA/1/LaboratorioFPGA/EjF_I2C/output_files/i2c.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Oct 31 12:27:54 2025 ;
+; Assembler Status      ; Successful - Fri Oct 31 23:15:18 2025 ;
 ; Revision Name         ; i2c                                   ;
 ; Top-level Entity Name ; i2cEsquematico                        ;
 ; Family                ; Cyclone III                           ;
@@ -77,24 +77,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+---------------------------------------------------------------+
-; Assembler Generated Files                                     ;
-+---------------------------------------------------------------+
-; File Name                                                     ;
-+---------------------------------------------------------------+
-; C:/Facultad/FPGA/LaboratorioFPGA/EjF_I2C/output_files/i2c.sof ;
-+---------------------------------------------------------------+
++-----------------------------------------------------------------+
+; Assembler Generated Files                                       ;
++-----------------------------------------------------------------+
+; File Name                                                       ;
++-----------------------------------------------------------------+
+; C:/Facultad/FPGA/1/LaboratorioFPGA/EjF_I2C/output_files/i2c.sof ;
++-----------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Facultad/FPGA/LaboratorioFPGA/EjF_I2C/output_files/i2c.sof ;
-+----------------+------------------------------------------------------------------------+
-; Option         ; Setting                                                                ;
-+----------------+------------------------------------------------------------------------+
-; Device         ; EP3C120F780C7                                                          ;
-; JTAG usercode  ; 0x00568434                                                             ;
-; Checksum       ; 0x00568434                                                             ;
-+----------------+------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Facultad/FPGA/1/LaboratorioFPGA/EjF_I2C/output_files/i2c.sof ;
++----------------+--------------------------------------------------------------------------+
+; Option         ; Setting                                                                  ;
++----------------+--------------------------------------------------------------------------+
+; Device         ; EP3C120F780C7                                                            ;
+; JTAG usercode  ; 0x00568434                                                               ;
+; Checksum       ; 0x00568434                                                               ;
++----------------+--------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -103,13 +103,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Oct 31 12:27:50 2025
+    Info: Processing started: Fri Oct 31 23:15:14 2025
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off i2c -c i2c
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4568 megabytes
-    Info: Processing ended: Fri Oct 31 12:27:54 2025
+    Info: Processing ended: Fri Oct 31 23:15:18 2025
     Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:02
 

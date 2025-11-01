@@ -3,7 +3,7 @@ $comment
 		vcd file mult2bits.msim.vcd -direction
 $end
 $date
-	Sun Oct 26 18:10:22 2025
+	Fri Oct 31 23:10:29 2025
 $end
 $version
 	ModelSim Version 10.1d
@@ -36,10 +36,10 @@ $var wire 1 4 A0~input_o $end
 $var wire 1 5 A1~input_o $end
 $var wire 1 6 B0~input_o $end
 $var wire 1 7 B1~input_o $end
-$var wire 1 8 inst7|and2~0_combout $end
-$var wire 1 9 inst7|S~0_combout $end
-$var wire 1 : inst8|S~combout $end
-$var wire 1 ; inst2~combout $end
+$var wire 1 8 b2v_inst7|and2~0_combout $end
+$var wire 1 9 b2v_inst7|S~0_combout $end
+$var wire 1 : b2v_inst8|S~combout $end
+$var wire 1 ; R0~0_combout $end
 $upscope $end
 $upscope $end
 $enddefinitions $end

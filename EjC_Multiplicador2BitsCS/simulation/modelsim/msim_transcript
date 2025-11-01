@@ -24,23 +24,23 @@
 # -- Compiling entity mult2bitscs
 # -- Compiling architecture structure of mult2bitscs
 # 
-# vcom -93 -work work {C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd}
+# vcom -93 -work work {C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity mult2bitscs_tb
 # -- Compiling architecture fnc of mult2bitscs_tb
-# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(61): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(61): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Facultad/FPGA/1/LaboratorioFPGA/EjC_Multiplicador2BitsCS/mult2bitscs_tb.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # 
 # vsim -t 1ps -L altera -L cycloneiii -L gate_work -L work -voptargs="+acc"  mult2bitscs_tb
 # vsim -L altera -L cycloneiii -L gate_work -L work -voptargs=\"+acc\" -t 1ps mult2bitscs_tb 
