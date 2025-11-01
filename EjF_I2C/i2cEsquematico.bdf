@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 240 -16 408 0)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "clock" (rect 5 0 30 12)(font "Arial" ))
+	(text "SCL" (rect 5 0 27 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -34,74 +34,6 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(output)
-	(rect -432 72 -256 88)
-	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
-	(text "Prueba" (rect 5 0 39 12)(font "Arial" ))
-	(pt 176 8)
-	(drawing
-		(line (pt 176 8)(pt 124 8))
-		(line (pt 124 4)(pt 98 4))
-		(line (pt 124 12)(pt 98 12))
-		(line (pt 124 12)(pt 124 4))
-		(line (pt 98 4)(pt 94 8))
-		(line (pt 94 8)(pt 98 12))
-		(line (pt 98 12)(pt 94 8))
-	)
-	(flipy)
-)
-(pin
-	(output)
-	(rect -432 -24 -256 -8)
-	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
-	(text "cout1" (rect 5 0 32 12)(font "Arial" ))
-	(pt 176 8)
-	(drawing
-		(line (pt 176 8)(pt 124 8))
-		(line (pt 124 4)(pt 98 4))
-		(line (pt 124 12)(pt 98 12))
-		(line (pt 124 12)(pt 124 4))
-		(line (pt 98 4)(pt 94 8))
-		(line (pt 94 8)(pt 98 12))
-		(line (pt 98 12)(pt 94 8))
-	)
-	(flipy)
-)
-(pin
-	(output)
-	(rect -440 16 -264 32)
-	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
-	(text "cout2" (rect 5 0 32 12)(font "Arial" ))
-	(pt 176 8)
-	(drawing
-		(line (pt 176 8)(pt 124 8))
-		(line (pt 124 4)(pt 98 4))
-		(line (pt 124 12)(pt 98 12))
-		(line (pt 124 12)(pt 124 4))
-		(line (pt 98 4)(pt 94 8))
-		(line (pt 94 8)(pt 98 12))
-		(line (pt 98 12)(pt 94 8))
-	)
-	(flipy)
-)
-(pin
-	(output)
-	(rect 456 256 632 272)
-	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
-	(text "cout3" (rect 5 0 32 12)(font "Arial" ))
-	(pt 176 8)
-	(drawing
-		(line (pt 176 8)(pt 124 8))
-		(line (pt 124 4)(pt 98 4))
-		(line (pt 124 12)(pt 98 12))
-		(line (pt 124 12)(pt 124 4))
-		(line (pt 98 4)(pt 94 8))
-		(line (pt 94 8)(pt 98 12))
-		(line (pt 98 12)(pt 94 8))
-	)
-	(flipy)
 )
 (pin
 	(output)
@@ -121,9 +53,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 336 -48 512 -32)
+	(rect -432 72 -256 88)
 	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
-	(text "cout4" (rect 5 0 33 12)(font "Arial" ))
+	(text "SALIDA_ACK" (rect 5 0 73 12)(font "Arial" ))
 	(pt 176 8)
 	(drawing
 		(line (pt 176 8)(pt 124 8))
@@ -560,6 +492,21 @@ applicable agreement for further details.
 		(line (pt 0 0)(pt 0 0))
 	)
 )
+(symbol
+	(rect -216 144 -184 160)
+	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 3 5 26 17)(font "Arial" )(invisible))
+	(port
+		(pt 16 16)
+		(output)
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(line (pt 16 16)(pt 16 8))
+	)
+	(drawing
+		(line (pt 8 8)(pt 24 8))
+	)
+)
 (connector
 	(pt 224 104)
 	(pt 280 104)
@@ -728,44 +675,8 @@ applicable agreement for further details.
 	(pt 440 288)
 )
 (connector
-	(pt -256 -16)
-	(pt -208 -16)
-)
-(connector
-	(pt -208 -72)
-	(pt -208 -16)
-)
-(connector
-	(pt -208 -16)
-	(pt -208 112)
-)
-(connector
-	(pt -264 24)
-	(pt -64 24)
-)
-(connector
-	(pt -64 0)
-	(pt -64 24)
-)
-(connector
-	(pt -64 24)
-	(pt -64 120)
-)
-(connector
-	(pt -224 152)
-	(pt -80 152)
-)
-(connector
 	(pt -8 200)
 	(pt -240 200)
-)
-(connector
-	(pt -80 152)
-	(pt -80 184)
-)
-(connector
-	(pt -80 184)
-	(pt -240 184)
 )
 (connector
 	(pt -320 192)
@@ -794,10 +705,6 @@ applicable agreement for further details.
 (connector
 	(pt -224 80)
 	(pt -224 104)
-)
-(connector
-	(pt -224 104)
-	(pt -224 152)
 )
 (connector
 	(pt 456 -8)
@@ -832,59 +739,38 @@ applicable agreement for further details.
 	(pt -264 168)
 )
 (connector
-	(pt 632 264)
-	(pt 656 264)
-)
-(connector
-	(pt 656 168)
-	(pt 656 264)
-)
-(connector
-	(pt 656 168)
-	(pt 512 168)
-)
-(connector
-	(pt 512 168)
-	(pt 512 112)
-)
-(connector
-	(pt 408 112)
-	(pt 512 112)
-)
-(connector
-	(pt 512 112)
-	(pt 528 112)
-)
-(connector
 	(pt 248 368)
 	(pt 328 368)
 	(bus)
 )
 (connector
-	(pt 512 -40)
-	(pt 520 -40)
-)
-(connector
-	(pt 520 -40)
-	(pt 520 80)
-)
-(connector
-	(pt 528 80)
-	(pt 520 80)
-)
-(connector
-	(pt 520 80)
 	(pt 440 80)
+	(pt 528 80)
+)
+(connector
+	(pt 408 112)
+	(pt 528 112)
+)
+(connector
+	(pt -64 0)
+	(pt -64 120)
+)
+(connector
+	(pt -208 -72)
+	(pt -208 112)
+)
+(connector
+	(pt -240 184)
+	(pt -200 184)
+)
+(connector
+	(pt -200 184)
+	(pt -200 160)
 )
 (junction (pt -64 120))
 (junction (pt -8 208))
 (junction (pt 64 256))
 (junction (pt -224 80))
-(junction (pt -208 -16))
-(junction (pt -64 24))
 (junction (pt -8 200))
-(junction (pt -224 104))
 (junction (pt 456 48))
 (junction (pt -152 192))
-(junction (pt 512 112))
-(junction (pt 520 80))

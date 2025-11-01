@@ -3,7 +3,7 @@ $comment
 		vcd file multModuloCa2.msim.vcd -direction
 $end
 $date
-	Sat Oct 25 18:42:45 2025
+	Fri Oct 31 14:26:01 2025
 $end
 $version
 	ModelSim Version 10.1d
@@ -38,8 +38,8 @@ $var wire 1 6 RC[0]~output_o $end
 $var wire 1 7 RC[1]~output_o $end
 $var wire 1 8 RC[2]~output_o $end
 $var wire 1 9 RC[3]~output_o $end
-$var wire 1 : A[0]~input_o $end
-$var wire 1 ; B[0]~input_o $end
+$var wire 1 : B[0]~input_o $end
+$var wire 1 ; A[0]~input_o $end
 $var wire 1 < Mult0|mult_core|result[0]~0_combout $end
 $var wire 1 = B[1]~input_o $end
 $var wire 1 > A[1]~input_o $end
@@ -91,29 +91,29 @@ x.
 $end
 #62500
 b1 "
-1;
+1:
 0+
 #125000
 b11 "
 b10 "
-0;
+0:
 1=
 1+
 #187500
 b11 "
-1;
+1:
 0+
 #250000
 b1 !
 b1 "
 b0 "
-0;
+0:
 0=
-1:
+1;
 1+
 #312500
 b1 "
-1;
+1:
 0+
 1<
 16
@@ -123,7 +123,7 @@ b1 "
 #375000
 b11 "
 b10 "
-0;
+0:
 1=
 1+
 1C
@@ -144,7 +144,7 @@ b10 "
 0*
 #437500
 b11 "
-1;
+1:
 0+
 1<
 16
@@ -156,9 +156,9 @@ b11 !
 b10 !
 b1 "
 b0 "
-0;
-0=
 0:
+0=
+0;
 1>
 1+
 0C
@@ -179,7 +179,7 @@ b0 "
 0*
 #562500
 b1 "
-1;
+1:
 0+
 1C
 1B
@@ -195,7 +195,7 @@ b1 "
 #625000
 b11 "
 b10 "
-0;
+0:
 1=
 1+
 0C
@@ -211,7 +211,7 @@ b10 "
 0)
 #687500
 b11 "
-1;
+1:
 0+
 0B
 1?
@@ -225,9 +225,9 @@ b11 "
 b11 !
 b1 "
 b0 "
-0;
+0:
 0=
-1:
+1;
 1+
 0@
 0?
@@ -239,7 +239,7 @@ b0 "
 0)
 #812500
 b1 "
-1;
+1:
 0+
 1C
 1B
@@ -260,7 +260,7 @@ b1 "
 #875000
 b11 "
 b10 "
-0;
+0:
 1=
 1+
 0C
@@ -279,7 +279,7 @@ b10 "
 0*
 #937500
 b11 "
-1;
+1:
 0+
 1A
 0@

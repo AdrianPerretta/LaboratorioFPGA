@@ -3,6 +3,7 @@ use verilog.vl_types.all;
 entity mult2bitscs is
     port(
         R3              : out    vl_logic;
+        CLEAR           : in     vl_logic;
         CLK             : in     vl_logic;
         A1              : in     vl_logic;
         B0              : in     vl_logic;

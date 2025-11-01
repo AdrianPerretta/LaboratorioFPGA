@@ -1,5 +1,5 @@
 Assembler report for multModuloCa2
-Sat Oct 25 19:38:33 2025
+Fri Oct 31 14:25:48 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -37,11 +37,11 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sat Oct 25 19:38:33 2025 ;
+; Assembler Status      ; Successful - Fri Oct 31 14:25:48 2025 ;
 ; Revision Name         ; multModuloCa2                         ;
 ; Top-level Entity Name ; multModuloCa2                         ;
-; Family                ; Cyclone IV GX                         ;
-; Device                ; EP4CGX15BF14C6                        ;
+; Family                ; Cyclone III                           ;
+; Device                ; EP3C120F780C7                         ;
 +-----------------------+---------------------------------------+
 
 
@@ -91,9 +91,9 @@ applicable agreement for further details.
 +----------------+-----------------------------------------------------------------------------------------------------+
 ; Option         ; Setting                                                                                             ;
 +----------------+-----------------------------------------------------------------------------------------------------+
-; Device         ; EP4CGX15BF14C6                                                                                      ;
-; JTAG usercode  ; 0x000BCDF4                                                                                          ;
-; Checksum       ; 0x000BCDF4                                                                                          ;
+; Device         ; EP3C120F780C7                                                                                       ;
+; JTAG usercode  ; 0x0056391E                                                                                          ;
+; Checksum       ; 0x0056391E                                                                                          ;
 +----------------+-----------------------------------------------------------------------------------------------------+
 
 
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sat Oct 25 19:38:33 2025
+    Info: Processing started: Fri Oct 31 14:25:45 2025
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off multModuloCa2 -c multModuloCa2
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4607 megabytes
-    Info: Processing ended: Sat Oct 25 19:38:33 2025
-    Info: Elapsed time: 00:00:00
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 4556 megabytes
+    Info: Processing ended: Fri Oct 31 14:25:48 2025
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
 
 

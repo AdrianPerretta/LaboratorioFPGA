@@ -4,78 +4,78 @@ K3
 cModel Technology
 Z0 dC:\Users\Adrian\Downloads\lab\LaboratorioFPGA\EjC_Multiplicador2BitsCS\simulation\qsim
 vmult2bitscs
-Z1 !s100 1P@9j=4@]Y2GjJ@Cl8O`;0
-Z2 I>HMdYb`JMdjSBoM_7SGWZ3
-Z3 VAF6dBSkD2g3<9@aiVOh0=2
-Z4 dC:\Facultad\FPGA\LaboratorioFPGA\EjC_Multiplicador2BitsCS\simulation\qsim
-Z5 w1761317858
-Z6 8mult2bitscs.vo
-Z7 Fmult2bitscs.vo
+Z1 IQ24zMOf0;3LA]WC7jN8>Y0
+Z2 VJJbSVmiH<mYDenbiU[VXT2
+Z3 dC:\Facultad\FPGA\LaboratorioFPGA\EjC_Multiplicador2BitsCS\simulation\qsim
+Z4 w1761931112
+Z5 8mult2bitscs.vo
+Z6 Fmult2bitscs.vo
 L0 31
-Z8 OV;L;10.1d;51
+Z7 OV;L;10.1d;51
 r1
 31
-Z9 !s90 -work|work|mult2bitscs.vo|
-Z10 o-work work -O0
+Z8 !s90 -work|work|mult2bitscs.vo|
+Z9 o-work work -O0
 !i10b 1
+Z10 !s100 [DHEW^Z;NINi88Ro;7Vf31
 !s85 0
-Z11 !s108 1761317858.633000
+Z11 !s108 1761931113.000000
 Z12 !s107 mult2bitscs.vo|
 !s101 -O0
 vmult2bitscs_vlg_check_tst
 !i10b 1
-!s100 0[PmY:gzUnzR^a5JSK5QF2
-I[lgQm3VQ^9m2YP8hf@>h[2
-Z13 VOiZi2V>`B]5C^e2oX[:^`1
-R4
-Z14 w1761317857
-Z15 8mult2bitscs.vt
-Z16 Fmult2bitscs.vt
-L0 65
-R8
+Z13 !s100 b_Z4agWi;=3Y22^f<9G^H2
+Z14 IlZLLn5_]z1Yn:SVbn[KT_1
+Z15 VOiZi2V>`B]5C^e2oX[:^`1
+R3
+Z16 w1761931111
+Z17 8mult2bitscs.vt
+Z18 Fmult2bitscs.vt
+L0 67
+R7
 r1
 !s85 0
 31
-Z17 !s108 1761317858.693000
-Z18 !s107 mult2bitscs.vt|
-Z19 !s90 -work|work|mult2bitscs.vt|
+Z19 !s108 1761931113.062000
+Z20 !s107 mult2bitscs.vt|
+Z21 !s90 -work|work|mult2bitscs.vt|
 !s101 -O0
-R10
+R9
 vmult2bitscs_vlg_sample_tst
 !i10b 1
-Z20 !s100 7ZYcdYl<S4VjB:D_34[d@3
-Z21 I@OTM3oKYCEkFPD6z42kmF2
-Z22 V`KCjd?VD4D1NnoeP2m<V00
-R4
-R14
-R15
+Z22 !s100 m8RlDK@8M8zRb_H0Vo1V_0
+Z23 InDf@zD>X^f@om@>AIZKgZ1
+Z24 VcjTTec30]R>7fY4A_mhTB1
+R3
 R16
+R17
+R18
 L0 29
-R8
+R7
 r1
 !s85 0
 31
-R17
-R18
 R19
+R20
+R21
 !s101 -O0
-R10
+R9
 vmult2bitscs_vlg_vec_tst
 !i10b 1
-!s100 ^7KOKF3^4fez<hU[_:PQ_3
-I?fWS@AUh@<DI?ad:QK=Uk1
-Z23 V_am<YbJ@Q_Z88`4[_=5l62
-R4
-R14
-R15
+Z25 !s100 b5[K9:Q1al<]_fFMQPMLT0
+Z26 IKbEL=<d^HZ?_I;]iZXWC^1
+Z27 V_am<YbJ@Q_Z88`4[_=5l62
+R3
 R16
-L0 295
-R8
+R17
+R18
+Z28 L0 297
+R7
 r1
 !s85 0
 31
-R17
-R18
 R19
+R20
+R21
 !s101 -O0
-R10
+R9

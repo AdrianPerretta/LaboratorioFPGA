@@ -6,6 +6,7 @@ entity mult2bitscs_vlg_sample_tst is
         A1              : in     vl_logic;
         B0              : in     vl_logic;
         B1              : in     vl_logic;
+        CLEAR           : in     vl_logic;
         CLK             : in     vl_logic;
         sampler_tx      : out    vl_logic
     );

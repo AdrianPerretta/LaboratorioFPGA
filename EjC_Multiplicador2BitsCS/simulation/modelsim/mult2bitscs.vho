@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
--- DATE "10/28/2025 23:06:34"
+-- DATE "10/31/2025 14:11:25"
 
 -- 
 -- Device: Altera EP3C120F780C7 Package FBGA780
@@ -35,13 +35,13 @@ USE IEEE.STD_LOGIC_1164.ALL;
 
 ENTITY 	mult2bitscs IS
     PORT (
-	B0 : IN std_logic;
-	A0 : IN std_logic;
-	A1 : IN std_logic;
-	CLK : IN std_logic;
-	B1 : IN std_logic;
-	CLEAR : IN std_logic;
 	R3 : OUT std_logic;
+	CLEAR : IN std_logic;
+	CLK : IN std_logic;
+	A1 : IN std_logic;
+	A0 : IN std_logic;
+	B1 : IN std_logic;
+	B0 : IN std_logic;
 	R2 : OUT std_logic;
 	R1 : OUT std_logic;
 	R0 : OUT std_logic;
@@ -75,13 +75,13 @@ SIGNAL devpor : std_logic := '1';
 SIGNAL ww_devoe : std_logic;
 SIGNAL ww_devclrn : std_logic;
 SIGNAL ww_devpor : std_logic;
-SIGNAL ww_B0 : std_logic;
-SIGNAL ww_A0 : std_logic;
-SIGNAL ww_A1 : std_logic;
-SIGNAL ww_CLK : std_logic;
-SIGNAL ww_B1 : std_logic;
-SIGNAL ww_CLEAR : std_logic;
 SIGNAL ww_R3 : std_logic;
+SIGNAL ww_CLEAR : std_logic;
+SIGNAL ww_CLK : std_logic;
+SIGNAL ww_A1 : std_logic;
+SIGNAL ww_A0 : std_logic;
+SIGNAL ww_B1 : std_logic;
+SIGNAL ww_B0 : std_logic;
 SIGNAL ww_R2 : std_logic;
 SIGNAL ww_R1 : std_logic;
 SIGNAL ww_R0 : std_logic;
@@ -98,39 +98,38 @@ SIGNAL \BANDERA_SIGNO~output_o\ : std_logic;
 SIGNAL \CLK~input_o\ : std_logic;
 SIGNAL \CLK~inputclkctrl_outclk\ : std_logic;
 SIGNAL \B0~input_o\ : std_logic;
-SIGNAL \SYNTHESIZED_WIRE_35~feeder_combout\ : std_logic;
+SIGNAL \inst21~feeder_combout\ : std_logic;
 SIGNAL \CLEAR~input_o\ : std_logic;
 SIGNAL \CLEAR~inputclkctrl_outclk\ : std_logic;
-SIGNAL \SYNTHESIZED_WIRE_35~q\ : std_logic;
+SIGNAL \inst21~q\ : std_logic;
 SIGNAL \B1~input_o\ : std_logic;
-SIGNAL \SYNTHESIZED_WIRE_40~feeder_combout\ : std_logic;
-SIGNAL \SYNTHESIZED_WIRE_40~q\ : std_logic;
+SIGNAL \inst22~feeder_combout\ : std_logic;
+SIGNAL \inst22~q\ : std_logic;
 SIGNAL \A1~input_o\ : std_logic;
-SIGNAL \SYNTHESIZED_WIRE_34~feeder_combout\ : std_logic;
-SIGNAL \SYNTHESIZED_WIRE_34~q\ : std_logic;
-SIGNAL \SYNTHESIZED_WIRE_5~0_combout\ : std_logic;
-SIGNAL \SYNTHESIZED_WIRE_41~q\ : std_logic;
-SIGNAL \b2v_inst26|S~0_combout\ : std_logic;
-SIGNAL \DFF_inst16~q\ : std_logic;
-SIGNAL \b2v_inst27|S~combout\ : std_logic;
-SIGNAL \DFF_inst17~q\ : std_logic;
+SIGNAL \inst19~feeder_combout\ : std_logic;
+SIGNAL \inst19~q\ : std_logic;
+SIGNAL \inst28|S~0_combout\ : std_logic;
+SIGNAL \inst15~q\ : std_logic;
+SIGNAL \inst26|S~0_combout\ : std_logic;
+SIGNAL \inst16~q\ : std_logic;
+SIGNAL \inst27|S~combout\ : std_logic;
+SIGNAL \inst17~q\ : std_logic;
 SIGNAL \A0~input_o\ : std_logic;
-SIGNAL \SYNTHESIZED_WIRE_39~feeder_combout\ : std_logic;
-SIGNAL \SYNTHESIZED_WIRE_39~q\ : std_logic;
-SIGNAL \SYNTHESIZED_WIRE_11~combout\ : std_logic;
-SIGNAL \DFF_inst18~q\ : std_logic;
-SIGNAL \BANDERA_CEROS~0_combout\ : std_logic;
-SIGNAL \ALT_INV_BANDERA_CEROS~0_combout\ : std_logic;
+SIGNAL \inst20~feeder_combout\ : std_logic;
+SIGNAL \inst20~q\ : std_logic;
+SIGNAL \inst2~combout\ : std_logic;
+SIGNAL \inst18~q\ : std_logic;
+SIGNAL \inst30~0_combout\ : std_logic;
 
 BEGIN
 
-ww_B0 <= B0;
-ww_A0 <= A0;
-ww_A1 <= A1;
-ww_CLK <= CLK;
-ww_B1 <= B1;
-ww_CLEAR <= CLEAR;
 R3 <= ww_R3;
+ww_CLEAR <= CLEAR;
+ww_CLK <= CLK;
+ww_A1 <= A1;
+ww_A0 <= A0;
+ww_B1 <= B1;
+ww_B0 <= B0;
 R2 <= ww_R2;
 R1 <= ww_R1;
 R0 <= ww_R0;
@@ -143,7 +142,6 @@ ww_devpor <= devpor;
 \CLEAR~inputclkctrl_INCLK_bus\ <= (vcc & vcc & vcc & \CLEAR~input_o\);
 
 \CLK~inputclkctrl_INCLK_bus\ <= (vcc & vcc & vcc & \CLK~input_o\);
-\ALT_INV_BANDERA_CEROS~0_combout\ <= NOT \BANDERA_CEROS~0_combout\;
 
 -- Location: IOOBUF_X94_Y0_N2
 \R3~output\ : cycloneiii_io_obuf
@@ -153,7 +151,7 @@ GENERIC MAP (
 	open_drain_output => "false")
 -- pragma translate_on
 PORT MAP (
-	i => \SYNTHESIZED_WIRE_41~q\,
+	i => \inst15~q\,
 	devoe => ww_devoe,
 	o => \R3~output_o\);
 
@@ -165,7 +163,7 @@ GENERIC MAP (
 	open_drain_output => "false")
 -- pragma translate_on
 PORT MAP (
-	i => \DFF_inst16~q\,
+	i => \inst16~q\,
 	devoe => ww_devoe,
 	o => \R2~output_o\);
 
@@ -177,7 +175,7 @@ GENERIC MAP (
 	open_drain_output => "false")
 -- pragma translate_on
 PORT MAP (
-	i => \DFF_inst17~q\,
+	i => \inst17~q\,
 	devoe => ww_devoe,
 	o => \R1~output_o\);
 
@@ -189,7 +187,7 @@ GENERIC MAP (
 	open_drain_output => "false")
 -- pragma translate_on
 PORT MAP (
-	i => \DFF_inst18~q\,
+	i => \inst18~q\,
 	devoe => ww_devoe,
 	o => \R0~output_o\);
 
@@ -201,7 +199,7 @@ GENERIC MAP (
 	open_drain_output => "false")
 -- pragma translate_on
 PORT MAP (
-	i => \ALT_INV_BANDERA_CEROS~0_combout\,
+	i => \inst30~0_combout\,
 	devoe => ww_devoe,
 	o => \BANDERA_CEROS~output_o\);
 
@@ -213,7 +211,7 @@ GENERIC MAP (
 	open_drain_output => "false")
 -- pragma translate_on
 PORT MAP (
-	i => \SYNTHESIZED_WIRE_41~q\,
+	i => \inst15~q\,
 	devoe => ww_devoe,
 	o => \BANDERA_SIGNO~output_o\);
 
@@ -253,9 +251,9 @@ PORT MAP (
 	o => \B0~input_o\);
 
 -- Location: LCCOMB_X80_Y1_N8
-\SYNTHESIZED_WIRE_35~feeder\ : cycloneiii_lcell_comb
+\inst21~feeder\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \SYNTHESIZED_WIRE_35~feeder_combout\ = \B0~input_o\
+-- \inst21~feeder_combout\ = \B0~input_o\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -264,7 +262,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \B0~input_o\,
-	combout => \SYNTHESIZED_WIRE_35~feeder_combout\);
+	combout => \inst21~feeder_combout\);
 
 -- Location: IOIBUF_X58_Y0_N15
 \CLEAR~input\ : cycloneiii_io_ibuf
@@ -291,7 +289,7 @@ PORT MAP (
 	outclk => \CLEAR~inputclkctrl_outclk\);
 
 -- Location: FF_X80_Y1_N9
-SYNTHESIZED_WIRE_35 : dffeas
+inst21 : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -299,11 +297,11 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK~inputclkctrl_outclk\,
-	d => \SYNTHESIZED_WIRE_35~feeder_combout\,
+	d => \inst21~feeder_combout\,
 	clrn => \CLEAR~inputclkctrl_outclk\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \SYNTHESIZED_WIRE_35~q\);
+	q => \inst21~q\);
 
 -- Location: IOIBUF_X94_Y0_N8
 \B1~input\ : cycloneiii_io_ibuf
@@ -317,9 +315,9 @@ PORT MAP (
 	o => \B1~input_o\);
 
 -- Location: LCCOMB_X80_Y1_N4
-\SYNTHESIZED_WIRE_40~feeder\ : cycloneiii_lcell_comb
+\inst22~feeder\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \SYNTHESIZED_WIRE_40~feeder_combout\ = \B1~input_o\
+-- \inst22~feeder_combout\ = \B1~input_o\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -328,10 +326,10 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \B1~input_o\,
-	combout => \SYNTHESIZED_WIRE_40~feeder_combout\);
+	combout => \inst22~feeder_combout\);
 
 -- Location: FF_X80_Y1_N5
-SYNTHESIZED_WIRE_40 : dffeas
+inst22 : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -339,11 +337,11 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK~inputclkctrl_outclk\,
-	d => \SYNTHESIZED_WIRE_40~feeder_combout\,
+	d => \inst22~feeder_combout\,
 	clrn => \CLEAR~inputclkctrl_outclk\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \SYNTHESIZED_WIRE_40~q\);
+	q => \inst22~q\);
 
 -- Location: IOIBUF_X85_Y0_N8
 \A1~input\ : cycloneiii_io_ibuf
@@ -357,9 +355,9 @@ PORT MAP (
 	o => \A1~input_o\);
 
 -- Location: LCCOMB_X80_Y1_N18
-\SYNTHESIZED_WIRE_34~feeder\ : cycloneiii_lcell_comb
+\inst19~feeder\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \SYNTHESIZED_WIRE_34~feeder_combout\ = \A1~input_o\
+-- \inst19~feeder_combout\ = \A1~input_o\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -368,10 +366,10 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \A1~input_o\,
-	combout => \SYNTHESIZED_WIRE_34~feeder_combout\);
+	combout => \inst19~feeder_combout\);
 
 -- Location: FF_X80_Y1_N19
-SYNTHESIZED_WIRE_34 : dffeas
+inst19 : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -379,16 +377,16 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK~inputclkctrl_outclk\,
-	d => \SYNTHESIZED_WIRE_34~feeder_combout\,
+	d => \inst19~feeder_combout\,
 	clrn => \CLEAR~inputclkctrl_outclk\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \SYNTHESIZED_WIRE_34~q\);
+	q => \inst19~q\);
 
 -- Location: LCCOMB_X80_Y1_N24
-\SYNTHESIZED_WIRE_5~0\ : cycloneiii_lcell_comb
+\inst28|S~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \SYNTHESIZED_WIRE_5~0_combout\ = (\SYNTHESIZED_WIRE_40~q\ & (\SYNTHESIZED_WIRE_39~q\ & ((!\SYNTHESIZED_WIRE_34~q\)))) # (!\SYNTHESIZED_WIRE_40~q\ & (((\SYNTHESIZED_WIRE_35~q\ & \SYNTHESIZED_WIRE_34~q\))))
+-- \inst28|S~0_combout\ = (\inst22~q\ & (\inst20~q\ & ((!\inst19~q\)))) # (!\inst22~q\ & (((\inst21~q\ & \inst19~q\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -396,14 +394,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \SYNTHESIZED_WIRE_39~q\,
-	datab => \SYNTHESIZED_WIRE_35~q\,
-	datac => \SYNTHESIZED_WIRE_40~q\,
-	datad => \SYNTHESIZED_WIRE_34~q\,
-	combout => \SYNTHESIZED_WIRE_5~0_combout\);
+	dataa => \inst20~q\,
+	datab => \inst21~q\,
+	datac => \inst22~q\,
+	datad => \inst19~q\,
+	combout => \inst28|S~0_combout\);
 
 -- Location: FF_X80_Y1_N25
-SYNTHESIZED_WIRE_41 : dffeas
+inst15 : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -411,17 +409,16 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK~inputclkctrl_outclk\,
-	d => \SYNTHESIZED_WIRE_5~0_combout\,
+	d => \inst28|S~0_combout\,
 	clrn => \CLEAR~inputclkctrl_outclk\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \SYNTHESIZED_WIRE_41~q\);
+	q => \inst15~q\);
 
 -- Location: LCCOMB_X80_Y1_N26
-\b2v_inst26|S~0\ : cycloneiii_lcell_comb
+\inst26|S~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \b2v_inst26|S~0_combout\ = (\SYNTHESIZED_WIRE_40~q\ & ((\SYNTHESIZED_WIRE_39~q\ & ((!\SYNTHESIZED_WIRE_34~q\))) # (!\SYNTHESIZED_WIRE_39~q\ & (!\SYNTHESIZED_WIRE_35~q\ & \SYNTHESIZED_WIRE_34~q\)))) # (!\SYNTHESIZED_WIRE_40~q\ & (((\SYNTHESIZED_WIRE_35~q\ 
--- & \SYNTHESIZED_WIRE_34~q\))))
+-- \inst26|S~0_combout\ = (\inst22~q\ & ((\inst20~q\ & ((!\inst19~q\))) # (!\inst20~q\ & (!\inst21~q\ & \inst19~q\)))) # (!\inst22~q\ & (((\inst21~q\ & \inst19~q\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -429,14 +426,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \SYNTHESIZED_WIRE_39~q\,
-	datab => \SYNTHESIZED_WIRE_35~q\,
-	datac => \SYNTHESIZED_WIRE_40~q\,
-	datad => \SYNTHESIZED_WIRE_34~q\,
-	combout => \b2v_inst26|S~0_combout\);
+	dataa => \inst20~q\,
+	datab => \inst21~q\,
+	datac => \inst22~q\,
+	datad => \inst19~q\,
+	combout => \inst26|S~0_combout\);
 
 -- Location: FF_X80_Y1_N27
-DFF_inst16 : dffeas
+inst16 : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -444,16 +441,16 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK~inputclkctrl_outclk\,
-	d => \b2v_inst26|S~0_combout\,
+	d => \inst26|S~0_combout\,
 	clrn => \CLEAR~inputclkctrl_outclk\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \DFF_inst16~q\);
+	q => \inst16~q\);
 
 -- Location: LCCOMB_X80_Y1_N20
-\b2v_inst27|S\ : cycloneiii_lcell_comb
+\inst27|S\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \b2v_inst27|S~combout\ = (\SYNTHESIZED_WIRE_39~q\ & (\SYNTHESIZED_WIRE_40~q\ $ (((\SYNTHESIZED_WIRE_34~q\ & \SYNTHESIZED_WIRE_35~q\))))) # (!\SYNTHESIZED_WIRE_39~q\ & (\SYNTHESIZED_WIRE_34~q\ & (\SYNTHESIZED_WIRE_35~q\)))
+-- \inst27|S~combout\ = (\inst20~q\ & (\inst22~q\ $ (((\inst19~q\ & \inst21~q\))))) # (!\inst20~q\ & (\inst19~q\ & (\inst21~q\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -461,14 +458,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \SYNTHESIZED_WIRE_39~q\,
-	datab => \SYNTHESIZED_WIRE_34~q\,
-	datac => \SYNTHESIZED_WIRE_35~q\,
-	datad => \SYNTHESIZED_WIRE_40~q\,
-	combout => \b2v_inst27|S~combout\);
+	dataa => \inst20~q\,
+	datab => \inst19~q\,
+	datac => \inst21~q\,
+	datad => \inst22~q\,
+	combout => \inst27|S~combout\);
 
 -- Location: FF_X80_Y1_N21
-DFF_inst17 : dffeas
+inst17 : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -476,11 +473,11 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK~inputclkctrl_outclk\,
-	d => \b2v_inst27|S~combout\,
+	d => \inst27|S~combout\,
 	clrn => \CLEAR~inputclkctrl_outclk\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \DFF_inst17~q\);
+	q => \inst17~q\);
 
 -- Location: IOIBUF_X56_Y0_N22
 \A0~input\ : cycloneiii_io_ibuf
@@ -494,9 +491,9 @@ PORT MAP (
 	o => \A0~input_o\);
 
 -- Location: LCCOMB_X80_Y1_N6
-\SYNTHESIZED_WIRE_39~feeder\ : cycloneiii_lcell_comb
+\inst20~feeder\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \SYNTHESIZED_WIRE_39~feeder_combout\ = \A0~input_o\
+-- \inst20~feeder_combout\ = \A0~input_o\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -505,10 +502,10 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \A0~input_o\,
-	combout => \SYNTHESIZED_WIRE_39~feeder_combout\);
+	combout => \inst20~feeder_combout\);
 
 -- Location: FF_X80_Y1_N7
-SYNTHESIZED_WIRE_39 : dffeas
+inst20 : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -516,16 +513,16 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK~inputclkctrl_outclk\,
-	d => \SYNTHESIZED_WIRE_39~feeder_combout\,
+	d => \inst20~feeder_combout\,
 	clrn => \CLEAR~inputclkctrl_outclk\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \SYNTHESIZED_WIRE_39~q\);
+	q => \inst20~q\);
 
 -- Location: LCCOMB_X80_Y1_N30
-SYNTHESIZED_WIRE_11 : cycloneiii_lcell_comb
+inst2 : cycloneiii_lcell_comb
 -- Equation(s):
--- \SYNTHESIZED_WIRE_11~combout\ = (\SYNTHESIZED_WIRE_35~q\ & \SYNTHESIZED_WIRE_39~q\)
+-- \inst2~combout\ = (\inst21~q\ & \inst20~q\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -533,12 +530,12 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \SYNTHESIZED_WIRE_35~q\,
-	datad => \SYNTHESIZED_WIRE_39~q\,
-	combout => \SYNTHESIZED_WIRE_11~combout\);
+	datac => \inst21~q\,
+	datad => \inst20~q\,
+	combout => \inst2~combout\);
 
 -- Location: FF_X80_Y1_N31
-DFF_inst18 : dffeas
+inst18 : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -546,28 +543,28 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK~inputclkctrl_outclk\,
-	d => \SYNTHESIZED_WIRE_11~combout\,
+	d => \inst2~combout\,
 	clrn => \CLEAR~inputclkctrl_outclk\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \DFF_inst18~q\);
+	q => \inst18~q\);
 
 -- Location: LCCOMB_X80_Y1_N28
-\BANDERA_CEROS~0\ : cycloneiii_lcell_comb
+\inst30~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \BANDERA_CEROS~0_combout\ = (\DFF_inst18~q\) # ((\SYNTHESIZED_WIRE_41~q\) # ((\DFF_inst17~q\) # (\DFF_inst16~q\)))
+-- \inst30~0_combout\ = (!\inst18~q\ & (!\inst15~q\ & (!\inst17~q\ & !\inst16~q\)))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1111111111111110",
+	lut_mask => "0000000000000001",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \DFF_inst18~q\,
-	datab => \SYNTHESIZED_WIRE_41~q\,
-	datac => \DFF_inst17~q\,
-	datad => \DFF_inst16~q\,
-	combout => \BANDERA_CEROS~0_combout\);
+	dataa => \inst18~q\,
+	datab => \inst15~q\,
+	datac => \inst17~q\,
+	datad => \inst16~q\,
+	combout => \inst30~0_combout\);
 
 ww_R3 <= \R3~output_o\;
 

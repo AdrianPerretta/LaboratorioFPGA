@@ -6,9 +6,9 @@ end maquinaestado_tb;
 
 architecture fnc of maquinaestado_tb is
 	component maquinaestado
-		port(reset : IN STD_LOGIC := '0';
+		port(reset : IN STD_LOGIC;
            clock : IN STD_LOGIC;
-           x : IN STD_LOGIC := '0';
+           x : IN STD_LOGIC;
            z0 : OUT STD_LOGIC;
            z1 : OUT STD_LOGIC;
            z2 : OUT STD_LOGIC;

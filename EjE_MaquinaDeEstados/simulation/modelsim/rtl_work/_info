@@ -2,22 +2,22 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\Adrian\Downloads\lab\LaboratorioFPGA\EjE_MaquinaDeEstados\simulation\modelsim
+Z0 dC:\Facultad\FPGA\LaboratorioFPGA\EjE_MaquinaDeEstados\simulation\modelsim
 Emaquinaestado
-Z1 w1761614545
+Z1 w1761867886
 Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z4 dC:\Users\Adrian\Downloads\lab\LaboratorioFPGA\EjE_MaquinaDeEstados\simulation\modelsim
-Z5 8C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjE_MaquinaDeEstados/maquinaestado.vhd
-Z6 FC:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjE_MaquinaDeEstados/maquinaestado.vhd
+Z4 dC:\Facultad\FPGA\LaboratorioFPGA\EjE_MaquinaDeEstados\simulation\modelsim
+Z5 8C:/Facultad/FPGA/LaboratorioFPGA/EjE_MaquinaDeEstados/maquinaestado.vhd
+Z6 FC:/Facultad/FPGA/LaboratorioFPGA/EjE_MaquinaDeEstados/maquinaestado.vhd
 l0
 L21
 VHGT[JJ6`VRZnO`^QD:hQG0
 Z7 OV;C;10.1d;51
 31
-Z8 !s108 1761702404.207000
-Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjE_MaquinaDeEstados/maquinaestado.vhd|
-Z10 !s107 C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjE_MaquinaDeEstados/maquinaestado.vhd|
+Z8 !s108 1761870594.832000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Facultad/FPGA/LaboratorioFPGA/EjE_MaquinaDeEstados/maquinaestado.vhd|
+Z10 !s107 C:/Facultad/FPGA/LaboratorioFPGA/EjE_MaquinaDeEstados/maquinaestado.vhd|
 Z11 o-93 -work work -O0
 Z12 tExplicit 1
 !s100 KKWlzGG9EYg48nnjl[=Q62
@@ -39,12 +39,12 @@ R12
 !s100 mA^c9Ha7E8OF`_]nV>eC:0
 !i10b 1
 Emaquinaestado_tb
-Z13 w1761698813
+Z13 w1761870354
 R2
 R3
 R4
-Z14 8C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjE_MaquinaDeEstados/maquinaestado_tb.vhd
-Z15 FC:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjE_MaquinaDeEstados/maquinaestado_tb.vhd
+Z14 8C:/Facultad/FPGA/LaboratorioFPGA/EjE_MaquinaDeEstados/maquinaestado_tb.vhd
+Z15 FC:/Facultad/FPGA/LaboratorioFPGA/EjE_MaquinaDeEstados/maquinaestado_tb.vhd
 l0
 L4
 V_PA7S7;M?h@AZ4MfIP^C42
@@ -52,9 +52,9 @@ V_PA7S7;M?h@AZ4MfIP^C42
 R7
 31
 !i10b 1
-Z16 !s108 1761702404.381000
-Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjE_MaquinaDeEstados/maquinaestado_tb.vhd|
-Z18 !s107 C:/Users/Adrian/Downloads/lab/LaboratorioFPGA/EjE_MaquinaDeEstados/maquinaestado_tb.vhd|
+Z16 !s108 1761870594.927000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Facultad/FPGA/LaboratorioFPGA/EjE_MaquinaDeEstados/maquinaestado_tb.vhd|
+Z18 !s107 C:/Facultad/FPGA/LaboratorioFPGA/EjE_MaquinaDeEstados/maquinaestado_tb.vhd|
 R11
 R12
 Afnc
@@ -63,8 +63,8 @@ R3
 DEx4 work 16 maquinaestado_tb 0 22 _PA7S7;M?h@AZ4MfIP^C42
 l23
 L7
-V>TZ:H7R?HGjN==4JbC9oM2
-!s100 nUG0>e90lMz9XlD6@j1Z00
+VBX51Lmm=AIgRRcGEnQTQl3
+!s100 ZSc1`_^J[0`SZUORm_STI2
 R7
 31
 !i10b 1

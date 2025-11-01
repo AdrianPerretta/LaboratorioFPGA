@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "10/24/2025 11:57:37"
+// Generated on "10/31/2025 14:18:31"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    mult2bitscs
 // 
@@ -31,6 +31,7 @@ module mult2bitscs_vlg_sample_tst(
 	A1,
 	B0,
 	B1,
+	CLEAR,
 	CLK,
 	sampler_tx
 );
@@ -38,12 +39,13 @@ input  A0;
 input  A1;
 input  B0;
 input  B1;
+input  CLEAR;
 input  CLK;
 output sampler_tx;
 
 reg sample;
 time current_time;
-always @(A0 or A1 or B0 or B1 or CLK)
+always @(A0 or A1 or B0 or B1 or CLEAR or CLK)
                                                                                 
 begin                                                 
  if ($realtime > 0)                                   
@@ -299,6 +301,7 @@ reg A0;
 reg A1;
 reg B0;
 reg B1;
+reg CLEAR;
 reg CLK;
 // wires                                               
 wire BANDERA_CEROS;
@@ -319,6 +322,7 @@ mult2bitscs i1 (
 	.B1(B1),
 	.BANDERA_CEROS(BANDERA_CEROS),
 	.BANDERA_SIGNO(BANDERA_SIGNO),
+	.CLEAR(CLEAR),
 	.CLK(CLK),
 	.R0(R0),
 	.R1(R1),
@@ -374,8 +378,8 @@ end
 always
 begin
 	CLK = 1'b0;
-	CLK = #5000 1'b1;
-	#5000;
+	CLK = #10000 1'b1;
+	#10000;
 end 
 
 mult2bitscs_vlg_sample_tst tb_sample (
@@ -383,6 +387,7 @@ mult2bitscs_vlg_sample_tst tb_sample (
 	.A1(A1),
 	.B0(B0),
 	.B1(B1),
+	.CLEAR(CLEAR),
 	.CLK(CLK),
 	.sampler_tx(sampler)
 );

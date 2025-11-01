@@ -322,7 +322,7 @@ SIGNAL("multModuloCa2_vlg_vec_tst|i1|RC[3]~output_o")
 	PARENT = "";
 }
 
-SIGNAL("multModuloCa2_vlg_vec_tst|i1|A[0]~input_o")
+SIGNAL("multModuloCa2_vlg_vec_tst|i1|B[0]~input_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -332,7 +332,7 @@ SIGNAL("multModuloCa2_vlg_vec_tst|i1|A[0]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("multModuloCa2_vlg_vec_tst|i1|B[0]~input_o")
+SIGNAL("multModuloCa2_vlg_vec_tst|i1|A[0]~input_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -800,18 +800,6 @@ TRANSITION_LIST("multModuloCa2_vlg_vec_tst|i1|RC[3]~output_o")
 	}
 }
 
-TRANSITION_LIST("multModuloCa2_vlg_vec_tst|i1|A[0]~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 250.0;
-		LEVEL 1 FOR 250.0;
-		LEVEL 0 FOR 250.0;
-		LEVEL 1 FOR 250.0;
-	}
-}
-
 TRANSITION_LIST("multModuloCa2_vlg_vec_tst|i1|B[0]~input_o")
 {
 	NODE
@@ -833,6 +821,18 @@ TRANSITION_LIST("multModuloCa2_vlg_vec_tst|i1|B[0]~input_o")
 		LEVEL 1 FOR 62.5;
 		LEVEL 0 FOR 62.5;
 		LEVEL 1 FOR 62.5;
+	}
+}
+
+TRANSITION_LIST("multModuloCa2_vlg_vec_tst|i1|A[0]~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 250.0;
+		LEVEL 1 FOR 250.0;
+		LEVEL 0 FOR 250.0;
+		LEVEL 1 FOR 250.0;
 	}
 }
 
@@ -1217,7 +1217,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "multModuloCa2_vlg_vec_tst|i1|A[0]~input_o";
+	CHANNEL = "multModuloCa2_vlg_vec_tst|i1|B[0]~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 29;
@@ -1226,7 +1226,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "multModuloCa2_vlg_vec_tst|i1|B[0]~input_o";
+	CHANNEL = "multModuloCa2_vlg_vec_tst|i1|A[0]~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 30;

@@ -1,13 +1,9 @@
 |i2cEsquematico
-Prueba <= i2c:maquina.acknowledge
-clock => i2c:maquina.clock
-clock => inst9.IN1
-clock => inst10.IN0
+SALIDA_ACK <= i2c:maquina.acknowledge
+SCL => i2c:maquina.clock
+SCL => inst9.IN1
+SCL => inst10.IN0
 SDA <> inst12
-cout1 <= i2c:maquina.Hab_dir
-cout2 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
-cout3 <= lpm_compare0:comparador.aeb
-cout4 <= lpm_counter0:con7.cout
 DATO[0] <= lpm_shiftreg0:shift8.q[0]
 DATO[1] <= lpm_shiftreg0:shift8.q[1]
 DATO[2] <= lpm_shiftreg0:shift8.q[2]

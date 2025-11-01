@@ -1,5 +1,5 @@
 Flow report for mult2bitscs
-Tue Oct 28 23:06:34 2025
+Fri Oct 31 14:23:25 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Tue Oct 28 23:06:34 2025           ;
+; Flow Status                        ; Successful - Fri Oct 31 14:23:25 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; mult2bitscs                                     ;
 ; Top-level Entity Name              ; mult2bitscs                                     ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/28/2025 23:05:51 ;
+; Start date & time ; 10/31/2025 14:23:04 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; mult2bitscs         ;
 +-------------------+---------------------+
@@ -75,12 +75,12 @@ applicable agreement for further details.
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 18587659885496.176170355108520        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 127913730615492.176193138425520       ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; uut                                   ; --            ; --          ; mult2bitscs_tb ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; On                                    ; --            ; --          ; eda_simulation ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; mult2bitscs_tb                        ; --            ; --          ; eda_simulation ;
-; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                                  ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (VHDL)                ; <None>        ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                           ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)             ; <None>        ; --          ; --             ;
 ; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                       ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_FILE                  ; mult2bitscs_tb.vhd                    ; --            ; --          ; mult2bitscs_tb ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; mult2bitscs_tb                        ; --            ; --          ; mult2bitscs_tb ;
@@ -104,12 +104,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4652 MB             ; 00:00:03                           ;
-; Fitter                    ; 00:00:27     ; 1.0                     ; 5069 MB             ; 00:00:26                           ;
-; Assembler                 ; 00:00:06     ; 1.0                     ; 4574 MB             ; 00:00:06                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4658 MB             ; 00:00:03                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4527 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:40     ; --                      ; --                  ; 00:00:39                           ;
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:12     ; 1.0                     ; 5045 MB             ; 00:00:08                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 4556 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4644 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4508 MB             ; 00:00:00                           ;
+; Total                     ; 00:00:19     ; --                      ; --                  ; 00:00:12                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -118,11 +118,11 @@ applicable agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; DESKTOP-8TFPIVL  ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; DESKTOP-8TFPIVL  ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; DESKTOP-8TFPIVL  ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; DESKTOP-8TFPIVL  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-8TFPIVL  ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-7NSOQA6  ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
